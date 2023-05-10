@@ -9,12 +9,17 @@ public class Teleporter : MonoBehaviour
 
     public void TeleportPlayer(GameObject player)
     {
+        
+
         Vector3 offset = TeleporterGate.transform.forward * offsetDistance;
         Vector3 finalPosition = TeleporterGate.transform.position + offset;
         player.transform.position = finalPosition;
 
+        
+        /*
         Quaternion targetRotation = Quaternion.LookRotation(TeleporterGate.transform.forward, Vector3.up);
         player.transform.rotation = targetRotation;
+        */
     }
 
     private void OnTriggerEnter(Collider other)
@@ -23,6 +28,8 @@ public class Teleporter : MonoBehaviour
         {
             Debug.Log("entered");
             TeleportPlayer(other.gameObject);
+
+            other.transform.Rotate(90, 0, 0);
         }
     }
 }
