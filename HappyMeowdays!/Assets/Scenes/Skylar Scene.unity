@@ -3624,6 +3624,11 @@ PrefabInstance:
       propertyPath: sceneName
       value: VictoriaScene
       objectReference: {fileID: 0}
+    - target: {fileID: 9214157470415817866, guid: 33fc69f079e758b43b824ad233a8c8ef,
+        type: 3}
+      propertyPath: buttonPush
+      value: 
+      objectReference: {fileID: 8300000, guid: 2808ca524937fef41b5f53184a346108, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7256,6 +7261,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   orientation: {fileID: 775553345}
+  jumpCooldown: 0
+  jumpForce: 0
+  airMultiplyer: 0
 --- !u!136 &905062577
 CapsuleCollider:
   m_ObjectHideFlags: 0

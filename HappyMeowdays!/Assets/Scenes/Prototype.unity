@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -908,6 +908,11 @@ PrefabInstance:
       propertyPath: sceneName
       value: EndScene
       objectReference: {fileID: 0}
+    - target: {fileID: 9214157470415817866, guid: 33fc69f079e758b43b824ad233a8c8ef,
+        type: 3}
+      propertyPath: buttonPush
+      value: 
+      objectReference: {fileID: 8300000, guid: 2808ca524937fef41b5f53184a346108, type: 3}
     - target: {fileID: 9214157470415817866, guid: 33fc69f079e758b43b824ad233a8c8ef,
         type: 3}
       propertyPath: activationKey
@@ -8559,6 +8564,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   orientation: {fileID: 1968439525}
+  jumpCooldown: 0
+  jumpForce: 0
+  airMultiplyer: 0
 --- !u!1 &711496627 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8319844551479468647, guid: dabb783208c73de49b39db4f8456a139,

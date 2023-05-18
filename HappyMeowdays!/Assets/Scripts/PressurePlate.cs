@@ -11,6 +11,8 @@ public class PressurePlate : MonoBehaviour
 
     private bool isActivated = false;
 
+    public AudioClip buttonPush;
+
     private void OnTriggerEnter(Collider other)
     {
         if (!isActivated && other.CompareTag("Player"))
@@ -27,5 +29,7 @@ public class PressurePlate : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+
+        AudioSource.PlayClipAtPoint(buttonPush, transform.position);
     }
 }
