@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638192749204486604
-    m_Hash: 3323091380
+      ticks: 638198342136247634
+    m_Hash: 3928033876
   m_LockFileStatus:
     m_FilePath: C:/Users/Sky/Documents/GitHub/HappyMeowDays/HappyMeowdays!/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638192749204552177
-    m_Hash: 2304493716
+      ticks: 638198342136312985
+    m_Hash: 1102322317
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1501,12 +1501,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: dev.yarnspinner.unity@https://github.com/YarnSpinnerTool/YarnSpinner-Unity.git
+- packageId: dev.yarnspinner.unity@2.2.4
   testable: 0
   isDirectDependency: 1
-  version: 2.3.0-preview.1
-  source: 5
-  resolvedPath: C:\Users\Sky\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\dev.yarnspinner.unity@5944b0e03d
+  version: 2.2.4
+  source: 1
+  resolvedPath: C:\Users\Sky\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\dev.yarnspinner.unity@2.2.4
   assetPath: Packages/dev.yarnspinner.unity
   name: dev.yarnspinner.unity
   displayName: Yarn Spinner
@@ -1523,8 +1523,38 @@ m_ResolvedPackages:
   status: 0
   errors: []
   versions:
-    all: []
-    compatible: []
+    all:
+    - 1.2.2
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 2.0.0-preview
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.2.4
+    compatible:
+    - 1.2.2
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 2.0.0-preview
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.2.4
     recommended: 
     deprecated: []
   dependencies:
@@ -1543,16 +1573,17 @@ m_ResolvedPackages:
   - Dialogue
   - Yarn
   registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
+    id: scoped:project:OpenUPM
+    name: OpenUPM
+    url: http://package.openupm.com
+    scopes:
+    - dev.yarnspinner
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638103865943760000
   documentationUrl: https://docs.yarnspinner.dev/
   hasRepository: 0
   repository:
@@ -4437,9 +4468,11 @@ m_ResolvedPackages:
     - 2.3.0-pre.2
     - 2.3.0-pre.3
     - 2.3.0
+    - 2.3.2
     compatible:
     - 2.3.0
-    recommended: 2.3.0
+    - 2.3.2
+    recommended: 2.3.2
     deprecated: []
   dependencies:
   - name: com.unity.timeline
