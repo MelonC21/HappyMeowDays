@@ -9,25 +9,57 @@ public class MainMenu : MonoBehaviour
     private bool settingsIsOpen = false;
     [SerializeField]
     private GameObject settingsMenu;
-    
+    [SerializeField]
+    private bool controlsIsOpen = false;
+    [SerializeField]
+    private GameObject controlsMenu;
+
+   
+
+    private void Start()
+    {
+        settingsIsOpen = false;
+        settingsMenu.SetActive(false);
+        controlsIsOpen = false;
+        controlsMenu.SetActive(false);
+    }
 
     public void GoToScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
 
-    public void SettingsButton()
+    public void ToggleSettings()
     {
         if (settingsIsOpen)
         {
             settingsIsOpen = false;
+            settingsMenu.SetActive(false);
 
-
-        }else if(!settingsIsOpen)
+        }
+        else if(!settingsIsOpen)
         {
             settingsIsOpen = true;
+            settingsMenu.SetActive(true);
         }
     }
+
+    public void ToggleControls()
+    {
+        if (controlsIsOpen)
+        {
+            controlsIsOpen = false;
+            controlsMenu.SetActive(false);
+
+        }
+        else if (!controlsIsOpen)
+        {
+            controlsIsOpen = true;
+            controlsMenu.SetActive(true);
+        }
+    }
+
+
     public void QuitApp()
     {
         Application.Quit();
