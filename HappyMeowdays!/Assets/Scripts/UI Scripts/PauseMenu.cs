@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -36,6 +35,7 @@ public class PauseMenu : MonoBehaviour
             {
                 gameISPaused = true;
                 PauseMenuUI.SetActive(true);
+                Time.timeScale = 0;
             }
             else
             {
@@ -43,6 +43,7 @@ public class PauseMenu : MonoBehaviour
                 PauseMenuUI.SetActive(false);
                 settingsIsOpen = false;
                 settingsMenu.SetActive(false);
+                Time.timeScale = 1;
             }
         }
 
@@ -68,7 +69,7 @@ public class PauseMenu : MonoBehaviour
     {
         gameISPaused = false;
         PauseMenuUI.SetActive(false);
-
+        Time.timeScale = 1;
     }
 
     public void MainMenu(string sceneName)
@@ -82,7 +83,7 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(false);
         settingsIsOpen = false;
         settingsMenu.SetActive(false);
-
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
