@@ -15,7 +15,7 @@ C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowday
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64643
+51187
 Successfully changed project path to: C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowdays!
 C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowdays!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowday
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16840] Host "[IP] 11.64.64.46 [Port] 0 [Flags] 2 [Guid] 3532865072 [EditorId] 3532865072 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9492] Host "[IP] 11.64.64.46 [Port] 0 [Flags] 2 [Guid] 3479896705 [EditorId] 3479896705 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16840] Host "[IP] 11.64.64.46 [Port] 0 [Flags] 2 [Guid] 3532865072 [EditorId] 3532865072 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9492] Host "[IP] 11.64.64.46 [Port] 0 [Flags] 2 [Guid] 3479896705 [EditorId] 3479896705 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 8.33 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 8.88 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004608 seconds.
-- Loaded All Assemblies, in  0.268 seconds
+Registered in 0.004702 seconds.
+- Loaded All Assemblies, in  0.231 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.194 seconds
+- Finished resetting the current domain, in  0.192 seconds
 Domain Reload Profiling:
-	ReloadAssembly (156ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (136ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
+			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (77ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (105ms)
-				TypeCache.Initialize (104ms)
-					TypeCache.ScanAssembly (103ms)
+			SetupTypeCache (90ms)
+				TypeCache.Initialize (89ms)
+					TypeCache.ScanAssembly (88ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (151ms)
+			SetupLoadedEditorAssemblies (153ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,165 +111,122 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.594 seconds
-Refreshing native plugins compatible for Editor in 5.46 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.509 seconds
+Refreshing native plugins compatible for Editor in 4.93 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.627 seconds
+- Finished resetting the current domain, in  0.624 seconds
 Domain Reload Profiling:
-	ReloadAssembly (168ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (153ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		LoadAllAssembliesAndSetupDomain (424ms)
-			LoadAssemblies (205ms)
+			CreateAndSetChildDomain (17ms)
+		LoadAllAssembliesAndSetupDomain (352ms)
+			LoadAssemblies (182ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-				TypeCache.Initialize (231ms)
-					TypeCache.ScanAssembly (228ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (209ms)
+				TypeCache.Initialize (187ms)
+					TypeCache.ScanAssembly (183ms)
+				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (500ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (420ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.61 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4775 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 102 unused Assets / (1.9 MB). Loaded Objects now: 5244.
-Memory consumption went from 184.3 MB to 182.3 MB.
-Total: 4.884200 ms (FindLiveObjects: 0.319700 ms CreateObjectMapping: 0.109500 ms MarkObjects: 3.951900 ms  DeleteObjects: 0.501800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.860 seconds
-Refreshing native plugins compatible for Editor in 5.90 ms, found 8 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.064 seconds
-Domain Reload Profiling:
-	ReloadAssembly (488ms)
-		BeginReloadAssembly (436ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		LoadAllAssembliesAndSetupDomain (371ms)
-			LoadAssemblies (186ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
-				TypeCache.Initialize (213ms)
-					TypeCache.ScanAssembly (207ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (535ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (439ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 5.96 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5247.
-Memory consumption went from 163.4 MB to 161.4 MB.
-Total: 4.148000 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.179300 ms MarkObjects: 3.043300 ms  DeleteObjects: 0.630800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.832 seconds
-Refreshing native plugins compatible for Editor in 5.37 ms, found 8 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.032 seconds
-Domain Reload Profiling:
-	ReloadAssembly (482ms)
-		BeginReloadAssembly (431ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		LoadAllAssembliesAndSetupDomain (349ms)
-			LoadAssemblies (175ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (210ms)
-				TypeCache.Initialize (202ms)
-					TypeCache.ScanAssembly (196ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (507ms)
+			SetupLoadedEditorAssemblies (512ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (414ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (425ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 5.99 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 7.21 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5250.
-Memory consumption went from 163.4 MB to 161.4 MB.
-Total: 4.073100 ms (FindLiveObjects: 0.345300 ms CreateObjectMapping: 0.125100 ms MarkObjects: 3.044700 ms  DeleteObjects: 0.557400 ms)
+Unloading 4781 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (2.7 MB). Loaded Objects now: 5248.
+Memory consumption went from 187.4 MB to 184.8 MB.
+Total: 7.191300 ms (FindLiveObjects: 0.312000 ms CreateObjectMapping: 0.123600 ms MarkObjects: 5.822000 ms  DeleteObjects: 0.931900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124440.876659 seconds.
+  path: Assets/Kabungus/HouseholdItems
+  artifactKey: Guid(20833d9c4dd166a4fa2dd793d83f1cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kabungus/HouseholdItems using Guid(20833d9c4dd166a4fa2dd793d83f1cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e737ddb676e5539da1b8d5c025cd5a') in 0.001883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kabungus/HouseholdItems/Models
+  artifactKey: Guid(1c22cdb869e6dab4b919acebedeae220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kabungus/HouseholdItems/Models using Guid(1c22cdb869e6dab4b919acebedeae220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32523f6bd4f0d2961910db089b15135') in 0.000356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.907 seconds
+Refreshing native plugins compatible for Editor in 4.76 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (533ms)
+		BeginReloadAssembly (478ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		LoadAllAssembliesAndSetupDomain (372ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+				TypeCache.Initialize (222ms)
+					TypeCache.ScanAssembly (217ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 4.26 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4714 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (2.8 MB). Loaded Objects now: 5276.
+Memory consumption went from 167.2 MB to 164.4 MB.
+Total: 3.549100 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.121300 ms MarkObjects: 2.500000 ms  DeleteObjects: 0.649300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -285,50 +242,116 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
+Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
+Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
+Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
+Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
+Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
+Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
+Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
+Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
+Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
+Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
+Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
+Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/UnityAssetStore/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
+Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
+Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
+Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
+Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
+Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
+Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
+Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
+Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
+Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
+Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
+Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
+Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
+Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
+Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/UnityAssetStore/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
+Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
+Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.837 seconds
-Refreshing native plugins compatible for Editor in 6.06 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.962 seconds
+Refreshing native plugins compatible for Editor in 4.45 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
+Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
+Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
+Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
+Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
+Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
+Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
+Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
+Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
+Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
+Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
+Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
+Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
+Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/UnityAssetStore/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
+Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
+Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
+Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.020 seconds
+- Finished resetting the current domain, in  1.069 seconds
 Domain Reload Profiling:
-	ReloadAssembly (489ms)
-		BeginReloadAssembly (437ms)
+	ReloadAssembly (628ms)
+		BeginReloadAssembly (567ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		LoadAllAssembliesAndSetupDomain (346ms)
-			LoadAssemblies (189ms)
+			CreateAndSetChildDomain (34ms)
+		LoadAllAssembliesAndSetupDomain (332ms)
+			LoadAssemblies (196ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
-				TypeCache.Initialize (191ms)
-					TypeCache.ScanAssembly (186ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (178ms)
+				TypeCache.Initialize (165ms)
+					TypeCache.ScanAssembly (160ms)
+				ResolveRequiredComponents (9ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (507ms)
+			SetupLoadedEditorAssemblies (463ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (415ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 5.72 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 4.48 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5253.
-Memory consumption went from 163.4 MB to 161.4 MB.
-Total: 4.732600 ms (FindLiveObjects: 0.326400 ms CreateObjectMapping: 0.189600 ms MarkObjects: 3.567500 ms  DeleteObjects: 0.648200 ms)
+Unloading 4715 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 90 unused Assets / (2.7 MB). Loaded Objects now: 5279.
+Memory consumption went from 167.1 MB to 164.4 MB.
+Total: 3.547000 ms (FindLiveObjects: 0.260100 ms CreateObjectMapping: 0.132500 ms MarkObjects: 2.458600 ms  DeleteObjects: 0.695100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -342,72 +365,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 120669.561243 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/WavySand/WavySand_YFliped_normal.png
-  artifactKey: Guid(c86cd8ae1cec025468e25672c5d790f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/WavySand/WavySand_YFliped_normal.png using Guid(c86cd8ae1cec025468e25672c5d790f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e16a29a6578104fc38c6f1a00fe8f6e') in 0.077676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.889068 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_normal.png
-  artifactKey: Guid(f7d9f421b54fb5b4f9e8346b078c6b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_normal.png using Guid(f7d9f421b54fb5b4f9e8346b078c6b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42caedf0a6926e23a4750cdf5213f245') in 0.011259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_AO.png
-  artifactKey: Guid(38462e489520adb45a64da1bbb4046a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/RuinStoneBricks/RuinStoneBricks_AO.png using Guid(38462e489520adb45a64da1bbb4046a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e27784b5af73471a929ef5bfccb0059') in 0.008948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.638872 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_YFliped_normal.png
-  artifactKey: Guid(bedfc1b580f2a5f4d9bc40c2d7872747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_YFliped_normal.png using Guid(bedfc1b580f2a5f4d9bc40c2d7872747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c56a4d9fd7c3b7765991b2b6471daa7') in 0.009970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_smoothness.png
-  artifactKey: Guid(78e0f021c5e92c64d967315093e39104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_smoothness.png using Guid(78e0f021c5e92c64d967315093e39104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c374c756a5ba153bb0b9f1309d11743') in 0.008966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_height.png
-  artifactKey: Guid(b008c37730af1ae4fa7faad8c6dffbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/PebbledGravel/PebbledGravel_height.png using Guid(b008c37730af1ae4fa7faad8c6dffbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99d6f9245602e8dd1208897b0737b83') in 0.008275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.609350 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_normal.png
-  artifactKey: Guid(d4f69a826c0a5234cb14cd32957f13b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_normal.png using Guid(d4f69a826c0a5234cb14cd32957f13b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2f7ec99d6e9173fed468a5a577a734') in 0.011294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_height.png
-  artifactKey: Guid(c4aabfcb8fc834541a39eb5e5ec2a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WorldMaterialsFree/Resource Files/HexBricks/HexBricks_height.png using Guid(c4aabfcb8fc834541a39eb5e5ec2a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab80ab464fef9a4d627ba12af6c71f9') in 0.008275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
