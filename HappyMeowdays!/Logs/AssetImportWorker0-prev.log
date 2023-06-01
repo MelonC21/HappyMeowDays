@@ -15,7 +15,7 @@ C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowday
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51187
+51557
 Successfully changed project path to: C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowdays!
 C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowdays!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowday
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13880] Host "[IP] 11.64.64.46 [Port] 0 [Flags] 2 [Guid] 2273007251 [EditorId] 2273007251 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6812] Host "[IP] 11.64.64.46 [Port] 0 [Flags] 2 [Guid] 642287701 [EditorId] 642287701 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13880] Host "[IP] 11.64.64.46 [Port] 0 [Flags] 2 [Guid] 2273007251 [EditorId] 2273007251 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6812] Host "[IP] 11.64.64.46 [Port] 0 [Flags] 2 [Guid] 642287701 [EditorId] 642287701 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 9.37 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 8.44 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004882 seconds.
-- Loaded All Assemblies, in  0.234 seconds
+Registered in 0.005059 seconds.
+- Loaded All Assemblies, in  0.227 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.192 seconds
+- Finished resetting the current domain, in  0.178 seconds
 Domain Reload Profiling:
-	ReloadAssembly (137ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (133ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (59ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
-				TypeCache.Initialize (88ms)
-					TypeCache.ScanAssembly (86ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (87ms)
+				TypeCache.Initialize (86ms)
+					TypeCache.ScanAssembly (85ms)
+				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (151ms)
+			SetupLoadedEditorAssemblies (140ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,108 +111,49 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.508 seconds
-Refreshing native plugins compatible for Editor in 5.33 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.502 seconds
+Refreshing native plugins compatible for Editor in 4.89 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.625 seconds
+- Finished resetting the current domain, in  0.613 seconds
 Domain Reload Profiling:
 	ReloadAssembly (164ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		LoadAllAssembliesAndSetupDomain (341ms)
-			LoadAssemblies (190ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-				TypeCache.Initialize (177ms)
-					TypeCache.ScanAssembly (173ms)
-				ResolveRequiredComponents (7ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (500ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (416ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 6.26 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4781 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 104 unused Assets / (2.7 MB). Loaded Objects now: 5248.
-Memory consumption went from 187.4 MB to 184.8 MB.
-Total: 4.310400 ms (FindLiveObjects: 0.322000 ms CreateObjectMapping: 0.109200 ms MarkObjects: 3.071300 ms  DeleteObjects: 0.807000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.884 seconds
-Refreshing native plugins compatible for Editor in 5.39 ms, found 8 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.956 seconds
-Domain Reload Profiling:
-	ReloadAssembly (527ms)
-		BeginReloadAssembly (468ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		LoadAllAssembliesAndSetupDomain (356ms)
-			LoadAssemblies (172ms)
+			CreateAndSetChildDomain (17ms)
+		LoadAllAssembliesAndSetupDomain (335ms)
+			LoadAssemblies (184ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
-				TypeCache.Initialize (207ms)
-					TypeCache.ScanAssembly (203ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (195ms)
+				TypeCache.Initialize (173ms)
+					TypeCache.ScanAssembly (169ms)
+				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (448ms)
+			SetupLoadedEditorAssemblies (496ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (2ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (361ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 5.57 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.52 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4714 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (2.7 MB). Loaded Objects now: 5276.
-Memory consumption went from 167.1 MB to 164.4 MB.
-Total: 3.721400 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.117900 ms MarkObjects: 2.664300 ms  DeleteObjects: 0.662800 ms)
+Unloading 4808 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (2.7 MB). Loaded Objects now: 5275.
+Memory consumption went from 188.7 MB to 185.9 MB.
+Total: 3.998200 ms (FindLiveObjects: 0.285000 ms CreateObjectMapping: 0.105800 ms MarkObjects: 2.727500 ms  DeleteObjects: 0.878600 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -226,326 +167,113 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 124617.366094 seconds.
-  path: Assets/FredericRP/ObjectPool
-  artifactKey: Guid(c6995eae3ed23ff43978f99541812efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FredericRP/ObjectPool using Guid(c6995eae3ed23ff43978f99541812efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7188017a2a4841436066b8415ad075e') in 0.001291 seconds
+  Time since last request: 125149.927910 seconds.
+  path: Assets/UnityAssetStore/PolygonStarter/Textures/Polygon_Plane_Texture_02.png
+  artifactKey: Guid(addc2d43f6566e24d8bd5924661c6c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/PolygonStarter/Textures/Polygon_Plane_Texture_02.png using Guid(addc2d43f6566e24d8bd5924661c6c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e94c2b86448361a1dcfe4f5ba0e24e') in 0.034507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.116204 seconds.
+  path: Assets/UnityAssetStore/PolygonStarter/Textures/Polygon_Plane_Texture_03.png
+  artifactKey: Guid(ab16207b9b940c14687cad2ecf62259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/PolygonStarter/Textures/Polygon_Plane_Texture_03.png using Guid(ab16207b9b940c14687cad2ecf62259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0875c7536fd0edded02dd80161317c9') in 0.008559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.537068 seconds.
+  path: Assets/UnityAssetStore/PolygonStarter/Textures/Simple_Sky_Texture_01.png
+  artifactKey: Guid(a073e30cf8f3cab47b5cf5aa2df423f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/PolygonStarter/Textures/Simple_Sky_Texture_01.png using Guid(a073e30cf8f3cab47b5cf5aa2df423f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0a27cbc415a57e3034aa4aa069e57d') in 0.008213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.638537 seconds.
+  path: Assets/UnityAssetStore/SimpleFX/Materials
+  artifactKey: Guid(79a627dbdce20e546be31864bd034569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SimpleFX/Materials using Guid(79a627dbdce20e546be31864bd034569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956edff94c98412942b611d1c27c578d') in 0.000359 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.053355 seconds.
-  path: Assets/FredericRP/Popup/Runtime
-  artifactKey: Guid(5fd7a4e971f0c9c4891b885b0b5d4f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FredericRP/Popup/Runtime using Guid(5fd7a4e971f0c9c4891b885b0b5d4f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221de95a39f2cb3bde59aa564580cfff') in 0.000507 seconds
+  Time since last request: 11.704094 seconds.
+  path: Assets/UnityAssetStore/SimpleSky/_Materials
+  artifactKey: Guid(f226f7bdf549a984babba4834fba02ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SimpleSky/_Materials using Guid(f226f7bdf549a984babba4834fba02ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cb9a520ca9a012b2f74f71ae8143b9') in 0.000402 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.217976 seconds.
-  path: Assets/FredericRP/Popup/Runtime/Prefabs
-  artifactKey: Guid(e987ade832038b84ea13fe540e9b3858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FredericRP/Popup/Runtime/Prefabs using Guid(e987ade832038b84ea13fe540e9b3858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bb86b10f5fb05f129031f0d8d56e0f') in 0.000331 seconds
+  Time since last request: 9.435563 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures
+  artifactKey: Guid(2f6d0ce575d1e7c42ac6cb392066b6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures using Guid(2f6d0ce575d1e7c42ac6cb392066b6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e17648245d5131e21bbb1d627ce9a7') in 0.000407 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.923906 seconds.
-  path: Assets/FredericRP/Popup/Runtime/Prefabs/PopupHandler.prefab
-  artifactKey: Guid(eb578fbf0a5c355469abff76148f6d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FredericRP/Popup/Runtime/Prefabs/PopupHandler.prefab using Guid(eb578fbf0a5c355469abff76148f6d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cd6696ae888735450d34cf1b603522') in 0.000428 seconds
+  Time since last request: 1.777773 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials
+  artifactKey: Guid(a131c1823c58d6a4d82b59fc51cb2adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials using Guid(a131c1823c58d6a4d82b59fc51cb2adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c27150af156aa23e4e9d62780fd7daa') in 0.000329 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.388915 seconds.
-  path: Assets/FredericRP/Popup/Runtime/Sample/Data
-  artifactKey: Guid(a010793136ba84541bed9d0f5c5c923f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FredericRP/Popup/Runtime/Sample/Data using Guid(a010793136ba84541bed9d0f5c5c923f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da23884b6892a1133102cce95c28c52') in 0.000350 seconds
+  Time since last request: 4.986139 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Grey
+  artifactKey: Guid(674f345fa20e0884fbd4e087bcb24dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Grey using Guid(674f345fa20e0884fbd4e087bcb24dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e311d8920a7519390b341ac745c2a421') in 0.000562 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.465879 seconds.
-  path: Assets/FredericRP/Popup/Runtime/Sample/Images
-  artifactKey: Guid(c70776c1e08b8a4489c6efe18f8caf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FredericRP/Popup/Runtime/Sample/Images using Guid(c70776c1e08b8a4489c6efe18f8caf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d5dc551219d39bb870f676bc8f7e1a') in 0.000384 seconds
+  Time since last request: 73.493498 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Source Files/prototype textures.svg
+  artifactKey: Guid(04bbc690b9053134da1eb1f31fd68600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Source Files/prototype textures.svg using Guid(04bbc690b9053134da1eb1f31fd68600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50738d3404b9275c7a3819b16af7d86c') in 0.000786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.331486 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Textures/Yellow
+  artifactKey: Guid(ebea4b9463b20a44f99422c7e83d3d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Textures/Yellow using Guid(ebea4b9463b20a44f99422c7e83d3d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4681d81b7b2d1daa1725ac873c1464d5') in 0.000408 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.826369 seconds.
-  path: Assets/FredericRP/Popup/Runtime/Sample/Images/gauge-inner.png
-  artifactKey: Guid(38e008a79b5ed394d8e094ebfa31b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FredericRP/Popup/Runtime/Sample/Images/gauge-inner.png using Guid(38e008a79b5ed394d8e094ebfa31b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c8767f903a19710deabed4a50950b2') in 0.055303 seconds
+  Time since last request: 1.969606 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Textures/Yellow/g2905.png
+  artifactKey: Guid(64dabab9f93500643a88401f5c01c798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Textures/Yellow/g2905.png using Guid(64dabab9f93500643a88401f5c01c798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817f3d22cb6acf6a6e4d564e0f9236f1') in 0.008169 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.867805 seconds.
-  path: Assets/FredericRP/Popup/Runtime/Sample/Images/gauge-background.png
-  artifactKey: Guid(ab07b61ef6050b8489088cad45353448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FredericRP/Popup/Runtime/Sample/Images/gauge-background.png using Guid(ab07b61ef6050b8489088cad45353448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479de1700021059826f4caefaacc4bc6') in 0.009891 seconds
+  Time since last request: 1.015897 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Textures/Yellow/g2833.png
+  artifactKey: Guid(421f67a717d84664dad089ba86654682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Textures/Yellow/g2833.png using Guid(421f67a717d84664dad089ba86654682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb43252a8dd0e64c4ce56c1931159af9') in 0.007979 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.639646 seconds.
-  path: Assets/FredericRP/Popup/Runtime/Sample/Images/warning.png
-  artifactKey: Guid(dd18cf2dfb26ca94c9e4624359907af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FredericRP/Popup/Runtime/Sample/Images/warning.png using Guid(dd18cf2dfb26ca94c9e4624359907af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de507c73e86944fdd3a92948f235a360') in 0.009064 seconds
+  Time since last request: 0.452533 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Textures/Yellow/g2819.png
+  artifactKey: Guid(969ec4cd65ea10848b905d0c5b9f6896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Textures/Yellow/g2819.png using Guid(969ec4cd65ea10848b905d0c5b9f6896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a0391313a0a8fdbfe928a106b7f834') in 0.007414 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 5.373014 seconds.
-  path: Assets/FredericRP/Popup/Runtime/Sample/Prefabs/BasicPopup.prefab
-  artifactKey: Guid(910bb935abbfd4bddb23b8e40f5514e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FredericRP/Popup/Runtime/Sample/Prefabs/BasicPopup.prefab using Guid(910bb935abbfd4bddb23b8e40f5514e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b555e234768994fcf3f393977d87542') in 0.000440 seconds
+  Time since last request: 18.599554 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Demo/Prototype Textures Demo.unity
+  artifactKey: Guid(92ac8bd18482cdb4595bf31e09bba135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Demo/Prototype Textures Demo.unity using Guid(92ac8bd18482cdb4595bf31e09bba135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89414f7f0fb30688f2c6b216afb7411') in 0.000382 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.914205 seconds.
-  path: Assets/PolygonStarter/Models
-  artifactKey: Guid(78edfa7ec30713c4eb8b09f84a29ec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Models using Guid(78edfa7ec30713c4eb8b09f84a29ec1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cda104d5361f517ceb9c8c24636ad9c') in 0.000459 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.550594 seconds.
-  path: Assets/PolygonStarter/Models/Characters.fbx
-  artifactKey: Guid(2dc7b382d25903545b405802eb2198ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Models/Characters.fbx using Guid(2dc7b382d25903545b405802eb2198ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1f813f7a2fc4363615bb3ebcd62f77') in 0.067649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 123
-========================================================================
-Received Import Request.
-  Time since last request: 6.148451 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_Generic_Ground_02.prefab
-  artifactKey: Guid(2bd56128040193346a96ac4ec4bfa455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Ground_02.prefab using Guid(2bd56128040193346a96ac4ec4bfa455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54141ef283b3a2431a1cd745b58123f5') in 0.009747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.437323 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_Generic_Ground_01.prefab
-  artifactKey: Guid(fb0131aa61eef7c4d95b2efaf17614ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Ground_01.prefab using Guid(fb0131aa61eef7c4d95b2efaf17614ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a7a4325de3bfb6dd9d7b31eb8044b8') in 0.009077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.670308 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_Generic_Ground_04.prefab
-  artifactKey: Guid(6cf950e757e075945b307868fc3bd60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Ground_04.prefab using Guid(6cf950e757e075945b307868fc3bd60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bceb4734ec245f25ffebea5ee66169') in 0.009197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.685908 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_PolygonApocalypse_Bld_House_01.prefab
-  artifactKey: Guid(09135c03210603f42b4207ff66b56781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_PolygonApocalypse_Bld_House_01.prefab using Guid(09135c03210603f42b4207ff66b56781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfe3a4f84e4134dba0cc20d2a669522') in 0.009714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.934501 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab
-  artifactKey: Guid(dc7c84106cc461e4f8dac748879dbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab using Guid(dc7c84106cc461e4f8dac748879dbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2295943c2d400d67d367355ed2490e55') in 0.008021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.611605 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Tube_01P.prefab
-  artifactKey: Guid(6fb840e833a0f2049b655aba4bf98513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Tube_01P.prefab using Guid(6fb840e833a0f2049b655aba4bf98513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f92a246102b067236210ba3702ea67d') in 0.009022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.621591 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab
-  artifactKey: Guid(807bf6650795ad04395313d04ebe88c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab using Guid(807bf6650795ad04395313d04ebe88c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbcf888faf887faf602ce373a230932') in 0.008040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.937810 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Sword_01.prefab
-  artifactKey: Guid(1eb47ee7fb4e0224482d77ed61559671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Sword_01.prefab using Guid(1eb47ee7fb4e0224482d77ed61559671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373d94996ab9066a47db31d54586879b') in 0.008985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.512395 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_Prop_Plane_Ring_01.prefab
-  artifactKey: Guid(bc59902fe8272d54da1ae082ff755757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_Prop_Plane_Ring_01.prefab using Guid(bc59902fe8272d54da1ae082ff755757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215025fd46b4f582b16dd49e1599ba98') in 0.008278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.549585 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Target_03.prefab
-  artifactKey: Guid(e0d3f8289f60e1e49a5d66d5eb8582f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Target_03.prefab using Guid(e0d3f8289f60e1e49a5d66d5eb8582f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a104c92f9ce6ff2e19eaf85866063d') in 0.009185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.401249 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_SimpleSky_Dome_01.prefab
-  artifactKey: Guid(139b3e971e6648b459617b164e32d96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_SimpleSky_Dome_01.prefab using Guid(139b3e971e6648b459617b164e32d96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2732553e2862e3b893b1981d72e2cb') in 0.009464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.365785 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_Veh_Plane_Stunt_01.prefab
-  artifactKey: Guid(bbea6872df405a045862b0d1f277c5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_Veh_Plane_Stunt_01.prefab using Guid(bbea6872df405a045862b0d1f277c5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb715044207478adc868d16245b79cf') in 0.014682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 72
-========================================================================
-Received Import Request.
-  Time since last request: 161.580054 seconds.
-  path: Assets/UnityAssetStore
-  artifactKey: Guid(be76d4e2851d68e40a476e2bbbd68a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityAssetStore using Guid(be76d4e2851d68e40a476e2bbbd68a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b79432ab54446f996700e7dc50891df') in 0.000503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
-Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
-Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
-Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
-Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
-Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
-Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
-Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
-Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
-Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
-Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
-Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/UnityAssetStore/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
-Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
-Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
-Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
-Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
-Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
-Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
-Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
-Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
-Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
-Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
-Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
-Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
-Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
-Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/UnityAssetStore/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
-Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
-Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.957 seconds
-Refreshing native plugins compatible for Editor in 5.67 ms, found 8 plugins.
-Native extension for WindowsStandalone target not found
-Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
-Assembly with name 'FredericRP.Popups.Runtime' already exists (Assets/FredericRP/Popup/Runtime/FredericRP.Popups.Runtime.asmdef)
-Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
-Assembly with name 'FredericRP.Tips.Runtime' already exists (Assets/FredericRP/Tips/Runtime/FredericRP.Tips.Runtime.asmdef)
-Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
-Assembly with name 'FredericRP.EventHandler.Editor' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Editor/FredericRP.EventHandler.Editor.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Editor' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Editor/FredericRP.AssetBundleTool.Editor.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Editor' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Editor/FredericRP.ObjectPool.Editor.asmdef)
-Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/UnityAssetStore/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
-Assembly with name 'FredericRP.EventHandler.Runtime' already exists (Assets/FredericRP/EventManagement/Runtime/FredericRP.EventHandler.Runtime.asmdef)
-Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
-Assembly with name 'FredericRP.Singleton.Runtime' already exists (Assets/FredericRP/Singleton/Runtime/FredericRP.Singleton.Runtime.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
-Assembly with name 'FredericRP.ObjectPool.Runtime' already exists (Assets/FredericRP/ObjectPool/Runtime/FredericRP.ObjectPool.Runtime.asmdef)
-Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
-Assembly with name 'FredericRP.BucketGenerator.Runtime' already exists (Assets/UnityAssetStore/FredericRP/BucketGenerator/Runtime/FredericRP.BucketGenerator.Runtime.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
-Assembly with name 'FredericRP.AssetBundleTool.Runtime' already exists (Assets/UnityAssetStore/FredericRP/AssetBundleTool/Runtime/FredericRP.AssetBundleTool.Runtime.asmdef)
-Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/UnityAssetStore/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
-Assembly with name 'FredericRP.Transition.Runtime' already exists (Assets/FredericRP/Transition/Runtime/FredericRP.Transition.Runtime.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.071 seconds
-Domain Reload Profiling:
-	ReloadAssembly (636ms)
-		BeginReloadAssembly (574ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		LoadAllAssembliesAndSetupDomain (319ms)
-			LoadAssemblies (186ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-				TypeCache.Initialize (164ms)
-					TypeCache.ScanAssembly (160ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (461ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (359ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 5.57 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4715 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (2.8 MB). Loaded Objects now: 5294.
-Memory consumption went from 173.9 MB to 171.1 MB.
-Total: 3.620000 ms (FindLiveObjects: 0.270700 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.555200 ms  DeleteObjects: 0.690600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
