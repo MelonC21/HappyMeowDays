@@ -8,6 +8,7 @@ public class Teleporter : MonoBehaviour
     public float offsetDistance;
     private Quaternion exitRotation;
 
+    public AudioClip thruPortal;
 
     public void TeleportPlayer(GameObject player)
     {
@@ -25,6 +26,8 @@ public class Teleporter : MonoBehaviour
             TeleportPlayer(other.gameObject);
 
         }
+
+        AudioSource.PlayClipAtPoint(thruPortal, transform.position);
     }
 
     private void OnTriggerExit(Collider other)
