@@ -7,26 +7,58 @@ public class DialogueTrigger : MonoBehaviour
 {
 
     RaycastHit hitInfo;
+
+    public LineView lineView;
     public DialogueRunner dialogueRunner;
-    public bool isRunning;
+
+    private bool playerInRange = false;
 
     private void Start()
     {
-        isRunning = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (playerInRange || dialogueRunner.Dialogue.IsActive)
+        {
+            DialogueIsReady();
+        }
+    }
+
+    private void DialogueIsReady()
+    {
+        //Debug.Log("Dialogue is ready");
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (!dialogueRunner.Dialogue.IsActive)
             {
                 dialogueRunner.StartDialogue("Start");
             }
+            else
+            {
+                lineView.UserRequestedViewAdvancement();
+            }
         }
+    }
 
-        
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            playerInRange = true;
 
+            Debug.Log("entered");
         }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            playerInRange = false;
+
+            Debug.Log("exit");
+        }
+    }
 }
