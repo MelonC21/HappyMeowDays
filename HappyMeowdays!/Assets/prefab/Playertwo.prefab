@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2801899580605395601}
   - component: {fileID: 5017833359001029903}
   - component: {fileID: 5641124160422007740}
-  - component: {fileID: 1524423097190627470}
   - component: {fileID: 8306236051593102073}
+  - component: {fileID: 8448775033608036099}
   m_Layer: 0
   m_Name: Playertwo
   m_TagString: Player
@@ -37,7 +37,7 @@ Transform:
   - {fileID: 5622520098322763267}
   - {fileID: 8523305929952647197}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2801899580605395601
 MeshFilter:
@@ -112,28 +112,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1524423097190627470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668149355891611562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53eedd1b28da3e24c985bd1676c68c31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 7
-  groundDrag: 5
-  playerHeight: 2
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
-  orientation: {fileID: 5622520098322763267}
-  jumpCooldown: 0.5
-  jumpForce: 5
-  airMultiplyer: 1
 --- !u!54 &8306236051593102073
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -161,6 +139,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8448775033608036099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668149355891611562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5eee6f8fba1c6448cd36b4b7aed143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlyrMovSts: {fileID: 11400000, guid: 4bb9871d4ddbc154d9ff5c626749cce8, type: 2}
+  playerHeight: 2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  orientation: {fileID: 5622520098322763267}
 --- !u!1 &5604189057922621443
 GameObject:
   m_ObjectHideFlags: 0
