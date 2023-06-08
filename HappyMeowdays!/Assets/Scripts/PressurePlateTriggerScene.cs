@@ -10,16 +10,12 @@ public class PressurePlateTriggerScene : MonoBehaviour
 
     private bool isActive = false; // whether the trigger is currently active
 
-    public AudioClip buttonPush;
-    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             isActive = true;
         }
-
-        AudioSource.PlayClipAtPoint(buttonPush, transform.position);
     }
 
     private void OnTriggerExit(Collider other)
