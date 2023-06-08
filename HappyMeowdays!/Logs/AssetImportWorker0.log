@@ -15,7 +15,7 @@ C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50359
+51810
 Successfully changed project path to: C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
 C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11504] Host "[IP] 11.96.33.166 [Port] 0 [Flags] 2 [Guid] 4123265097 [EditorId] 4123265097 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QH0B45) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24396] Host "[IP] 11.96.33.166 [Port] 0 [Flags] 2 [Guid] 2026018255 [EditorId] 2026018255 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QH0B45) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11504] Host "[IP] 11.96.33.166 [Port] 0 [Flags] 2 [Guid] 4123265097 [EditorId] 4123265097 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QH0B45) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24396] Host "[IP] 11.96.33.166 [Port] 0 [Flags] 2 [Guid] 2026018255 [EditorId] 2026018255 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QH0B45) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 21.94 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 16.17 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015328 seconds.
-- Loaded All Assemblies, in  0.490 seconds
+Registered in 0.015175 seconds.
+- Loaded All Assemblies, in  0.420 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.358 seconds
+- Finished resetting the current domain, in  0.323 seconds
 Domain Reload Profiling:
-	ReloadAssembly (300ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (258ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (135ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-				TypeCache.Initialize (175ms)
-					TypeCache.ScanAssembly (172ms)
+			SetupTypeCache (150ms)
+				TypeCache.Initialize (149ms)
+					TypeCache.ScanAssembly (147ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (281ms)
+			SetupLoadedEditorAssemblies (252ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (10ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,158 +109,158 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EEDB243010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file data-0000027DEB4D3A80 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB269A20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file data-0000027DEB669F00 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB269A20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file data-0000027DECED1220 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDA56D010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file data-0000027DEB669F00 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB279C30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000027DED0D7010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDA5ADA30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-0000027DECB5B020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB71A040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000027DED0DF020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB5C2A90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000027DEB4FFAA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB71A040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000027DED0DF020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB71A040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000027DED0DF020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB5C2A90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000027DEB4FFAA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB5C2A90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file data-0000027DEB4FFAA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB5C2A90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000027DEB4FFAA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDA5ADA30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000027DECB5B020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB5C2A90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file data-0000027DEB4FFAA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDA5ADA30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000027DECB5B020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9A0E010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000027DEBD70020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9E2B010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000027DED31C010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB281C40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000027DECB5B020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB5C2A90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000027DC7AAFEB0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB746460 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000027DED31C010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB281C40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000027DED202650 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDAF3BC20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-0000027DED202650 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED98D2770 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000027DED10B440 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED98D2770 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000027DED10B440 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9A4F420 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file data-0000027DED2B0A20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED98D2770 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000027DED113450 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9CD0340 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-0000027DEB86B010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDA28D020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000027DC79E7A20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED98D2770 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file data-0000027DED113450 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDA2BC030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000027DC7A16A30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDAF3BC20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000027DED377230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDAF3BC20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-0000027DED377230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED98D2770 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-0000027DEB8C6420 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9A4F420 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000027DED2B0A20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9A4F420 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000027DED113450 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDA2DCC40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000027DED2B0A20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9D77010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000027DED202650 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB691040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-0000027DED202650 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED98EAF80 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000027DED2B0A20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9D93E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file data-0000027DED2B0A20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9DBFE30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-0000027DC7A2F240 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB4E3040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000027DECFBDE40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9B4B420 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000027DC7A2F240 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED98EAF80 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file data-0000027DECFF6850 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9B58830 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-0000027DECFF6850 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED98EAF80 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000027DC7A2F240 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED98EAF80 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000027DEB767650 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB289C50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-0000027DEB767650 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9C44E00 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000027DEB7B3660 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB289C50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000027DEB7BF470 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB567A60 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-0000027DC7A45830 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EED9DDBC50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file data-0000027DEB7CCC80 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEDB289C50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file data-0000027DEB7D7490 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.942 seconds
-Refreshing native plugins compatible for Editor in 8.41 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.916 seconds
+Refreshing native plugins compatible for Editor in 8.72 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.887 seconds
+- Finished resetting the current domain, in  0.833 seconds
 Domain Reload Profiling:
-	ReloadAssembly (278ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (284ms)
+		BeginReloadAssembly (157ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		LoadAllAssembliesAndSetupDomain (657ms)
-			LoadAssemblies (365ms)
+			CreateAndSetChildDomain (23ms)
+		LoadAllAssembliesAndSetupDomain (626ms)
+			LoadAssemblies (349ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (360ms)
-				TypeCache.Initialize (321ms)
-					TypeCache.ScanAssembly (316ms)
+			SetupTypeCache (349ms)
+				TypeCache.Initialize (312ms)
+					TypeCache.ScanAssembly (307ms)
 				ResolveRequiredComponents (12ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (684ms)
+			SetupLoadedEditorAssemblies (637ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (532ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (491ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 9.45 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 10.22 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 102 unused Assets / (1.9 MB). Loaded Objects now: 5241.
-Memory consumption went from 184.1 MB to 182.2 MB.
-Total: 5.565900 ms (FindLiveObjects: 0.458000 ms CreateObjectMapping: 0.140100 ms MarkObjects: 3.775400 ms  DeleteObjects: 1.190700 ms)
+Unloading 102 unused Assets / (2.0 MB). Loaded Objects now: 5241.
+Memory consumption went from 184.0 MB to 182.0 MB.
+Total: 5.333400 ms (FindLiveObjects: 0.457400 ms CreateObjectMapping: 0.138800 ms MarkObjects: 4.035900 ms  DeleteObjects: 0.700000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -275,156 +275,492 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2913.031339 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/green_wood_1.mat
-  artifactKey: Guid(258f40f68e0ec5a42b234edd6f953a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/green_wood_1.mat using Guid(258f40f68e0ec5a42b234edd6f953a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242b0dfed8640e6cff64e9d84f2fb50b') in 0.330273 seconds
+  Time since last request: 12687.251711 seconds.
+  path: Assets/prefab/Clock Model.fbx
+  artifactKey: Guid(8ef5840baea585942844752ffde84dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Clock Model.fbx using Guid(8ef5840baea585942844752ffde84dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9390402535301a8e0b98320f5b516c8') in 0.166791 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 66
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/hanging_lamp_2.mat
-  artifactKey: Guid(9c82caf8a56fbcf4d8620a62d8924bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/hanging_lamp_2.mat using Guid(9c82caf8a56fbcf4d8620a62d8924bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d40e05208e0eea3f93d40a3e54f2af9') in 0.026546 seconds
+  Time since last request: 26.552961 seconds.
+  path: Assets/prefab/Clock_L_lambert1_Roughness.tga.png
+  artifactKey: Guid(94c918c84243e0a409836a6a66d58a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Clock_L_lambert1_Roughness.tga.png using Guid(94c918c84243e0a409836a6a66d58a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac973d7eaaa5d6b08ea4226a2bf1ba9') in 0.022392 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/hall_way.mat
-  artifactKey: Guid(b45b9aa98f2c8ef48843a55de7594b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/hall_way.mat using Guid(b45b9aa98f2c8ef48843a55de7594b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251981273bef2f1a7e820397190eef46') in 0.035028 seconds
+  Time since last request: 1.842085 seconds.
+  path: Assets/prefab/Clock_L_lambert1_Metallic.tga.png
+  artifactKey: Guid(9793791bf8900eb479dcd18015721113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Clock_L_lambert1_Metallic.tga.png using Guid(9793791bf8900eb479dcd18015721113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475e7c86c9738a37426ab42d49620586') in 0.011618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.817895 seconds.
+  path: Assets/prefab/Clock_L_lambert1_BaseColor.tga.png
+  artifactKey: Guid(d1e2240a90859db4daa7be71f1f0124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Clock_L_lambert1_BaseColor.tga.png using Guid(d1e2240a90859db4daa7be71f1f0124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a49133081a94bb2273619b12b5a065') in 0.011927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 69.409394 seconds.
+  path: Assets/prefab/GrandClock.prefab
+  artifactKey: Guid(819a5bd21492efe478a3f331e21d03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/GrandClock.prefab using Guid(819a5bd21492efe478a3f331e21d03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d1b0119dcf9e89d45a4f0d8d3d12c5') in 0.002882 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/keyboard.mat
-  artifactKey: Guid(fa1012ea6a46d4a4894d66ccc278626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/keyboard.mat using Guid(fa1012ea6a46d4a4894d66ccc278626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c5fe47286b0dd43a207f3639c92443') in 0.097581 seconds
+  Time since last request: 50.556178 seconds.
+  path: Assets/prefab/Clock_L_lambert1_Normal.tga.png
+  artifactKey: Guid(34d48f938cf6e0f439cb8b5aaf793506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Clock_L_lambert1_Normal.tga.png using Guid(34d48f938cf6e0f439cb8b5aaf793506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d175f15eaa5866c91fddeff8149ba2') in 0.013553 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.127633 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/knives.mat
-  artifactKey: Guid(63bab8258dca7274d89a3b1702b57ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/knives.mat using Guid(63bab8258dca7274d89a3b1702b57ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118be3fbc92534eaa4a375fe2cd86c8e') in 0.116235 seconds
+  Time since last request: 72.188090 seconds.
+  path: Assets/prefab/GrandClock.prefab
+  artifactKey: Guid(819a5bd21492efe478a3f331e21d03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/GrandClock.prefab using Guid(819a5bd21492efe478a3f331e21d03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596c2635e9a15833bbd3c2f44f0573a9') in 0.012671 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 30.315440 seconds.
+  path: Assets/prefab/G_Clock
+  artifactKey: Guid(f0ec178779d63294f8b83abc2d26a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/G_Clock using Guid(f0ec178779d63294f8b83abc2d26a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846d1f4d56ee3d4f302b076488169576') in 0.000542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 76.070519 seconds.
+  path: Assets/prefab/G_Clock/Clock Model.fbx
+  artifactKey: Guid(8ef5840baea585942844752ffde84dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/G_Clock/Clock Model.fbx using Guid(8ef5840baea585942844752ffde84dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f77da78a0ca7ddf4c3c11dfa801348d') in 0.043424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 8.481516 seconds.
+  path: Assets/prefab/G_Clock/Materials
+  artifactKey: Guid(2aab9761ccd92cb4984f913e6243cfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/G_Clock/Materials using Guid(2aab9761ccd92cb4984f913e6243cfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cb9476cf5c7f71e39ed97b7001a9da') in 0.000520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.575182 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Decals/0dLs4pGjnbZ6ShjB2Re8cUkuv.png
+  artifactKey: Guid(69e697b4c5e340b4cadd3c06e6ba7ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Decals/0dLs4pGjnbZ6ShjB2Re8cUkuv.png using Guid(69e697b4c5e340b4cadd3c06e6ba7ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258f346119688dd4541b6d0bbe62d1cb') in 0.039913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007088 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_towl_2_AlbedoTransparency.png
+  artifactKey: Guid(a53e583f921f7454d96111a0f3923d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_towl_2_AlbedoTransparency.png using Guid(a53e583f921f7454d96111a0f3923d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a008650a853f020f3f8b8a395ba58f56') in 0.024727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_towl_2_Normal.png
+  artifactKey: Guid(df0678f1d13f015429aa9c67f28ab714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_towl_2_Normal.png using Guid(df0678f1d13f015429aa9c67f28ab714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3495e273c5d56c9e3ba7254c7f4cfe2') in 0.035264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/LightEmission01.mat
-  artifactKey: Guid(127f549d75d93b041a572db38c6a5e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/LightEmission01.mat using Guid(127f549d75d93b041a572db38c6a5e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4c379c22c2bd9a40636fea7e01310c') in 0.018666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/leaf.mat
-  artifactKey: Guid(8a1cd7d4b993c124b9b7efa0744e2d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/leaf.mat using Guid(8a1cd7d4b993c124b9b7efa0744e2d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa3b412c65c144e1b922c4c91c13005') in 0.050098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/Living_Room_lamp_1.mat
-  artifactKey: Guid(ae4819e8bfaa69e41afbdd0684273139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/Living_Room_lamp_1.mat using Guid(ae4819e8bfaa69e41afbdd0684273139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ad35848ccacc88cf6d09229f61e3b9') in 0.021372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/little_props.mat
-  artifactKey: Guid(4d20fd2d0876d2043a6b30802636f668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/little_props.mat using Guid(4d20fd2d0876d2043a6b30802636f668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd188a557a65b346c3c7f8ae552f783a9') in 0.037037 seconds
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png
+  artifactKey: Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png using Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9cd390e1c435bbe0f03a09cca8e49b') in 0.016503 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/Lamp_emission.mat
-  artifactKey: Guid(0cc86b1a13dc042419f7d8aa6c46ada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/Lamp_emission.mat using Guid(0cc86b1a13dc042419f7d8aa6c46ada5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5266da7002e5835c04f92acd14fa40f1') in 0.080465 seconds
+  path: Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_toilet_wood_1_AO.png
+  artifactKey: Guid(7d98f732efaa39c4ca33d826b7cd8f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_toilet_wood_1_AO.png using Guid(7d98f732efaa39c4ca33d826b7cd8f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254c33897538cd946a3df2a6f3a891c3') in 0.017910 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/livingroom_floor4.mat
-  artifactKey: Guid(6dfd78c1d93ad604f9d0f62ddd69d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/livingroom_floor4.mat using Guid(6dfd78c1d93ad604f9d0f62ddd69d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1928801139da74ae5e04be8aba089ec') in 0.025045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.255264 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/livingroom_foto.mat
-  artifactKey: Guid(41463ea681f9cdf49b676e8f6c0ae1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/livingroom_foto.mat using Guid(41463ea681f9cdf49b676e8f6c0ae1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3008291ac814c76b50a4c909f429c2b') in 0.111562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Meshes/livingroom_hanging_light.obj
-  artifactKey: Guid(933cfca75e25aca4882482d533b35cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Meshes/livingroom_hanging_light.obj using Guid(933cfca75e25aca4882482d533b35cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e6ff6d852c8c38c3244712a34675ed') in 0.069149 seconds
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@3x.png
+  artifactKey: Guid(8be1fbf4b24de44c99840805bdae9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@3x.png using Guid(8be1fbf4b24de44c99840805bdae9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876408340622ffb27210d1b6ad49c664') in 0.013433 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/magazine1.mat
-  artifactKey: Guid(a520e1c1400c95f4189f929b80620599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/magazine1.mat using Guid(a520e1c1400c95f4189f929b80620599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1c782d0799a1cfbc8f91eb3534dae7') in 0.034632 seconds
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png
+  artifactKey: Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png using Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f3247e6a747d8402824cdffdaa592b') in 0.011932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Hover.png
+  artifactKey: Guid(d4f4647229a9f47a3b8739dad2c59db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Hover.png using Guid(d4f4647229a9f47a3b8739dad2c59db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fd3c7ef5c03c1b7217f71ecda90041') in 0.011796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png
+  artifactKey: Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png using Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1202ef512af6677f0f2da24e63737299') in 0.012235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.recorder/Editor/Assets/animation_recorder.png
+  artifactKey: Guid(81cefa2b805fd4f49ae4de35fe4e869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.recorder/Editor/Assets/animation_recorder.png using Guid(81cefa2b805fd4f49ae4de35fe4e869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82a9e9d2bf19fed6dd6462e6b0d0927') in 0.015351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Dark/CollectionType/Audio.png
+  artifactKey: Guid(81f080c83b9cb0b45867f46fb8fd5e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Dark/CollectionType/Audio.png using Guid(81f080c83b9cb0b45867f46fb8fd5e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba6d9069e9d5702d438e60cf5b50bb1') in 0.011910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Dark/CollectionType/Audio@2x.png
+  artifactKey: Guid(a45e0d6d9dabab34996c468b249f1296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Dark/CollectionType/Audio@2x.png using Guid(a45e0d6d9dabab34996c468b249f1296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2cdcaeade26a2c2481698bde7bf9a8') in 0.011430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis.png
+  artifactKey: Guid(7e853779c8fed4ebf917a0de21c79602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis.png using Guid(7e853779c8fed4ebf917a0de21c79602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f463bf8a4fd3220acbefcac484d87ab') in 0.013923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_towl_2_MetallicSmoothness.png
+  artifactKey: Guid(90287f0bd25af1648b26804a7d8bd89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_towl_2_MetallicSmoothness.png using Guid(90287f0bd25af1648b26804a7d8bd89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed2b6f761792136ad80cb7ada3adf80') in 0.019009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Common/CollectionType/Audio-selected@2x.png
+  artifactKey: Guid(03517fb6a95c9074f891af1467d700c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Common/CollectionType/Audio-selected@2x.png using Guid(03517fb6a95c9074f891af1467d700c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89e83b3c2bdbe6d6e005f07cf833612') in 0.020313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch@2x.png
+  artifactKey: Guid(88a167cee1bb94744976dbe4929b3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch@2x.png using Guid(88a167cee1bb94744976dbe4929b3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae01a96e3afa2e449101be97de5d906') in 0.015276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/on/Arch@2x.png
+  artifactKey: Guid(83a22ff5d6dac6a42bee117814bdd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/on/Arch@2x.png using Guid(83a22ff5d6dac6a42bee117814bdd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd836c5f48e1177a395f7ee5b952d73fd') in 0.013093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Common/CollectionType/Audio-selected.png
+  artifactKey: Guid(a37be66cb8c1ddc4ea323601982be148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.sequences/Editor/Editor Default Resources/Icons/Common/CollectionType/Audio-selected.png using Guid(a37be66cb8c1ddc4ea323601982be148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3cec31696df0dedcd8f00730153cbf') in 0.019284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@3x.png
+  artifactKey: Guid(2e27a82b5cc4e4ef98cbef2d0b324aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@3x.png using Guid(2e27a82b5cc4e4ef98cbef2d0b324aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40549846ebadcb23c608489cd567b846') in 0.018597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_toilet_wood_1_Normal.png
+  artifactKey: Guid(e40a469a4b1e74a4093aa86a48b13c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_toilet_wood_1_Normal.png using Guid(e40a469a4b1e74a4093aa86a48b13c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd082e31ff9e1b040e99a23d0d911274e') in 0.020565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_toilet_wood_1_MetallicSmoothness.png
+  artifactKey: Guid(6e98eca794794aa4ab2c05b9f9492f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/towel_2/2_toilet_wood_1_MetallicSmoothness.png using Guid(6e98eca794794aa4ab2c05b9f9492f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2290ff5b163c2e5ac26acc10d97942') in 0.017793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/AirConditioner/airconditioner_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(5671ac59d143e7544bfe6472f874b0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/AirConditioner/airconditioner_DefaultMaterial_MetallicSmoothness.png using Guid(5671ac59d143e7544bfe6472f874b0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f441d7df12e527fff1f99a413946ed') in 0.037640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/AirConditioner/airconditioner_DefaultMaterial_AO.png
+  artifactKey: Guid(c74c998d009c80e4ebb001abcc8f9c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/AirConditioner/airconditioner_DefaultMaterial_AO.png using Guid(c74c998d009c80e4ebb001abcc8f9c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86bf7e6f099f32a00928cb488ffe1e6') in 0.015339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png using Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6f7e998e1e082a830f5477e73569be') in 0.014311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Normal.png
+  artifactKey: Guid(c175d9b0ccfa2428ea936c9c6b654bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Normal.png using Guid(c175d9b0ccfa2428ea936c9c6b654bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fcdae762cae4f2aa41348cbb9485c1') in 0.015976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png using Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c4b978b301bab4fb2090018e85c354') in 0.015115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png
+  artifactKey: Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png using Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172e5dead5894c9d96e5e8dd3305b465') in 0.016662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.466132 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/BedsideLamp/bedside_lamp_bed_lamp_glass1_AlbedoTransparency.png
+  artifactKey: Guid(27d693f9c1ddeec4d9f2608895b615e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/BedsideLamp/bedside_lamp_bed_lamp_glass1_AlbedoTransparency.png using Guid(27d693f9c1ddeec4d9f2608895b615e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f44b1f610a289c4e4e23801010b43c') in 0.018547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/lamp/Lamp_emission_MetallicSmoothness.png
+  artifactKey: Guid(1bc5376626a585e4db53b59028288c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/lamp/Lamp_emission_MetallicSmoothness.png using Guid(1bc5376626a585e4db53b59028288c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61f43be1d03d2a05ebe62233e8aee38') in 0.012815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/lamp/lamp_AlbedoTransparency.png
+  artifactKey: Guid(43e0221751fc1e84ca23c2ac1c64f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/lamp/lamp_AlbedoTransparency.png using Guid(43e0221751fc1e84ca23c2ac1c64f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf751f71430977f3175078a89922b30') in 0.010979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/lamp/lamp_MetallicSmoothness.png
+  artifactKey: Guid(b4b7e032a0f638e48a24c0eb3446f069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/lamp/lamp_MetallicSmoothness.png using Guid(b4b7e032a0f638e48a24c0eb3446f069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4167044d219c98db45fa0506eaf8f7') in 0.013761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/BedsideLamp/bedside_lamp_bed_lamp_glass1_Normal.png
+  artifactKey: Guid(4bdd656cd96ebf64a8302432cb85dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/BedsideLamp/bedside_lamp_bed_lamp_glass1_Normal.png using Guid(4bdd656cd96ebf64a8302432cb85dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c4a83432bec5b97af4ae1a711388b9') in 0.016101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/BedsideLamp/bedside_lamp_bed_lamp_glass1_MetallicSmoothness.png
+  artifactKey: Guid(9f4cd69ec824b524ea3445be08f60768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/BedsideLamp/bedside_lamp_bed_lamp_glass1_MetallicSmoothness.png using Guid(9f4cd69ec824b524ea3445be08f60768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba9c05b6a0bfd60175b9dd948b8d1e7') in 0.012559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/BedsideLamp/bedside_lamp_bedside_lamp1_AO.png
+  artifactKey: Guid(7410df1afb536a04cab9abcb8386f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/BedsideLamp/bedside_lamp_bedside_lamp1_AO.png using Guid(7410df1afb536a04cab9abcb8386f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3028d77a8a0124ebab2df3210ffa8983') in 0.018086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 177.180222 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony_chair/balcony_ chair_balcony_chair1_Normal.png
+  artifactKey: Guid(e629b5e87a61c5f44acc8998d4e390a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony_chair/balcony_ chair_balcony_chair1_Normal.png using Guid(e629b5e87a61c5f44acc8998d4e390a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c303d26961f3a219971cb826b40ec5') in 0.025741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_glass_AO.png
+  artifactKey: Guid(031b139f608a30c4988001984c7f25ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_glass_AO.png using Guid(031b139f608a30c4988001984c7f25ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7937fe9ed27eb90ea8f3c6a153e10a6') in 0.016788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_glass_MetallicSmoothness.png
+  artifactKey: Guid(ef90ad457236b604d827a6d50c8c77d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_glass_MetallicSmoothness.png using Guid(ef90ad457236b604d827a6d50c8c77d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80e019e097b6b8bfd37302bf4bacd28') in 0.011520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003649 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_wood_Normal.png
+  artifactKey: Guid(a36fad7686f170743a2f4dcc33a6872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_wood_Normal.png using Guid(a36fad7686f170743a2f4dcc33a6872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7a5d21af336ae2728c9d350d807403') in 0.024148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony_mat/balcony_mat_balcony_mat1_MetallicSmoothness.png
+  artifactKey: Guid(3ba1670be3dab3d45be9c524f70a84ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony_mat/balcony_mat_balcony_mat1_MetallicSmoothness.png using Guid(3ba1670be3dab3d45be9c524f70a84ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffafc6a7082738b1821bf78427162a1e') in 0.014694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/bathroom_cabin/bathroom_cabin_bathroom_cabin_MetallicSmoothness.png
+  artifactKey: Guid(a637ba760c1221a41b5fc20cca8c0f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/bathroom_cabin/bathroom_cabin_bathroom_cabin_MetallicSmoothness.png using Guid(a637ba760c1221a41b5fc20cca8c0f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728834d6da4b0eb90f43e4aaa7d95f5f') in 0.020673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/bathroom_shelf/bathroom_shelf_bathroom_shelf_MetallicSmoothness.png
+  artifactKey: Guid(abe1e05553436304b86ee2f326fa6c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/bathroom_shelf/bathroom_shelf_bathroom_shelf_MetallicSmoothness.png using Guid(abe1e05553436304b86ee2f326fa6c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3873c0cbf0df955dbd73ca20721522e') in 0.018654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/bathroom_shelf/bathroom_shelf_bathroom_shelf_AO.png
+  artifactKey: Guid(a719ca6494d86e84e84c4d9a631fe7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/bathroom_shelf/bathroom_shelf_bathroom_shelf_AO.png using Guid(a719ca6494d86e84e84c4d9a631fe7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a9f6ba221645bc073cc950861c505b') in 0.020014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_wood_AlbedoTransparency.png
+  artifactKey: Guid(638388a98a29c0849aaee072ed24f63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_wood_AlbedoTransparency.png using Guid(638388a98a29c0849aaee072ed24f63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fa768dfcb309927f4c35544181e62d') in 0.018278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/bathroom_cabin/bathroom_cabin_bathroom_cabin_Normal.png
+  artifactKey: Guid(d0b11c92d65a6ca41bc12952d94c41bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/bathroom_cabin/bathroom_cabin_bathroom_cabin_Normal.png using Guid(d0b11c92d65a6ca41bc12952d94c41bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1e2b68856db8c29b50940acf92d672') in 0.014822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony_mat/balcony_mat_balcony_mat1_AlbedoTransparency.png
+  artifactKey: Guid(5425140201b6c5b48a54a90d48414fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony_mat/balcony_mat_balcony_mat1_AlbedoTransparency.png using Guid(5425140201b6c5b48a54a90d48414fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafea8f2c709890534b3c37b1c4a0e99') in 0.016554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_metal_MetallicSmoothness.png
+  artifactKey: Guid(7b5d2cffcbd7e2c40bee1af6f3d102dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_metal_MetallicSmoothness.png using Guid(7b5d2cffcbd7e2c40bee1af6f3d102dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842b7c65f2c39cecade8c39e3083cd70') in 0.023970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/bathroom_shelf/bathroom_shelf_bathroom_shelf_Normal.png
+  artifactKey: Guid(63822f1b66c0bbb42b8083cbef276b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/bathroom_shelf/bathroom_shelf_bathroom_shelf_Normal.png using Guid(63822f1b66c0bbb42b8083cbef276b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc14d031907788f040b716ce72c5086') in 0.015855 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/Material #1.mat
-  artifactKey: Guid(e20142bd4498b4743a60d9bd55128f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/Material #1.mat using Guid(e20142bd4498b4743a60d9bd55128f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a37704e61111bbcef1adbaa8e8fa60') in 0.016989 seconds
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_metal_Normal.png
+  artifactKey: Guid(d1c555dd7e370ab4ead31387b31e99e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_metal_Normal.png using Guid(d1c555dd7e370ab4ead31387b31e99e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0825ab43e1a9df5b483143ccc8d3a2f6') in 0.026149 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/livingroom_wall3.mat
-  artifactKey: Guid(e1bfd52f4c5d1954ab5735a56127c8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/livingroom_wall3.mat using Guid(e1bfd52f4c5d1954ab5735a56127c8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87defb13c6919b087491c1a9ab1c58a6') in 0.029619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/M_washbasin2.mat
-  artifactKey: Guid(8d9f04025c3e6f641a21bdfe18e87f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/M_washbasin2.mat using Guid(8d9f04025c3e6f641a21bdfe18e87f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f5c80dd994d547ec827675c1871467') in 0.095698 seconds
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_glass_AlbedoTransparency.png
+  artifactKey: Guid(a39f9ef600367fe4abcf205d20d92134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony/balcony_balcony_glass_AlbedoTransparency.png using Guid(a39f9ef600367fe4abcf205d20d92134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03474c868c01e5388d3add6aa3223bea') in 0.027027 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/M_toilet.mat
-  artifactKey: Guid(055cd490cde30e645aadd86a19e0db98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/M_toilet.mat using Guid(055cd490cde30e645aadd86a19e0db98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b213e92da5eb7dd2997da4e550f0d0') in 0.097001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/DevDen Arch Viz Scotland/Materials/M_candle.mat
-  artifactKey: Guid(5c609b9a068777f4badb5750b7d7ee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DevDen Arch Viz Scotland/Materials/M_candle.mat using Guid(5c609b9a068777f4badb5750b7d7ee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ddc66eb58efae7a00b9d9d83ead60a') in 0.017884 seconds
+  path: Assets/DevDen Arch Viz Scotland/Textures/bathroom_wall/bathroom_wall_phong1_AlbedoTransparency.png
+  artifactKey: Guid(eafcc6c2944a80f4a875d500383b4766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/bathroom_wall/bathroom_wall_phong1_AlbedoTransparency.png using Guid(eafcc6c2944a80f4a875d500383b4766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecae17e7b2b7895dad8948c7a79ed6b2') in 0.015501 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/balcony_mat/balcony_mat_balcony_mat1_AO.png
+  artifactKey: Guid(d905c93170682624b9bcd403f197e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balcony_mat/balcony_mat_balcony_mat1_AO.png using Guid(d905c93170682624b9bcd403f197e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae6049f09ad2462dccb8230fb85f8b2') in 0.008942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
