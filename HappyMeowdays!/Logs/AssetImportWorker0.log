@@ -15,7 +15,7 @@ C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62306
+62483
 Successfully changed project path to: C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
 C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19632] Host "[IP] 11.96.33.10 [Port] 0 [Flags] 2 [Guid] 309466650 [EditorId] 309466650 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QH0B45) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21844] Host "[IP] 11.96.66.186 [Port] 0 [Flags] 2 [Guid] 2868328077 [EditorId] 2868328077 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QH0B45) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19632] Host "[IP] 11.96.33.10 [Port] 0 [Flags] 2 [Guid] 309466650 [EditorId] 309466650 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QH0B45) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21844] Host "[IP] 11.96.66.186 [Port] 0 [Flags] 2 [Guid] 2868328077 [EditorId] 2868328077 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QH0B45) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 17.47 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 15.66 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012130 seconds.
+Registered in 0.012458 seconds.
 - Loaded All Assemblies, in  0.417 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.315 seconds
+- Finished resetting the current domain, in  0.361 seconds
 Domain Reload Profiling:
-	ReloadAssembly (258ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (251ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (110ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (146ms)
-				TypeCache.Initialize (145ms)
-					TypeCache.ScanAssembly (143ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (155ms)
+				TypeCache.Initialize (154ms)
+					TypeCache.ScanAssembly (152ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (245ms)
+			SetupLoadedEditorAssemblies (284ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (9ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,158 +109,158 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-00000255BA871E10 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file data-00000189D8662610 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255BA898820 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file data-00000189D8662610 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255BA898820 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file data-00000189D866F020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255BA898820 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file data-00000189D8530820 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE515420 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-00000189D856BC30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE51AA30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-00000189D856BC30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEC3A020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000189D8CB9010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE522050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-00000189D8C83030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEC3A020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-00000189DA2A5020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEC3A020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000189DA2A5020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-00000189D8C83030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file data-00000189D8C83030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000189D8C83030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE522050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000189D8C9BC40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255BA8C1640 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file data-00000189D8C9BC40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE522050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000189D8C9BC40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEC51E30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-00000189DA2BCE30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DED74010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-00000189DA2BCE30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE522050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000189D8C9BC40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255BA8C1640 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-00000189D8C9BC40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DED74010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000189D9F10000 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEC93240 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-00000189D8C9BC40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-00000189D8C9BC40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEDAB620 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000189D9F47610 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEDAB620 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-00000189B4906A20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0211A20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file data-00000189B4913230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DFCB2230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000189D9F47610 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE5BD010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-00000189DA058030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255BA824C20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-00000189D9F4F620 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DFCB2230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file data-00000189D9B52020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEF84010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-00000189DA341020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-00000189DA0DB240 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-00000189DA0DB240 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEDAB620 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-00000189D9BB4C30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DFCB2230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-00000189D9BBE840 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DFCB2230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000189D9BBE840 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255BA853C30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-00000189DA3BD040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255BA85E040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-00000189D8C9FC50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-00000189D9BD7050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEC93240 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-00000189D8C9FC50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEFFC230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file data-00000189DA3E4260 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE742B80 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-00000189DA3E4260 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DFABF420 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000189D9C62010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE77B590 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000189B475C1A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE52A060 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file data-00000189D8C9FC50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255BA85E040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-00000189B475C1A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEC93240 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-00000189DA3F1670 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEC93240 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-00000189D8C9FC50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE52A060 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-00000189D8C9FC50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE77B590 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-00000189D9CF6A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE7873A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000189D8C9FC50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE7873A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-00000189B477CE10 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DFABF420 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file data-00000189D9D10060 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DFAC9C30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file data-00000189D9F7E630 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.049 seconds
-Refreshing native plugins compatible for Editor in 9.63 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.878 seconds
+Refreshing native plugins compatible for Editor in 8.83 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.881 seconds
+- Finished resetting the current domain, in  0.832 seconds
 Domain Reload Profiling:
-	ReloadAssembly (337ms)
-		BeginReloadAssembly (195ms)
+	ReloadAssembly (271ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		LoadAllAssembliesAndSetupDomain (704ms)
-			LoadAssemblies (413ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (602ms)
+			LoadAssemblies (337ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (380ms)
-				TypeCache.Initialize (332ms)
-					TypeCache.ScanAssembly (325ms)
-				ResolveRequiredComponents (17ms)
+			SetupTypeCache (333ms)
+				TypeCache.Initialize (295ms)
+					TypeCache.ScanAssembly (290ms)
+				ResolveRequiredComponents (12ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (672ms)
+			SetupLoadedEditorAssemblies (638ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (4ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (511ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (493ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 9.54 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.98 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 102 unused Assets / (1.9 MB). Loaded Objects now: 5241.
-Memory consumption went from 183.6 MB to 181.6 MB.
-Total: 6.763100 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.136300 ms MarkObjects: 4.783300 ms  DeleteObjects: 1.343800 ms)
+Unloading 102 unused Assets / (2.0 MB). Loaded Objects now: 5241.
+Memory consumption went from 183.9 MB to 181.9 MB.
+Total: 4.829300 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.129300 ms MarkObjects: 3.572400 ms  DeleteObjects: 0.715600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -274,159 +274,1182 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 189848.956853 seconds.
+  path: Assets/Materials/ObjectMaterial/New Physic Material.physicMaterial
+  artifactKey: Guid(3a3cba1b6348e844ea3a2895cff1457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ObjectMaterial/New Physic Material.physicMaterial using Guid(3a3cba1b6348e844ea3a2895cff1457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6dc53470610bdf45c947a3b5a8470d') in 0.011422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 97.078683 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/bed_1.fbx
+  artifactKey: Guid(17833168c1a51de4fb2f3083e6430d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/bed_1.fbx using Guid(17833168c1a51de4fb2f3083e6430d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b344f2f351ce052b6c267bd7d73a3de4') in 0.479196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 196.001747 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/lamp.fbx
+  artifactKey: Guid(08874c8e67e25654f8188c25848c432f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/lamp.fbx using Guid(08874c8e67e25654f8188c25848c432f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912a6304c3e1e07972d1e9906102ba15') in 0.263796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.432489 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/lamp (1).prefab
+  artifactKey: Guid(d845958bddd322f49a7984193d68d3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/lamp (1).prefab using Guid(d845958bddd322f49a7984193d68d3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cf0d3f111dbe20b47b02bc7d8f3ff4') in 0.002973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 36.266523 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/lamp/lamp_Normal.png
+  artifactKey: Guid(9f79ee1169dca7842ab0b29d78b28072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/lamp/lamp_Normal.png using Guid(9f79ee1169dca7842ab0b29d78b28072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c707bd9e90bdf2cb7ff70b8f343305b9') in 0.023772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.383384 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/hanging_lamp 2.obj
+  artifactKey: Guid(10f0bebd3e77f1f49a50028d15a81f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/hanging_lamp 2.obj using Guid(10f0bebd3e77f1f49a50028d15a81f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c509564e11786ed2919a8e1c7e951965') in 0.048533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.961989 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/ceiling lamp.fbx
+  artifactKey: Guid(5fccfba66adf1cb4bbf889d7734fe215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/ceiling lamp.fbx using Guid(5fccfba66adf1cb4bbf889d7734fe215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d8d499a0ccaa2ecbedeeb445a2a292') in 0.024570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.285145 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/hanging_lamp.obj
+  artifactKey: Guid(3a25459eb4ceb534f8b2ac4f81105b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/hanging_lamp.obj using Guid(3a25459eb4ceb534f8b2ac4f81105b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193973750b55a7ed3ed572f7a03fc17a') in 0.040618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.250820 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/BedroomLamp.prefab
+  artifactKey: Guid(65cb3455f93f80e478103dde23258a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/BedroomLamp.prefab using Guid(65cb3455f93f80e478103dde23258a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5dcb82f190e02d27150822ec73c40d') in 0.016822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 3.653750 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/BathroomCeilingLamp.prefab
+  artifactKey: Guid(b30f17349d4a6d045bc5b87449ecd18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/BathroomCeilingLamp.prefab using Guid(b30f17349d4a6d045bc5b87449ecd18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43275e28e4a7b1b51731cebfbcff7532') in 0.021324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 4.340775 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/BedsideLamp/bedside_lamp_bedside_lamp1_Normal.png
+  artifactKey: Guid(950a419b338321d45ac9405fc8218832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/BedsideLamp/bedside_lamp_bedside_lamp1_Normal.png using Guid(950a419b338321d45ac9405fc8218832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd90c27221b8ce08ca81492746e4e54b') in 0.012307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 107.800404 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/Tea Table.fbx
+  artifactKey: Guid(bed2106013f22ca48a25b8eb74ec3a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/Tea Table.fbx using Guid(bed2106013f22ca48a25b8eb74ec3a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81729ac44f8a098124744af89d1d90b4') in 0.057051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.287338 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/washingmachine.FBX
+  artifactKey: Guid(984368fc25cdd6d479c5c53ec80d22f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/washingmachine.FBX using Guid(984368fc25cdd6d479c5c53ec80d22f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd640e81a48d20350c5e3c94a65e9efe2') in 0.354067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 3.848705 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/metaldryer.FBX
+  artifactKey: Guid(0f38546eb20dcb14e86e7a08b9901b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/metaldryer.FBX using Guid(0f38546eb20dcb14e86e7a08b9901b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152466d675efcaa6ae72fe3c6c46a37a') in 0.155544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.948790 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/laptop.FBX
+  artifactKey: Guid(35e0e336b5a71eb42b8a66710cf30545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/laptop.FBX using Guid(35e0e336b5a71eb42b8a66710cf30545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a892dd8ab751ffba35de9575c36d4b') in 0.240234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 14.778334 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/balcony_table.fbx
+  artifactKey: Guid(0848b1c1327424841a4333776fcbb942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/balcony_table.fbx using Guid(0848b1c1327424841a4333776fcbb942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64c81c1ed590636ee33423422bb3f0b') in 0.046848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.922823 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/balcony_table.prefab
+  artifactKey: Guid(56f33a790dce7a9428ae69ba452e8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/balcony_table.prefab using Guid(56f33a790dce7a9428ae69ba452e8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922cf7bc96e6d6e4e2c2d368a72ab5b0') in 0.017391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.397146 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/dinning_table.fbx
+  artifactKey: Guid(816215bae06824c4c866a24ffd2fd204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/dinning_table.fbx using Guid(816215bae06824c4c866a24ffd2fd204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56b9a715a6440bad048f33b594119ea') in 0.079415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.550636 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/table.fbx
+  artifactKey: Guid(1d5df8e5796509b4fb161926ac857406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/table.fbx using Guid(1d5df8e5796509b4fb161926ac857406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfed5f49be17f146582fc22f71683967') in 0.035755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.899755 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Textures/balconY_tacle/balcony_table_balcony_table_2_Normal.png
+  artifactKey: Guid(0c659d62b198f7b4eb86a092de2de1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Textures/balconY_tacle/balcony_table_balcony_table_2_Normal.png using Guid(0c659d62b198f7b4eb86a092de2de1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517a9c390250d925486f78709801eaf1') in 0.013190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.660061 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/bedside_table.fbx
+  artifactKey: Guid(75eea3a7622e25d4bba12f7ccbc84dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/bedside_table.fbx using Guid(75eea3a7622e25d4bba12f7ccbc84dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc9e5c3a4018c8b2fc0eaa765d59d6d') in 0.027161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.998183 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/bedside_table.prefab
+  artifactKey: Guid(e1a6d7c704984ea489daf67742f9f243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/bedside_table.prefab using Guid(e1a6d7c704984ea489daf67742f9f243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a53057e28a6c6e81d864a6775b19193') in 0.016042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 152.084839 seconds.
+  path: Assets/prefab/TriggerScene (1) Variant.prefab
+  artifactKey: Guid(0719db34b9a8dfb4790b75a704192c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/TriggerScene (1) Variant.prefab using Guid(0719db34b9a8dfb4790b75a704192c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da40df2ca229b22f09facd2f543c26cd') in 0.020740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 19.079422 seconds.
+  path: Assets/prefab/TriggerScene_Lamp.prefab
+  artifactKey: Guid(0719db34b9a8dfb4790b75a704192c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/TriggerScene_Lamp.prefab using Guid(0719db34b9a8dfb4790b75a704192c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572f5bd991929f8637045ff0d04c13d7') in 0.003728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 98.590499 seconds.
+  path: Assets/prefab/TriggerScene_Lamp.prefab
+  artifactKey: Guid(0719db34b9a8dfb4790b75a704192c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/TriggerScene_Lamp.prefab using Guid(0719db34b9a8dfb4790b75a704192c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b33eff8114a1027ff9558693a5c90e') in 0.003837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 139.362820 seconds.
+  path: Assets/prefab/TriggerScene.prefab
+  artifactKey: Guid(33fc69f079e758b43b824ad233a8c8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/TriggerScene.prefab using Guid(33fc69f079e758b43b824ad233a8c8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fae511a17a149492c554c7ea0273afd') in 0.026676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 3.835048 seconds.
+  path: Assets/prefab/TriggerScene_Lamp.prefab
+  artifactKey: Guid(0719db34b9a8dfb4790b75a704192c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/TriggerScene_Lamp.prefab using Guid(0719db34b9a8dfb4790b75a704192c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f7e82fb4562b3ea160404cdc294b59') in 0.017940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 4.016002 seconds.
+  path: Assets/prefab/TriggerScene.prefab
+  artifactKey: Guid(33fc69f079e758b43b824ad233a8c8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/TriggerScene.prefab using Guid(33fc69f079e758b43b824ad233a8c8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0068857d46fd3221632d880be749ec') in 0.002829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 25.067712 seconds.
+  path: Assets/prefab/TriggerScene (2).prefab
+  artifactKey: Guid(c59c29bbf5c357e45b8c7bb7a5226e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/TriggerScene (2).prefab using Guid(c59c29bbf5c357e45b8c7bb7a5226e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefbe5910e1aa64483b038ff02addc00') in 0.002819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 14.442489 seconds.
+  path: Assets/prefab/TriggerScene_Table.prefab
+  artifactKey: Guid(c59c29bbf5c357e45b8c7bb7a5226e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/TriggerScene_Table.prefab using Guid(c59c29bbf5c357e45b8c7bb7a5226e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e8b38e9a7148941d8e2498f18aaa89') in 0.002767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 67.272162 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/LightTable06_1On.prefab
+  artifactKey: Guid(ca73d02057289d941805cce2bb0057df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/LightTable06_1On.prefab using Guid(ca73d02057289d941805cce2bb0057df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330bbaa18437c3269a58255d69eab2b3') in 0.057620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.472476 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/StudyTable.prefab
+  artifactKey: Guid(d30782b57a1b9c2459d4b5062d41ac2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/StudyTable.prefab using Guid(d30782b57a1b9c2459d4b5062d41ac2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7910aca729c3f3db920e6ea6df6f57af') in 0.018031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 104
+========================================================================
+Received Import Request.
+  Time since last request: 6.160586 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/Table_Fork_Table_Fork (16).prefab
+  artifactKey: Guid(582be4f21cd1b7548ad178e7b18a4189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/Table_Fork_Table_Fork (16).prefab using Guid(582be4f21cd1b7548ad178e7b18a4189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26086e1cd1870fd7b134ef96da52b0c5') in 0.036128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.928324 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/Table_Sppon_Table_Sppon (16).prefab
+  artifactKey: Guid(0f6fb6a4e9dfea64aa69e6cc24c6eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/Table_Sppon_Table_Sppon (16).prefab using Guid(0f6fb6a4e9dfea64aa69e6cc24c6eacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8025b53aba42945bf6da25028db0a66f') in 0.015704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 296.793560 seconds.
+  path: Assets/prefab/TriggerScene_Table.prefab
+  artifactKey: Guid(c59c29bbf5c357e45b8c7bb7a5226e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/TriggerScene_Table.prefab using Guid(c59c29bbf5c357e45b8c7bb7a5226e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebad927a12eb78fb60069c315c40bed') in 0.022655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 258.254329 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/TOASTER.prefab
+  artifactKey: Guid(e5732c41e83ea3443b0c737ae42338bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/TOASTER.prefab using Guid(e5732c41e83ea3443b0c737ae42338bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0352a646387ca7a0399ce2d4e267e057') in 0.078634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 174.903183 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/washingmachine.prefab
+  artifactKey: Guid(58fdded68cc46b0409297832c017291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/washingmachine.prefab using Guid(58fdded68cc46b0409297832c017291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c4816c9df3c7cee44e4763d380cd28') in 0.023460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 14.208069 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/carpet 1.prefab
+  artifactKey: Guid(a1207588f2e8629498ee04b03b09ad5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/carpet 1.prefab using Guid(a1207588f2e8629498ee04b03b09ad5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0abea585fad362bb5997c293a6fa2b7') in 0.084224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.749000 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/Carpet.prefab
+  artifactKey: Guid(23938c97557dbc140b966f084710b50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/Carpet.prefab using Guid(23938c97557dbc140b966f084710b50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf2f5abc558c92cdb3b8ecbc05ee32a') in 0.014244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.750402 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/Candle.prefab
+  artifactKey: Guid(54f1324c0d43eb54b90f53de2c450ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/Candle.prefab using Guid(54f1324c0d43eb54b90f53de2c450ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc01dfd12ef43796817354b0630ab290') in 0.015594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.363418 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/chair_5.prefab
+  artifactKey: Guid(540a5fb2035256c40b1d41bd607c880b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/chair_5.prefab using Guid(540a5fb2035256c40b1d41bd607c880b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8601abd38482d0772e71e0f5fd6f0b68') in 0.058753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 36.478789 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/BookShelf.prefab
+  artifactKey: Guid(a56630da406e2b24aa7c3e949ec68ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/BookShelf.prefab using Guid(a56630da406e2b24aa7c3e949ec68ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f56ddd7801002c676fdb86d8b837ab') in 0.143300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 226.976435 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/dish-drainer.prefab
+  artifactKey: Guid(0bd813cfcf64f0b4b97b4522243adee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/dish-drainer.prefab using Guid(0bd813cfcf64f0b4b97b4522243adee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f427901e034a7b457bd712cbe66c2b97') in 0.086201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.645740 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/dressing_mirror.prefab
+  artifactKey: Guid(c2491172d678dd1428164b79283452d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/dressing_mirror.prefab using Guid(c2491172d678dd1428164b79283452d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97db40e16f5fdc1db1245001a593b24b') in 0.290127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.517518 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/flower_pot_1.prefab
+  artifactKey: Guid(9cd84332369ec1449908aa11b1888b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/flower_pot_1.prefab using Guid(9cd84332369ec1449908aa11b1888b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9ed55e85035c71097afc2da4d58c9e') in 0.104842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 5.016755 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/low-plate_low-plate.prefab
+  artifactKey: Guid(faadbc6a5abddf84992cf974f4ac87d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/low-plate_low-plate.prefab using Guid(faadbc6a5abddf84992cf974f4ac87d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cfdd393ca925621e6d598d0fac117a') in 0.036484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.095043 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/mug-tree.prefab
+  artifactKey: Guid(d75bde5b3ece2324687963ff4701aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/mug-tree.prefab using Guid(d75bde5b3ece2324687963ff4701aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276e00ef42e5165c10ccd0c57a720974') in 0.094533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 154.911363 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/Shell.prefab
+  artifactKey: Guid(1c866b8f6d0a4904986d2fc18aae8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/Shell.prefab using Guid(1c866b8f6d0a4904986d2fc18aae8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca1d3dddad4a732dd58ee4296b69d57') in 0.799308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 2.002293 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/tolpaper.prefab
+  artifactKey: Guid(a79c499b30a279341b53e863be52ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/tolpaper.prefab using Guid(a79c499b30a279341b53e863be52ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c824ef92d0d59b04fdbfefa02444765') in 0.048980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 107.074545 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/PhotoFrames.prefab
+  artifactKey: Guid(646d62bfd14195748a4ce8e3c7077e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/PhotoFrames.prefab using Guid(646d62bfd14195748a4ce8e3c7077e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9325e271d6d4046ac3277e1b857f28d0') in 0.308040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 45.761593 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/Picture01_3.prefab
+  artifactKey: Guid(699a4465191fab2499937d546c723710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/Picture01_3.prefab using Guid(699a4465191fab2499937d546c723710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8c74999dc98ea97113ae8c0d30ceb6') in 0.035467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-00000255E071D020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file data-00000189E42AE010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0BE2010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file data-00000189D9EC9820 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEB4A410 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file data-00000189E5169BD0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEBA2010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file data-00000189E48A6CC0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DECD1250 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-00000189DA913360 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255EB178010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-00000189E48E20D0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DFD2B010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000189D8F0E690 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255EB178010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-00000189D9D22A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEBA2010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-00000189D8F0E690 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E9050080 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000189B4ACA960 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-00000189D9D22A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file data-00000189D9D22A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000189D9D22A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE87B390 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000189D8DF0010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file data-00000189D9D22A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DF9FE020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000189D8DF0010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DF902010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-00000189E40600A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E1B0C040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-00000189DB460010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0731630 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000189D8DF0010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0177E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-00000189D9D22A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E066D010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000189DB95D010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255EB178010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-00000189E48E20D0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255EB178010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-00000189E48E20D0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0F94010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000189E4341010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0F94010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-00000189E4341010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0731630 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file data-00000189E40976B0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0BE2010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000189DB321020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE716B70 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-00000189DBA2F020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEE3CC80 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-00000189E2F40080 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0BE2010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file data-00000189B4AA6930 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEE3CC80 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-00000189DB989050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255ECBD2970 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-00000189E3EF1F10 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255ECBD2970 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-00000189E3EF1F10 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0F94010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-00000189E4341010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DF0A6A00 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-00000189DA245C30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255EA020080 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000189D8519FF0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE87B390 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-00000189D8519FF0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0FAC820 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-00000189E4359820 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255ECBD2970 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-00000189E3EF1F10 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255EB178010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-00000189E4589430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEBC5C20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file data-00000189E3A0F020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0BE2010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-0000018A4EDCED70 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DF902010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000189E3C4A040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DEE68C90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000189DB9B5060 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255ECBD2970 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file data-00000189E3EF1F10 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255EB178010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-00000189E3C82A50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255EB178010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-00000189E4589430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255E0D4D020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-00000189E42C6C20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE25EF20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-00000189E42C6C20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255EA068040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-00000189E3D00030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE25EF20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000189E42C6C20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255ECBD2970 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-00000189E3A1C430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE25EF20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file data-00000189D82F1050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000255DE25EF20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file data-00000189E42C6C20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.808 seconds
-Refreshing native plugins compatible for Editor in 11.71 ms, found 8 plugins.
+- Loaded All Assemblies, in  1.456 seconds
+Refreshing native plugins compatible for Editor in 8.75 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.706 seconds
+- Finished resetting the current domain, in  1.494 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1025ms)
-		BeginReloadAssembly (902ms)
+	ReloadAssembly (829ms)
+		BeginReloadAssembly (729ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		LoadAllAssembliesAndSetupDomain (775ms)
-			LoadAssemblies (473ms)
+			CreateAndSetChildDomain (46ms)
+		LoadAllAssembliesAndSetupDomain (623ms)
+			LoadAssemblies (343ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (387ms)
-				TypeCache.Initialize (372ms)
-					TypeCache.ScanAssembly (364ms)
-				ResolveRequiredComponents (14ms)
+			SetupTypeCache (354ms)
+				TypeCache.Initialize (341ms)
+					TypeCache.ScanAssembly (332ms)
+				ResolveRequiredComponents (13ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (668ms)
+			SetupLoadedEditorAssemblies (620ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (6ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (494ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 9.13 ms, found 8 plugins.
+			AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 11.86 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4681 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5244.
-Memory consumption went from 162.7 MB to 160.7 MB.
-Total: 5.835900 ms (FindLiveObjects: 0.494700 ms CreateObjectMapping: 0.336400 ms MarkObjects: 4.073200 ms  DeleteObjects: 0.930300 ms)
+Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5292.
+Memory consumption went from 168.3 MB to 166.3 MB.
+Total: 5.425800 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.129700 ms MarkObjects: 3.997400 ms  DeleteObjects: 0.875300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 425.573039 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/bedroom_lamp_1.obj
+  artifactKey: Guid(674d31b8e6a04bc48b7c593ddd3e514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/bedroom_lamp_1.obj using Guid(674d31b8e6a04bc48b7c593ddd3e514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bb7ddc2d4695a1d5728ef4cb6b2534') in 0.122311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 9.723596 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/Materials
+  artifactKey: Guid(cdbcdb630900ca24aa5b96a08b89903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/Materials using Guid(cdbcdb630900ca24aa5b96a08b89903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8a92e0bebf48877e305372fb94893b') in 0.000726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 43.274992 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Prefabs/TV.prefab
+  artifactKey: Guid(03e0c2324a699f04d8798d4e3af7ce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Prefabs/TV.prefab using Guid(03e0c2324a699f04d8798d4e3af7ce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c273aa1ec1a4c2ea1b7c46af0868b91a') in 0.232419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 256.507923 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/books.FBX
+  artifactKey: Guid(c3bd1f92f6c766841bf2fe0a1b78f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/books.FBX using Guid(c3bd1f92f6c766841bf2fe0a1b78f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa9b3aa256aad62ef3c058274c1a7af') in 0.258033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Paintings_House_2.mat
+  artifactKey: Guid(419992a69d9c4c84fa2eee846cebc8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Paintings_House_2.mat using Guid(419992a69d9c4c84fa2eee846cebc8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c0986289357a90c680b9ffd6e41735') in 0.033922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/study_chairI_Leg.mat
+  artifactKey: Guid(64cee30640033744eaec99cac53c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/study_chairI_Leg.mat using Guid(64cee30640033744eaec99cac53c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d334bf80dd80b9496e281398b35279') in 0.055428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Mirror01.mat
+  artifactKey: Guid(7cd3f9a5e79dc3b42a8bf0afa28f36be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Mirror01.mat using Guid(7cd3f9a5e79dc3b42a8bf0afa28f36be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda8a027c581ffdd68a3cae3f8f71a61') in 0.017430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/Materials/No Name.mat
+  artifactKey: Guid(ce2e04ce7f3ee8b4582f713677ea71ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/Materials/No Name.mat using Guid(ce2e04ce7f3ee8b4582f713677ea71ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afc17a79586aeb4f14a44e9a3a82910') in 0.016686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/orange.mat
+  artifactKey: Guid(21fc913c8b0c3f945a751a9bee716512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/orange.mat using Guid(21fc913c8b0c3f945a751a9bee716512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c64dca282ea8c926a89b6c2607dfd4a') in 0.016356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/plum.mat
+  artifactKey: Guid(6191649bb54b9ce46819227b43d8aedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/plum.mat using Guid(6191649bb54b9ce46819227b43d8aedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b544491fd218eafe3bed6bfb97cbe549') in 0.016357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/palm_Leaf.mat
+  artifactKey: Guid(dde5ea878adab9a46b6ca12e58109f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/palm_Leaf.mat using Guid(dde5ea878adab9a46b6ca12e58109f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8784c241f9757a13578917e7404c81') in 0.554454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Sofa Set.mat
+  artifactKey: Guid(b249a99e3ba8bb54d8d51ca9362ab5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Sofa Set.mat using Guid(b249a99e3ba8bb54d8d51ca9362ab5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811416638d2f77c446546ea2c264b5d5') in 0.122876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/pear.mat
+  artifactKey: Guid(39630f69765b6034d9bbddb6616b074d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/pear.mat using Guid(39630f69765b6034d9bbddb6616b074d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1c428c505a993a503f2cedb6dd450e') in 0.022640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/phong1.mat
+  artifactKey: Guid(c6fc8e8d24a39324da3a81ba04501f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/phong1.mat using Guid(c6fc8e8d24a39324da3a81ba04501f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1755a85f35a274036747d07ef6373a1b') in 0.055809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/steel.mat
+  artifactKey: Guid(d5cc4092e0588e7429a3317fee49c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/steel.mat using Guid(d5cc4092e0588e7429a3317fee49c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aeee17a1403378ace785f59841cce2f') in 0.117488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Socket.mat
+  artifactKey: Guid(03d392b7533ea364385a659548bec1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Socket.mat using Guid(03d392b7533ea364385a659548bec1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7865ddb5dacad89227053867a15bf0') in 0.052230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Paintings_House_1.mat
+  artifactKey: Guid(364cd3221926eca4ab567684bb1dc1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Paintings_House_1.mat using Guid(364cd3221926eca4ab567684bb1dc1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf31990927297c175b869d72e812997') in 0.029896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/plant_pot.mat
+  artifactKey: Guid(f41c82ab74dcbc04387f7da78a5d35a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/plant_pot.mat using Guid(f41c82ab74dcbc04387f7da78a5d35a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c130fa2f0a9f046443b6d5d2f1e0b1') in 0.026320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/mug-tree.mat
+  artifactKey: Guid(b7aa507bacbbd6449a2870c281e6ee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/mug-tree.mat using Guid(b7aa507bacbbd6449a2870c281e6ee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69904fa9d6bd904ebe1fa5f23ffa3e8b') in 0.034062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/NewCarpet.mat
+  artifactKey: Guid(882f8e621c8f5d54da7a75e25d1b9f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/NewCarpet.mat using Guid(882f8e621c8f5d54da7a75e25d1b9f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfcd5322dfb14a8fa205599dccc35d2') in 0.019109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/Cutlery.obj
+  artifactKey: Guid(ae7dbd3d3ea7e0c418e25d2b31428eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/Cutlery.obj using Guid(ae7dbd3d3ea7e0c418e25d2b31428eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370ac0c49c36ba5e221d43ee08940869') in 0.093958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/study_chair_seat.mat
+  artifactKey: Guid(1c05af769159a3145bb58ad7d08ab97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/study_chair_seat.mat using Guid(1c05af769159a3145bb58ad7d08ab97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6138e57e68f308632770e9d1d04f88d') in 0.048873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/PictureImage03.mat
+  artifactKey: Guid(82b9fb37e60d59246ad215201ff8af63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/PictureImage03.mat using Guid(82b9fb37e60d59246ad215201ff8af63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0924ed37419b727f7afa18760f6cfc57') in 0.018069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/Materials/PictureImage01.mat
+  artifactKey: Guid(4e8a0c3179797ab49802225f24c379e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/Materials/PictureImage01.mat using Guid(4e8a0c3179797ab49802225f24c379e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066608500ff9bb5cd46b582e118361fa') in 0.016402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Notepad.mat
+  artifactKey: Guid(4d1c559756768b94197583a31aca5bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Notepad.mat using Guid(4d1c559756768b94197583a31aca5bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0e2d2a4dd1e717aff0c03452b03491') in 0.082349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/bedroom_lamp_3.obj
+  artifactKey: Guid(3b32450d8da8f6742814016fe54e02bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/bedroom_lamp_3.obj using Guid(3b32450d8da8f6742814016fe54e02bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b754ce156d0a7a91a9e2039a61934ffd') in 0.030633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.708782 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/studyroom_floor3.mat
+  artifactKey: Guid(fa30d7ee76a1bf6449d1aca6e346d9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/studyroom_floor3.mat using Guid(fa30d7ee76a1bf6449d1aca6e346d9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fddb523310a31972de05164f9a3b9b6') in 0.028427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/switch2.mat
+  artifactKey: Guid(0d680d986d494944c95ccbac773fd978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/switch2.mat using Guid(0d680d986d494944c95ccbac773fd978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f514c6542ccf2b0463eae775a9d97eb0') in 0.019317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/switch1.mat
+  artifactKey: Guid(b24e8bf6f46cd704784e1c3c6425881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/switch1.mat using Guid(b24e8bf6f46cd704784e1c3c6425881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd112f563f1d3ab2e3f3752b4550cb73') in 0.108690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/toasterNew.mat
+  artifactKey: Guid(0feb6fd111fad4340a845fdcc88a0256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/toasterNew.mat using Guid(0feb6fd111fad4340a845fdcc88a0256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e44b58ef2cf1ca9bc5a87ede7039bd') in 0.029329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/toilet_wood1.mat
+  artifactKey: Guid(29534a1eeec33734b90c42ba7a7066e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/toilet_wood1.mat using Guid(29534a1eeec33734b90c42ba7a7066e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec6afd56058b15f5713fbc745e34612') in 0.080567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/trash-can.mat
+  artifactKey: Guid(9e1744e4e18d6a643b3fa83fa0517540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/trash-can.mat using Guid(9e1744e4e18d6a643b3fa83fa0517540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f495f154a54c7ce38cb8e175023302') in 0.085820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/toilet_wood_1.mat
+  artifactKey: Guid(dbb709c26c7673949a486d24f29d8d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/toilet_wood_1.mat using Guid(dbb709c26c7673949a486d24f29d8d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb1fdb2f01d22e3b114829c16437f46') in 0.093618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Tile_bath.mat
+  artifactKey: Guid(f430e19ebcdd6fa4d9ca53ca26ea9053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Tile_bath.mat using Guid(f430e19ebcdd6fa4d9ca53ca26ea9053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921e67a7ef90c67ab1992fccc241a545') in 0.073161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.357521 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/TV.mat
+  artifactKey: Guid(bae92872f8def814aa56d38b83872bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/TV.mat using Guid(bae92872f8def814aa56d38b83872bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2fdcfc11f5528b4ffa4c8f574ce77b') in 0.019122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/TV_Panels.mat
+  artifactKey: Guid(020acf349999ad847b11f10986b92608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/TV_Panels.mat using Guid(020acf349999ad847b11f10986b92608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403bcbb5d9c5fdd7cf6a9549965d8e37') in 0.077137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Window_1.mat
+  artifactKey: Guid(ae6fe5718214f4a448775964ff81e810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Window_1.mat using Guid(ae6fe5718214f4a448775964ff81e810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf5f2ce4393d45c349a6f3e5a23bc0f') in 0.018987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/wines.mat
+  artifactKey: Guid(915aae32e7b29ec4483596f5fd77735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/wines.mat using Guid(915aae32e7b29ec4483596f5fd77735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3220ed66f6302f285edba06003871fd') in 0.021455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/washingMachine.mat
+  artifactKey: Guid(76e5b83b916d91a45b05dfa43946b5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/washingMachine.mat using Guid(76e5b83b916d91a45b05dfa43946b5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a9f405c5ebd222972a1a8c38bd5794') in 0.025156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/white_wood.mat
+  artifactKey: Guid(228aa5022e6bb424c9bde15f4ee67f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/white_wood.mat using Guid(228aa5022e6bb424c9bde15f4ee67f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dafeb7873df78a2e04b0291a2249746') in 0.100072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/TV_Shelf.mat
+  artifactKey: Guid(d9aef06b55740964e95be9a98cafec86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/TV_Shelf.mat using Guid(d9aef06b55740964e95be9a98cafec86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b227d9da298d083510599ebd3588cb8b') in 0.074589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/washingmachineclosed.mat
+  artifactKey: Guid(ea636fb6a1773c14d9c8a721de688596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/washingmachineclosed.mat using Guid(ea636fb6a1773c14d9c8a721de688596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919693f72e80a62c03a89a6c09ce130f') in 0.025817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.844745 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/M_candleglass.mat
+  artifactKey: Guid(5a6479d82c7eb914c860d8ae4f7b1c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/M_candleglass.mat using Guid(5a6479d82c7eb914c860d8ae4f7b1c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f383b6e3072db34b1b85fd5eb19d8c1c') in 0.019251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.007514 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/book_4.mat
+  artifactKey: Guid(f503274d4dab2484e8bf37b2383c8154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/book_4.mat using Guid(f503274d4dab2484e8bf37b2383c8154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b59bf350d3afc243680c6962acee8f') in 0.018013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/ceramic.mat
+  artifactKey: Guid(12e6f9ff373ca6945b1b0336dca53519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/ceramic.mat using Guid(12e6f9ff373ca6945b1b0336dca53519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dc931452cc6ba218644d86782949fa') in 0.035690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/CommonCeramic02Biege.mat
+  artifactKey: Guid(4e632116817848e4697d7a4c038f5566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/CommonCeramic02Biege.mat using Guid(4e632116817848e4697d7a4c038f5566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3bfa733a170cfcab9301a5f380a60f') in 0.071540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/DrainerNew.mat
+  artifactKey: Guid(d8431a273a4d9e44593372bbd3a9d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/DrainerNew.mat using Guid(d8431a273a4d9e44593372bbd3a9d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6140a8edd73b2f9b455a1d6102dd1a54') in 0.035434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat
+  artifactKey: Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat using Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec759a9e5a4f08fed3f56671cf11474a') in 0.018994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/door.fbx
+  artifactKey: Guid(472c70e45ce20dc4cbfafea4fdf83224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/door.fbx using Guid(472c70e45ce20dc4cbfafea4fdf83224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b29b7f2c364788149d989f919f8ad51') in 0.106628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/glass_wall_glass4.mat
+  artifactKey: Guid(008b48c168d07c8449b55d0ad65c3824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/glass_wall_glass4.mat using Guid(008b48c168d07c8449b55d0ad65c3824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c3ea57347294fee6100844f67a077b') in 0.034684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/coffee_maker.mat
+  artifactKey: Guid(776517be60d8d954c8b2c012f596d21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/coffee_maker.mat using Guid(776517be60d8d954c8b2c012f596d21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c67591af889321aa47d051c66f8201b') in 0.134212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/CommonPlastic01.mat
+  artifactKey: Guid(cf1264f540ebacd479cd135c22c04384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/CommonPlastic01.mat using Guid(cf1264f540ebacd479cd135c22c04384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec0503a7a2a37152365878235eb406d') in 0.018079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/Materials/drainer.mat
+  artifactKey: Guid(ac60303e1964ac24282aa82c29862e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/Materials/drainer.mat using Guid(ac60303e1964ac24282aa82c29862e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaf4d0ebe7ce29899968ee87efcb6f8') in 0.019299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Food_Cloth.mat
+  artifactKey: Guid(d8125c70b3a7e0142836129df47ed75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Food_Cloth.mat using Guid(d8125c70b3a7e0142836129df47ed75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c8fbe3196ab17a1d6b0eae91ec04b8') in 0.110499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Furniture_Atlas_1.mat
+  artifactKey: Guid(f9add7219a5b60440b1d464521ead527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Furniture_Atlas_1.mat using Guid(f9add7219a5b60440b1d464521ead527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7c42c4f0c23eed997ddad5c63ccf6a') in 0.107942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.864801 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/induction-hob.mat
+  artifactKey: Guid(efaa9a8a6a323b84d9029a194dd5477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/induction-hob.mat using Guid(efaa9a8a6a323b84d9029a194dd5477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cecabf2a074c5e4d62af9b34b076234') in 0.152953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-00000189E5E56BB0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E5ECBB00 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E6E20B00 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E56CF640 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E5B2EC50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E5823E40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E2F40080 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189D9050820 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E56CF640 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E5280020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E677BCF0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189D9D22A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E6A34EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E67CAEC0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189D9D22A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E67CAEC0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E521C0C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189B4ABA950 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189DADE8060 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E6A34EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E57E0EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E5823E40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E6A34EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189DA78C010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E5E56BB0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189DADE8060 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E642A420 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E66D0E50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E4EC7E10 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189B4889030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E57ADF40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E5E78E80 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E6A34EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E3908020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E4EF6E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E3EE5700 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E67CAEC0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189D8C0F030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189B4B15D60 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E598A490 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189D8519FF0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189B4889030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189B4A5C8C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E5F113C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189B4B15D60 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000018A58877870 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189D8EBCC10 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E6578530 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E598A490 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E6352030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E6578530 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E40BBE40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189B4B90010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000189E5631450 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.081 seconds
+Refreshing native plugins compatible for Editor in 12.10 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.951 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (1026ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		LoadAllAssembliesAndSetupDomain (876ms)
+			LoadAssemblies (527ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+				TypeCache.Initialize (436ms)
+					TypeCache.ScanAssembly (427ms)
+				ResolveRequiredComponents (18ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (796ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 13.02 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5295.
+Memory consumption went from 168.8 MB to 166.8 MB.
+Total: 7.628400 ms (FindLiveObjects: 0.548900 ms CreateObjectMapping: 0.225500 ms MarkObjects: 5.521400 ms  DeleteObjects: 1.330800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
