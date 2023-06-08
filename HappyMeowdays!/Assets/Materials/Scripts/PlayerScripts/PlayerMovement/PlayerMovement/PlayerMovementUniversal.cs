@@ -17,6 +17,9 @@ public class PlayerMovementUniversal : MonoBehaviour
     float horizontalInput;
     float verticalInput;
 
+    private float currentMoveSpeed;
+    private float currentJumpForce;
+
     Vector3 moveDirection;
 
     bool readyToJump;
@@ -25,7 +28,9 @@ public class PlayerMovementUniversal : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("hasbeenset");
+        currentMoveSpeed = PlyrMovSts.moveSpeed;
+        currentJumpForce = PlyrMovSts.jumpForce;
+
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
@@ -106,4 +111,5 @@ public class PlayerMovementUniversal : MonoBehaviour
     {
         readyToJump = true;
     }
+
 }
