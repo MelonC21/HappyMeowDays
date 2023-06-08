@@ -33,7 +33,9 @@ public class DialogueTrigger : MonoBehaviour
         {
             if (!dialogueRunner.Dialogue.IsActive)
             {
-                dialogueRunner.StartDialogue("Start");
+                dialogueRunner.StartDialogue("alien");
+
+                //Debug.Log(dialogueRunner.Dialogue);
             }
             else
             {
