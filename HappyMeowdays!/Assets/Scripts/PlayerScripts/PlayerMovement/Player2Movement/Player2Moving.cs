@@ -21,11 +21,6 @@ public class Player2Moving : MonoBehaviour
 
     Vector3 moveDirection;
 
-    public float jumpCooldown;
-    public float jumpForce;
-    public float airMultiplyer;
-    bool readyToJump;
-
     Rigidbody rb;
 
     private void Start()
@@ -33,7 +28,6 @@ public class Player2Moving : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
-        resetJump();
     }
 
     private void Update()
@@ -63,26 +57,13 @@ public class Player2Moving : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("JoystickHorizontal");
         verticalInput = Input.GetAxisRaw("JoystickVertical");
-
-        if (Input.GetKey(KeyCode.Joystick1Button0) && readyToJump && grounded)
-        {
-            readyToJump = false;
-
-            smallJump();
-
-            Invoke(nameof(resetJump), jumpCooldown);
-        }
     }
 
     private void MovePlayer()
     {
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        if(grounded)
-            rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
-
-        else if (!grounded)
-            rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplyer, ForceMode.Force);
+        rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
     }
 
     private void SpeedControl()
@@ -94,20 +75,6 @@ public class Player2Moving : MonoBehaviour
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
         }
-    }
-
-    private void smallJump()
-    {
-        rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
-
-        rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
-
-
-    }
-
-    private void resetJump()
-    {
-        readyToJump = true;
     }
 
 }
