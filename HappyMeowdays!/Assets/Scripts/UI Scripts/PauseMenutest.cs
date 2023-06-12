@@ -20,6 +20,8 @@ public class PauseMenutest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
+
         gameISPaused = false;
         PauseMenuUI.SetActive(false);
         settingsIsOpen = false;
@@ -36,6 +38,8 @@ public class PauseMenutest : MonoBehaviour
                 gameISPaused = true;
                 PauseMenuUI.SetActive(true);
                 Time.timeScale = 0;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
             }
             else
             {
@@ -44,6 +48,8 @@ public class PauseMenutest : MonoBehaviour
                 settingsIsOpen = false;
                 settingsMenu.SetActive(false);
                 Time.timeScale = 1;
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
             }
         }
 
