@@ -17,7 +17,15 @@ public class PauseMenutest : MonoBehaviour
     [SerializeField]
     private GameObject settingsMenu;
 
-    
+    [SerializeField]
+    private bool controlsIsOpen = false;
+    [SerializeField]
+    private GameObject controlsMenu;
+    [SerializeField]
+    private GameObject AudioMenu;
+    [SerializeField]
+    private bool audioMenuIsOpen = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +34,10 @@ public class PauseMenutest : MonoBehaviour
         PauseMenuUI.SetActive(false);
         settingsIsOpen = false;
         settingsMenu.SetActive(false);
+        controlsIsOpen = false;
+        controlsMenu.SetActive(false);
+        audioMenuIsOpen = false;
+        AudioMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -64,6 +76,48 @@ public class PauseMenutest : MonoBehaviour
         {
             settingsIsOpen = true;
             settingsMenu.SetActive(true);
+        }
+    }
+
+    public void ToggleAudioPanel()
+    {
+        if (audioMenuIsOpen)
+        {
+            audioMenuIsOpen = false;
+            AudioMenu.SetActive(false);
+
+        }
+        else if (!audioMenuIsOpen)
+        {
+            if (controlsIsOpen)
+            {
+                controlsIsOpen = false;
+                controlsMenu.SetActive(false);
+            }
+
+            audioMenuIsOpen = true;
+            AudioMenu.SetActive(true);
+        }
+    }
+
+    public void ToggleControls()
+    {
+        if (controlsIsOpen)
+        {
+            controlsIsOpen = false;
+            controlsMenu.SetActive(false);
+
+        }
+        else if (!controlsIsOpen)
+        {
+            if (audioMenuIsOpen)
+            {
+                audioMenuIsOpen = false;
+                AudioMenu.SetActive(false);
+            }
+
+            controlsIsOpen = true;
+            controlsMenu.SetActive(true);
         }
     }
 
