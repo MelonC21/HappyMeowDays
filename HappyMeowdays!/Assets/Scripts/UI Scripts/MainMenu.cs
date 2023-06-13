@@ -18,11 +18,12 @@ public class MainMenu : MonoBehaviour
     [SerializeField]
     private bool audioMenuIsOpen = false;
 
-
+    
    
 
     private void Start()
     {
+        GameManager.Instance.UpdateGamestate(GameManager.GameState.Menu);
         settingsIsOpen = false;
         settingsMenu.SetActive(false);
         controlsIsOpen = false;
@@ -33,7 +34,9 @@ public class MainMenu : MonoBehaviour
 
     public void GoToScene(string sceneName)
     {
+        GameManager.Instance.UpdateGamestate(GameManager.GameState.Playing);
         SceneManager.LoadScene(sceneName);
+
     }
 
     public void ToggleSettings()

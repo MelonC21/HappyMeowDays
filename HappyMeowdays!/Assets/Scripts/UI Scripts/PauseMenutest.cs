@@ -17,11 +17,11 @@ public class PauseMenutest : MonoBehaviour
     [SerializeField]
     private GameObject settingsMenu;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
-       
-
         gameISPaused = false;
         PauseMenuUI.SetActive(false);
         settingsIsOpen = false;
@@ -31,15 +31,13 @@ public class PauseMenutest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !(GameManager.Instance.State == GameManager.GameState.Menu))
         {
             if(!gameISPaused)
             {
                 gameISPaused = true;
                 PauseMenuUI.SetActive(true);
-                Time.timeScale = 0;
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
+                GameManager.Instance.UpdateGamestate(GameManager.GameState.Paused);
             }
             else
             {
@@ -47,9 +45,7 @@ public class PauseMenutest : MonoBehaviour
                 PauseMenuUI.SetActive(false);
                 settingsIsOpen = false;
                 settingsMenu.SetActive(false);
-                Time.timeScale = 1;
-                Cursor.visible = false;
-                Cursor.lockState = CursorLockMode.Locked;
+                GameManager.Instance.UpdateGamestate(GameManager.GameState.Playing);
             }
         }
 
@@ -75,7 +71,8 @@ public class PauseMenutest : MonoBehaviour
     {
         gameISPaused = false;
         PauseMenuUI.SetActive(false);
-        Time.timeScale = 1;
+        GameManager.Instance.UpdateGamestate(GameManager.GameState.Playing);
+        
     }
 
     public void MainMenu(string sceneName)
