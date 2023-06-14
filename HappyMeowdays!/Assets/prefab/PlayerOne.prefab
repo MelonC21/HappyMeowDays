@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7962637601086029398}
   - component: {fileID: 5191467023578865376}
   - component: {fileID: 4040980716032911541}
-  - component: {fileID: 1619565293377602772}
   - component: {fileID: 9014083096916334185}
+  - component: {fileID: 770148764642785720}
   m_Layer: 0
   m_Name: PlayerOne
   m_TagString: Player
@@ -112,28 +112,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1619565293377602772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 871864011526592933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51b8cf48f455229449ef821c771bf9c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 15
-  groundDrag: 5
-  playerHeight: 2
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
-  orientation: {fileID: 7619813360308745720}
-  jumpCooldown: 0.5
-  jumpForce: 5
-  airMultiplyer: 1
 --- !u!54 &9014083096916334185
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -161,6 +139,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &770148764642785720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871864011526592933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5eee6f8fba1c6448cd36b4b7aed143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlyrMovSts: {fileID: 11400000, guid: 83f2785837494c743a0a312906ba2591, type: 2}
+  playerHeight: 2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  orientation: {fileID: 7619813360308745720}
 --- !u!1 &1612822821578492866
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,8 +246,8 @@ Camera:
   m_GameObject: {fileID: 3071970439425708553}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
