@@ -15,7 +15,7 @@ C:/Users/Miguel/Documents/GitHub/HappyMeowDays/HappyMeowdays!
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61579
+56321
 Successfully changed project path to: C:/Users/Miguel/Documents/GitHub/HappyMeowDays/HappyMeowdays!
 C:/Users/Miguel/Documents/GitHub/HappyMeowDays/HappyMeowdays!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Miguel/Documents/GitHub/HappyMeowDays/HappyMeowdays!
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17684] Host "[IP] 11.96.65.230 [Port] 0 [Flags] 2 [Guid] 2626617095 [EditorId] 2626617095 [Version] 1048832 [Id] WindowsEditor(7,MIGGY-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21812] Host "[IP] 11.96.65.230 [Port] 0 [Flags] 2 [Guid] 1571984909 [EditorId] 1571984909 [Version] 1048832 [Id] WindowsEditor(7,MIGGY-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17684] Host "[IP] 11.96.65.230 [Port] 0 [Flags] 2 [Guid] 2626617095 [EditorId] 2626617095 [Version] 1048832 [Id] WindowsEditor(7,MIGGY-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21812] Host "[IP] 11.96.65.230 [Port] 0 [Flags] 2 [Guid] 1571984909 [EditorId] 1571984909 [Version] 1048832 [Id] WindowsEditor(7,MIGGY-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 15.41 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 18.15 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006297 seconds.
-- Loaded All Assemblies, in  0.338 seconds
+Registered in 0.005915 seconds.
+- Loaded All Assemblies, in  0.252 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.231 seconds
+- Finished resetting the current domain, in  0.188 seconds
 Domain Reload Profiling:
-	ReloadAssembly (205ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (165ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (94ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
-				TypeCache.Initialize (124ms)
-					TypeCache.ScanAssembly (122ms)
+			SetupTypeCache (82ms)
+				TypeCache.Initialize (81ms)
+					TypeCache.ScanAssembly (80ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (181ms)
+			SetupLoadedEditorAssemblies (149ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,167 +109,165 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+Symbol file data-0000021A3531F440 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A35345E50 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77684010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77689620 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77689620 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77689620 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7769DC30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A776A2240 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A776A2240 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A776D9850 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76D69020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A776D9850 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A776D9850 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A776E3460 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DC4040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7700E8F0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD5170 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DDE380 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7859D430 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A785A9240 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A785A9240 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A785B5420 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77028B10 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77028B10 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77031E30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77031E30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77031E30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A785B99C0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77218690 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A785B99C0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A785B99C0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77218690 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77218690 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77218690 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7710F010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7710F010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77062850 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77062850 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77062850 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78B34A30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A789D6010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78B34A30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77086460 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7708AF30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7708AF30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A784AD420 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78A59220 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A784DAC40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A784DAC40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78A59220 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78A59220 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78A59220 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A350E3010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77188E30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77188E30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A3512F020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A3514DEF0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.679 seconds
-Refreshing native plugins compatible for Editor in 7.79 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.625 seconds
+Refreshing native plugins compatible for Editor in 6.40 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.601 seconds
+- Finished resetting the current domain, in  0.490 seconds
 Domain Reload Profiling:
-	ReloadAssembly (184ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (152ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		LoadAllAssembliesAndSetupDomain (491ms)
-			LoadAssemblies (268ms)
+			CreateAndSetChildDomain (17ms)
+		LoadAllAssembliesAndSetupDomain (467ms)
+			LoadAssemblies (297ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-				TypeCache.Initialize (236ms)
-					TypeCache.ScanAssembly (231ms)
-				ResolveRequiredComponents (10ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (462ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 63.38 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5021 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 116 unused Assets / (3.0 MB). Loaded Objects now: 5494.
-Memory consumption went from 281.5 MB to 278.5 MB.
-Total: 34.922100 ms (FindLiveObjects: 1.414900 ms CreateObjectMapping: 0.931600 ms MarkObjects: 31.103300 ms  DeleteObjects: 1.469100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 862756.532280 seconds.
-  path: Assets/UnityAssetStore/WorldMaterialsFree/URPMaterials/RuinStoneBricks_URPShader.mat
-  artifactKey: Guid(d7808e852e08b934aa5b9fdcae5d0ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityAssetStore/WorldMaterialsFree/URPMaterials/RuinStoneBricks_URPShader.mat using Guid(d7808e852e08b934aa5b9fdcae5d0ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee018c69fba273a54dfbcfe3874c97d') in 0.435362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UnityAssetStore/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat
-  artifactKey: Guid(5d69df9d9d11e49d110086ba44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityAssetStore/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat using Guid(5d69df9d9d11e49d110086ba44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36871777a55828d8f7bcf7639d68cb03') in 0.112860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 12.004346 seconds.
-  path: Assets/BigFurniturePack/Models/Materials/wood_3.mat
-  artifactKey: Guid(9a21eb46837654f4f84d01d31001741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BigFurniturePack/Models/Materials/wood_3.mat using Guid(9a21eb46837654f4f84d01d31001741d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55268b4b82d09b86265b08ac4c84b929') in 0.050018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Christmas Scene/Assets/Models/Lights/Yellow.mat
-  artifactKey: Guid(7a38bb33e955b8845b79f6bf72c7b227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Christmas Scene/Assets/Models/Lights/Yellow.mat using Guid(7a38bb33e955b8845b79f6bf72c7b227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3797fd8c021e1649ce42813f4cf173e6') in 0.021192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 13.867642 seconds.
-  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Scenes/URP/SampleSceneWallURP.mat
-  artifactKey: Guid(98eb8d6277f6e2541b552da38de90743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Scenes/URP/SampleSceneWallURP.mat using Guid(98eb8d6277f6e2541b552da38de90743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4998839f33a9296f7ffac26dcb3fbe4f') in 0.005655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/UnityAssetStore/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat
-  artifactKey: Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityAssetStore/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat using Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f689e187cd14b41959dfa6c592cc01d0') in 0.025133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/BookOrange.fbx
-  artifactKey: Guid(fe504561693c37d43ba5303251aedb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/BookOrange.fbx using Guid(fe504561693c37d43ba5303251aedb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9662ae34716f87d8c0c4d5d18b3215d0') in 0.062823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.943 seconds
-Refreshing native plugins compatible for Editor in 6.98 ms, found 8 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.889 seconds
-Domain Reload Profiling:
-	ReloadAssembly (553ms)
-		BeginReloadAssembly (495ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		LoadAllAssembliesAndSetupDomain (388ms)
-			LoadAssemblies (222ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
-				TypeCache.Initialize (203ms)
-					TypeCache.ScanAssembly (196ms)
+			SetupTypeCache (210ms)
+				TypeCache.Initialize (186ms)
+					TypeCache.ScanAssembly (182ms)
 				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (388ms)
+			SetupLoadedEditorAssemblies (380ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 5.61 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 16.80 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4906 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (3.0 MB). Loaded Objects now: 5542.
-Memory consumption went from 259.2 MB to 256.2 MB.
-Total: 3.623600 ms (FindLiveObjects: 0.301700 ms CreateObjectMapping: 0.211700 ms MarkObjects: 2.270100 ms  DeleteObjects: 0.839500 ms)
+Unloading 5023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (3.0 MB). Loaded Objects now: 5496.
+Memory consumption went from 286.7 MB to 283.7 MB.
+Total: 10.447300 ms (FindLiveObjects: 0.972600 ms CreateObjectMapping: 0.495800 ms MarkObjects: 6.031000 ms  DeleteObjects: 2.946600 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -285,237 +283,559 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+Symbol file data-0000021A8CA2F6A0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83AC8010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A35313010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A35313010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D96B620 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A35313010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A35313010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D96B620 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B22010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D4EE5F0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D0A71C0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D0A71C0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6EEA30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A352BF160 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F23010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F29020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F29020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8213FE30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F29020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A825C7020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6EEA30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D9F0990 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6EEA30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CBB0040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A825D0340 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A797FA020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B37C20 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B37C20 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B37C20 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A797FA020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A797FA020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B401A0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A350E3010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83A26020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D54D3C0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A842CF9C0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7700E8F0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D9F0990 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A825D0340 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CA482B0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B37C20 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D54D3C0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D5623D0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A842CF9C0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CA482B0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA1CCD0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D370560 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76F83010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E10CCA0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8DE9DBB0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8DA293A0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6EEA30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA1CCD0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.889 seconds
-Refreshing native plugins compatible for Editor in 6.82 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.841 seconds
+Refreshing native plugins compatible for Editor in 6.26 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.914 seconds
+- Finished resetting the current domain, in  0.804 seconds
 Domain Reload Profiling:
-	ReloadAssembly (524ms)
-		BeginReloadAssembly (461ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		LoadAllAssembliesAndSetupDomain (363ms)
-			LoadAssemblies (213ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
-				TypeCache.Initialize (179ms)
-					TypeCache.ScanAssembly (173ms)
-				ResolveRequiredComponents (9ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (387ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 7.50 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4905 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (3.0 MB). Loaded Objects now: 5545.
-Memory consumption went from 259.0 MB to 256.0 MB.
-Total: 3.917900 ms (FindLiveObjects: 0.331100 ms CreateObjectMapping: 0.224200 ms MarkObjects: 2.448500 ms  DeleteObjects: 0.913400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 325.164875 seconds.
-  path: Assets/Materials/Alien1.fbx
-  artifactKey: Guid(55792521343a3eb43ae4e04bd7407f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Alien1.fbx using Guid(55792521343a3eb43ae4e04bd7407f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47819fd3cae09dd8679467b54577ecc3') in 0.064061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.842 seconds
-Refreshing native plugins compatible for Editor in 5.74 ms, found 8 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.870 seconds
-Domain Reload Profiling:
-	ReloadAssembly (493ms)
-		BeginReloadAssembly (442ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		LoadAllAssembliesAndSetupDomain (348ms)
-			LoadAssemblies (201ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
-				TypeCache.Initialize (175ms)
-					TypeCache.ScanAssembly (170ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (368ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 7.13 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4905 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (3.0 MB). Loaded Objects now: 5548.
-Memory consumption went from 259.1 MB to 256.1 MB.
-Total: 3.538000 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.139700 ms MarkObjects: 2.238100 ms  DeleteObjects: 0.847700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.867 seconds
-Refreshing native plugins compatible for Editor in 6.43 ms, found 8 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.885 seconds
-Domain Reload Profiling:
-	ReloadAssembly (511ms)
-		BeginReloadAssembly (456ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		LoadAllAssembliesAndSetupDomain (354ms)
-			LoadAssemblies (210ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (184ms)
-				TypeCache.Initialize (176ms)
-					TypeCache.ScanAssembly (170ms)
-				ResolveRequiredComponents (8ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (367ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 7.51 ms, found 8 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4905 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (2.9 MB). Loaded Objects now: 5551.
-Memory consumption went from 259.1 MB to 256.2 MB.
-Total: 5.003200 ms (FindLiveObjects: 0.425100 ms CreateObjectMapping: 0.174200 ms MarkObjects: 3.366600 ms  DeleteObjects: 1.036300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.848 seconds
-Refreshing native plugins compatible for Editor in 5.93 ms, found 8 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.832 seconds
-Domain Reload Profiling:
-	ReloadAssembly (506ms)
-		BeginReloadAssembly (453ms)
+	ReloadAssembly (492ms)
+		BeginReloadAssembly (439ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (34ms)
-		LoadAllAssembliesAndSetupDomain (341ms)
-			LoadAssemblies (193ms)
+		LoadAllAssembliesAndSetupDomain (346ms)
+			LoadAssemblies (196ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-				TypeCache.Initialize (177ms)
-					TypeCache.ScanAssembly (172ms)
+			SetupTypeCache (186ms)
+				TypeCache.Initialize (178ms)
+					TypeCache.ScanAssembly (171ms)
 				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (346ms)
+			SetupLoadedEditorAssemblies (355ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 6.55 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4908 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (3.1 MB). Loaded Objects now: 5499.
+Memory consumption went from 258.6 MB to 255.5 MB.
+Total: 4.157000 ms (FindLiveObjects: 0.342700 ms CreateObjectMapping: 0.276600 ms MarkObjects: 2.676300 ms  DeleteObjects: 0.860500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1322758.553892 seconds.
+  path: Assets/Scenes/MainMenuScene.unity
+  artifactKey: Guid(051eb6e679c39654fb8ae7d4f866ebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenuScene.unity using Guid(051eb6e679c39654fb8ae7d4f866ebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56aa3bf94a6ad3634fd2071cfac02aa') in 0.001276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 62.904010 seconds.
+  path: Assets/Scenes/Prototype.unity
+  artifactKey: Guid(e35c66e9d335d8f4ab55470d97496e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prototype.unity using Guid(e35c66e9d335d8f4ab55470d97496e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69313d14ad0ebe76857e8ad56b3c3361') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.471108 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerMovement
+  artifactKey: Guid(927baea72e80f304b95231ee6dd0555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts/PlayerMovement using Guid(927baea72e80f304b95231ee6dd0555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f30799f11af3d086f37d69fc69ff49') in 0.000436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.089102 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerMovement/Player1Movement
+  artifactKey: Guid(0780a77cdceb86b4baf4e20abf7aa253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerScripts/PlayerMovement/Player1Movement using Guid(0780a77cdceb86b4baf4e20abf7aa253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93c6db3a955b36a25ac451583804eaa') in 0.000483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.114699 seconds.
+  path: Assets/Scenes/PrototypeMP.unity
+  artifactKey: Guid(7cb0d979b64a28b43adcacedc8208593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PrototypeMP.unity using Guid(7cb0d979b64a28b43adcacedc8208593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ead4bd1f03620f6042c5d2744244179') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021A770DDE20 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8C98FAB0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FAA9A30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78EB9020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8F1D35B0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A791CB430 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FAA9A30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D96B620 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B22010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D4EE5F0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8BF0BFA0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8BF0BFA0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A356021D0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76EDD020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6EEA30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83A95010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76EDD020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76EDD020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76EDD020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7780BC30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DF1120 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6EEA30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CE6EE60 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6EEA30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CBB0040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DF1120 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A352BAB30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7780BC30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DF1120 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A356021D0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A352BAB30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A352BAB30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D58E3B0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A350E3010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83A26020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A770DDE20 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E332030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78AE2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CE6EE60 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A356021D0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A356021D0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B39E20 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E250170 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8F251030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8F251030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A770F6630 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76F83010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CF67030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F23010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E250170 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F23010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F2AE20 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6EEA30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CF67030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.816 seconds
+Refreshing native plugins compatible for Editor in 7.20 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.828 seconds
+Domain Reload Profiling:
+	ReloadAssembly (478ms)
+		BeginReloadAssembly (425ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		LoadAllAssembliesAndSetupDomain (337ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+				TypeCache.Initialize (171ms)
+					TypeCache.ScanAssembly (164ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 7.20 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4908 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (3.1 MB). Loaded Objects now: 5502.
+Memory consumption went from 258.6 MB to 255.5 MB.
+Total: 3.784500 ms (FindLiveObjects: 0.324200 ms CreateObjectMapping: 0.133300 ms MarkObjects: 2.421000 ms  DeleteObjects: 0.905200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106.726441 seconds.
+  path: Assets/Scenes/Prototype.unity
+  artifactKey: Guid(e35c66e9d335d8f4ab55470d97496e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prototype.unity using Guid(e35c66e9d335d8f4ab55470d97496e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4867447d4ba9468fac9b7c07f6304d') in 0.001516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021A770DDE20 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8BA7EE30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77884010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83A95010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8F1D35B0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A787E2010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77884010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8C9BE160 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B22010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8F86E010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A356021D0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77884010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA83020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7A3F3020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77884010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8EFB2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8EFB2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8BA15D60 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8EFB2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A791CB430 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA83020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CE6EE60 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA83020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B94020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8332B020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76CF7C60 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8332B020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8EFB2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D58E3B0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A3548AD30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A81F0A040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A770DDE20 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78AE2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CE6EE60 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8EFB2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79D61030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76CF7C60 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8F36F010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79D61030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76F83010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D330B00 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F23010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CF52020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D330B00 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CEA7870 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A81CD2010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77780030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.831 seconds
+Refreshing native plugins compatible for Editor in 7.11 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (482ms)
+		BeginReloadAssembly (429ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		LoadAllAssembliesAndSetupDomain (348ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+				TypeCache.Initialize (183ms)
+					TypeCache.ScanAssembly (178ms)
+				ResolveRequiredComponents (9ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 5.82 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 6.48 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4905 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (3.0 MB). Loaded Objects now: 5554.
-Memory consumption went from 259.1 MB to 256.2 MB.
-Total: 3.674300 ms (FindLiveObjects: 0.328700 ms CreateObjectMapping: 0.211200 ms MarkObjects: 2.281700 ms  DeleteObjects: 0.852100 ms)
+Unloading 4908 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (3.1 MB). Loaded Objects now: 5505.
+Memory consumption went from 258.6 MB to 255.6 MB.
+Total: 3.887500 ms (FindLiveObjects: 0.305600 ms CreateObjectMapping: 0.204000 ms MarkObjects: 2.491300 ms  DeleteObjects: 0.885900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -533,49 +853,163 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+Symbol file data-0000021A81D8C020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7975C020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A835DB020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8C9BE160 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A787E2010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7975C020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8F1D35B0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B22010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D4EE5F0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79AE85D0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79AE85D0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79AA5010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7975C020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA83020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8204E020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79918010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D330B00 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D330B00 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8204E020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D330B00 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79789380 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA83020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7762E010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA83020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E93CAD0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83A95010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8ED96030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83A95010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83A95010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76EDD020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E652040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A3548AD30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A81F0A040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A81D8C020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8ED96030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78AE2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D06FBB0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76EDD020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79D61030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79D61030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E9159F0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84373010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8EFB2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76F83010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77884010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F23010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8BA7EE30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77884010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DF1120 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8DFAD780 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79AA5010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.831 seconds
-Refreshing native plugins compatible for Editor in 6.43 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.820 seconds
+Refreshing native plugins compatible for Editor in 6.05 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.869 seconds
+- Finished resetting the current domain, in  0.810 seconds
 Domain Reload Profiling:
-	ReloadAssembly (484ms)
-		BeginReloadAssembly (433ms)
+	ReloadAssembly (485ms)
+		BeginReloadAssembly (431ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		LoadAllAssembliesAndSetupDomain (346ms)
-			LoadAssemblies (197ms)
+			CreateAndSetChildDomain (32ms)
+		LoadAllAssembliesAndSetupDomain (333ms)
+			LoadAssemblies (192ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-				TypeCache.Initialize (177ms)
-					TypeCache.ScanAssembly (172ms)
+			SetupTypeCache (179ms)
+				TypeCache.Initialize (171ms)
+					TypeCache.ScanAssembly (166ms)
 				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (371ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 6.80 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 6.26 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4905 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (3.0 MB). Loaded Objects now: 5557.
-Memory consumption went from 259.2 MB to 256.2 MB.
-Total: 3.926900 ms (FindLiveObjects: 0.424400 ms CreateObjectMapping: 0.228000 ms MarkObjects: 2.285500 ms  DeleteObjects: 0.988400 ms)
+Unloading 4908 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (3.0 MB). Loaded Objects now: 5508.
+Memory consumption went from 258.6 MB to 255.6 MB.
+Total: 4.314900 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.221600 ms MarkObjects: 2.848900 ms  DeleteObjects: 0.903500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -590,3 +1024,751 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021A81D8C020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A793A1020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79053010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8F1D35B0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A787E2010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A793A1020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8C9BE160 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8DFD55A0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D4EE5F0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6D6020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A793A1020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA83020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8332B020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A793A1020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79D61030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79D61030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76CF7C60 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76EDD020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79789380 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA83020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CB10450 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FA83020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78494020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7A3F3020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8ED96030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76CF7C60 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7A3F3020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76EDD020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D602040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D602040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B401A0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A3548AD30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A81F0A040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A81D8C020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8ED96030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78AE2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77935020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79918010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DF1120 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76CF7C60 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8DE85DA0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D602040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D602040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DF1120 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76F83010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6D6020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F23010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79E5D030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6D6020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8ED96030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A81CD2010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8F1B1020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.809 seconds
+Refreshing native plugins compatible for Editor in 6.21 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (472ms)
+		BeginReloadAssembly (419ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		LoadAllAssembliesAndSetupDomain (335ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+				TypeCache.Initialize (170ms)
+					TypeCache.ScanAssembly (165ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 7.81 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4908 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (3.1 MB). Loaded Objects now: 5511.
+Memory consumption went from 258.6 MB to 255.6 MB.
+Total: 3.874700 ms (FindLiveObjects: 0.310200 ms CreateObjectMapping: 0.214600 ms MarkObjects: 2.389000 ms  DeleteObjects: 0.960200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021A81D8C020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CB4A030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83A95010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83A95010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A787E2010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8CB4A030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8399B6F0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83B22010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D4EE5F0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77894030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E6D6020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A793A1020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A3514DEF0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A793A1020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A793A1020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D167BE0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D167BE0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8D167BE0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A77884010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8ED96030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A3514DEF0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A7762E010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A3514DEF0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78494020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84CBF140 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FAA5010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84CBF140 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84CBF140 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84DE0A00 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A773B7010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A773B7010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A832C1030 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A3548AD30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A81F0A040 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A81D8C020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FAA5010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DD0B40 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78AE2020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8E12DCA0 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A84DE0A00 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76EDD020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76EDD020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8F0BE010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8FAA5010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A773B7010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A83DAE020 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76F83010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8233A010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A78F23010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8BA7EE30 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A8233A010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A79918010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A81CD2010 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021A76DF1120 doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Miguel\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.821 seconds
+Refreshing native plugins compatible for Editor in 5.73 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.786 seconds
+Domain Reload Profiling:
+	ReloadAssembly (475ms)
+		BeginReloadAssembly (423ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		LoadAllAssembliesAndSetupDomain (344ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+				TypeCache.Initialize (176ms)
+					TypeCache.ScanAssembly (172ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 6.26 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4908 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (3.0 MB). Loaded Objects now: 5514.
+Memory consumption went from 258.6 MB to 255.6 MB.
+Total: 3.826100 ms (FindLiveObjects: 0.337500 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.439700 ms  DeleteObjects: 0.927200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 493.303157 seconds.
+  path: Assets/Scenes/Miguel.unity
+  artifactKey: Guid(129c987ea1b5dd04596ec2bf0b65b918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Miguel.unity using Guid(129c987ea1b5dd04596ec2bf0b65b918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b1e075e224676dfd87eb06cf57ab8f') in 0.001403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.972451 seconds.
+  path: Assets/Scenes/Prototype.unity
+  artifactKey: Guid(e35c66e9d335d8f4ab55470d97496e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prototype.unity using Guid(e35c66e9d335d8f4ab55470d97496e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6e665665ad506a39d49d560397b556') in 0.000505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.294489 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_10.mat
+  artifactKey: Guid(6050999adefbe334bba18599a7b05f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_10.mat using Guid(6050999adefbe334bba18599a7b05f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8fec5a82239437d8647cb4a538ca36') in 0.128233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Christmas Scene/Assets/Models/Decoration/Material/Rope.mat
+  artifactKey: Guid(c60cef40c4643814a91def02dd59782f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christmas Scene/Assets/Models/Decoration/Material/Rope.mat using Guid(c60cef40c4643814a91def02dd59782f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73a67c506ea69559feba4da0a02e1b4') in 0.019104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Remote.mat
+  artifactKey: Guid(41b3ec61035ecd949b2f8d3f6f58d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Remote.mat using Guid(41b3ec61035ecd949b2f8d3f6f58d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee94f163d5c3a115a7cfa9f96dc23685') in 0.055294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/LevelMaterials/RedRoom.mat
+  artifactKey: Guid(34e085ddb3bbb8d44a61a3521d00e283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LevelMaterials/RedRoom.mat using Guid(34e085ddb3bbb8d44a61a3521d00e283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb7ecb3105edab0314d111f60abaa31') in 0.009228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityAssetStore/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat
+  artifactKey: Guid(4b5dce0492bdfb648a389fe390071625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat using Guid(4b5dce0492bdfb648a389fe390071625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86eeb784d1fe58e4d41317fde0b49973') in 0.010608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityAssetStore/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat
+  artifactKey: Guid(6fd099d339b4ae34692c8258e4f87531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat using Guid(6fd099d339b4ae34692c8258e4f87531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170133395ca25738343c2be7067ef6bd') in 0.012781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Christmas Scene/Assets/Models/Gifts/1/Materials/RedKnot.mat
+  artifactKey: Guid(6c5c356ae9c7bc240a183d30449bbc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christmas Scene/Assets/Models/Gifts/1/Materials/RedKnot.mat using Guid(6c5c356ae9c7bc240a183d30449bbc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f047e19f1d9b8a17041f7dc297bfcc4e') in 0.010979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.185732 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Scenes/SRP/SampleSceneFloor.mat
+  artifactKey: Guid(7138b1b9bfdb77446b9bd598d0c204d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Scenes/SRP/SampleSceneFloor.mat using Guid(7138b1b9bfdb77446b9bd598d0c204d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2438e3efc131d995e033ac298f55493') in 0.009401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018685 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Scenes/URP/SampleSceneFloorURP.mat
+  artifactKey: Guid(959e414235007ec42bf5cc5e374ce010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Scenes/URP/SampleSceneFloorURP.mat using Guid(959e414235007ec42bf5cc5e374ce010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceb650cd85d8ce1821319d8392db0a2') in 0.013419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.977295 seconds.
+  path: Assets/EffectTexturesAndPrefabs/Materials/ShockWave.mat
+  artifactKey: Guid(5f99d3e552fc62a46adcae1142016e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectTexturesAndPrefabs/Materials/ShockWave.mat using Guid(5f99d3e552fc62a46adcae1142016e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ecb5a5a56a329d7ebc618bc7878d6c') in 0.021931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016126 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/Hammer.fbx
+  artifactKey: Guid(39a8b7fbca88eb842b946df761cdaa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/Hammer.fbx using Guid(39a8b7fbca88eb842b946df761cdaa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954e82d77760ade93585ef422a48bd53') in 0.059169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.287347 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/TV.fbx
+  artifactKey: Guid(33214f9d37d795441875ba08bbe38a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/TV.fbx using Guid(33214f9d37d795441875ba08bbe38a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd9b63dea1a83fefd15a91c542d2923') in 0.013692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.421802 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/Wrench.fbx
+  artifactKey: Guid(14f2837993714674bb122799de8153ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/Wrench.fbx using Guid(14f2837993714674bb122799de8153ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8af120214ca65fbb2f64e84a3f204c') in 0.013404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.062918 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/Medkit.fbx
+  artifactKey: Guid(f89105f1a7259a7438e6b355f754ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/Medkit.fbx using Guid(f89105f1a7259a7438e6b355f754ca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f9cb2da600a9b655e357940c22885b') in 0.014147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.053695 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/KitchenKnifeBrown.fbx
+  artifactKey: Guid(30b2d5ef486e90c4f84072fe791deea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/KitchenKnifeBrown.fbx using Guid(30b2d5ef486e90c4f84072fe791deea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4448e235cba4057e7e0a41c69bc8e2de') in 0.014107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.054286 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/HealthKit.fbx
+  artifactKey: Guid(398846502ebef9d4db139fba4c4f8e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Models/HealthKit.fbx using Guid(398846502ebef9d4db139fba4c4f8e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5aaa10b8128626634c2f10b5c789f92') in 0.013148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.141532 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_9.mat
+  artifactKey: Guid(0206025cb345d16488ac1f9e2b587dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_9.mat using Guid(0206025cb345d16488ac1f9e2b587dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e01c378d2a06b5fa0c27401b6654e1') in 0.012009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.743390 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_7.mat
+  artifactKey: Guid(ebca30f447f1d1848812d23bd50f789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_7.mat using Guid(ebca30f447f1d1848812d23bd50f789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a287d05265e55e3cf9caca14ef687fd0') in 0.012585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034488 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_5.mat
+  artifactKey: Guid(4a8ad5290f2411842b9e416e7b89b2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_5.mat using Guid(4a8ad5290f2411842b9e416e7b89b2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce12af3ffef262839e876e11751b944c') in 0.011552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.085200 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_3.mat
+  artifactKey: Guid(b143536856f156f479d5ed2222190dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_3.mat using Guid(b143536856f156f479d5ed2222190dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5930a67a6c2f9255bd6352b8692da3') in 0.012887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.259405 seconds.
+  path: Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_1.mat
+  artifactKey: Guid(1bef6174832ce994987824718f0207c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/iPoly3D/Prototype Textures/Materials/Red/Red_1.mat using Guid(1bef6174832ce994987824718f0207c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d26da781ee6535ea7d2823eb0946718') in 0.012340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.457839 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Red.mat
+  artifactKey: Guid(6a6944f4904547e4fb039789da5fcd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Red.mat using Guid(6a6944f4904547e4fb039789da5fcd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6357de4844505ee87c7b1b4f4a74c9a') in 0.023190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.403642 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Purple.mat
+  artifactKey: Guid(152a75409221b6244be7b0063172b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Purple.mat using Guid(152a75409221b6244be7b0063172b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e25c4a6888a99988c78a2739b9e774c') in 0.008674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.667050 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Yellow.mat
+  artifactKey: Guid(dd66d467961812f4383351e477499b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Yellow.mat using Guid(dd66d467961812f4383351e477499b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc80918df69efe60bcfe0a8fbb25ce0') in 0.013036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.524426 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Yellow.mat
+  artifactKey: Guid(c852af001dae0064e9acaa832f1dadb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Yellow.mat using Guid(c852af001dae0064e9acaa832f1dadb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4229596b295c9d866a4799fc0a133a') in 0.028258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.492856 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_White.mat
+  artifactKey: Guid(aeee7071bea0a4c478b4fea5933c5f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_White.mat using Guid(aeee7071bea0a4c478b4fea5933c5f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dafa07507fd4f86be49ee7d6f2cb104') in 0.008926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.511628 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Red.mat
+  artifactKey: Guid(c61a55dba6ed64c4f8e865f32677062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Red.mat using Guid(c61a55dba6ed64c4f8e865f32677062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1da706b8aed859042493706b502d1b') in 0.006755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.033835 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Red.mat
+  artifactKey: Guid(a4b62a69d54e80347bd546999c6d4b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Red.mat using Guid(a4b62a69d54e80347bd546999c6d4b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a12b06dbc7edff0b995ad66eda781d') in 0.006216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.584116 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Purple.mat
+  artifactKey: Guid(36bce9ab6cae8ce43962938466458044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Purple.mat using Guid(36bce9ab6cae8ce43962938466458044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1613bf9cf24150589c9c202c9c055fa') in 0.009256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.134694 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Pink.mat
+  artifactKey: Guid(9cbe122d0bf53f14ba269e044bc3f03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Pink.mat using Guid(9cbe122d0bf53f14ba269e044bc3f03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e0619f6dbe35a31c13f52620d27310') in 0.007002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.800394 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Pink.mat
+  artifactKey: Guid(5e88a93148f69984e968ecc92408960f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Pink.mat using Guid(5e88a93148f69984e968ecc92408960f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351a53f1ab80d727224d64e92d4df5a2') in 0.006052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.037985 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Orange.mat
+  artifactKey: Guid(7e6b6a154cd59634b8e06a92e338ba2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Orange.mat using Guid(7e6b6a154cd59634b8e06a92e338ba2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b57f13cb8d5d45219b8c40e325f1d2') in 0.005496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025740 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Olive.mat
+  artifactKey: Guid(a3b40d06620734d4fa8f4423d0f09692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Olive.mat using Guid(a3b40d06620734d4fa8f4423d0f09692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92b7d4683aa40ed7e0936f8e05d8178') in 0.008596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.103790 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Olive.mat
+  artifactKey: Guid(f794c8451763f354c84ed1f9b0ea15a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Olive.mat using Guid(f794c8451763f354c84ed1f9b0ea15a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1e64ef1aec88aeb4729b255bb6ba62') in 0.008625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.099566 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Magenta.mat
+  artifactKey: Guid(9618c6b42230db7408b3b734da21470a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Magenta.mat using Guid(9618c6b42230db7408b3b734da21470a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b691bde092db931a445b8bc9ac47510') in 0.005607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.586063 seconds.
+  path: Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey4.mat
+  artifactKey: Guid(8d530ffe6c4968843806085897955b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey4.mat using Guid(8d530ffe6c4968843806085897955b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81121df2787376207ec733e30fc42a9b') in 0.011726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.897146 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/plates1.mat
+  artifactKey: Guid(43f6d7742c794f24ebb9b67ef7351d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/plates1.mat using Guid(43f6d7742c794f24ebb9b67ef7351d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a612fb967abd8638d54d3e4da5cfbc15') in 0.037861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.052490 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/plant_pot.mat
+  artifactKey: Guid(f41c82ab74dcbc04387f7da78a5d35a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/plant_pot.mat using Guid(f41c82ab74dcbc04387f7da78a5d35a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516a63f43ea3bd7937982806c679771c') in 0.012945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.818683 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/PictureImage03.mat
+  artifactKey: Guid(82b9fb37e60d59246ad215201ff8af63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/PictureImage03.mat using Guid(82b9fb37e60d59246ad215201ff8af63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddc291a9c5241ab072ea19db9f6b50a') in 0.009299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.246999 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/PictureBorder01.mat
+  artifactKey: Guid(f9754145af43a3247b531a19a3f24f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/PictureBorder01.mat using Guid(f9754145af43a3247b531a19a3f24f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a60f86e5f29a168bb46324ae3bcb18') in 0.007434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.038205 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Meshes/window.fbx
+  artifactKey: Guid(fc52b793d12d2364b9fcb01ea622923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Meshes/window.fbx using Guid(fc52b793d12d2364b9fcb01ea622923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf8fa9c7e8b95bda94391aa26049209') in 0.028970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.416676 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/pear.mat
+  artifactKey: Guid(39630f69765b6034d9bbddb6616b074d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/pear.mat using Guid(39630f69765b6034d9bbddb6616b074d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16af1b37778e9cff471a8df3fdf5f8a8') in 0.007861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.013066 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/palm_Leaf.mat
+  artifactKey: Guid(dde5ea878adab9a46b6ca12e58109f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/palm_Leaf.mat using Guid(dde5ea878adab9a46b6ca12e58109f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9d9f3b416ec8ba12a04875c7cb5d62') in 0.028863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.175252 seconds.
+  path: Assets/DevDen Arch Viz Scotland/Materials/Paintings_House_2.mat
+  artifactKey: Guid(419992a69d9c4c84fa2eee846cebc8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDen Arch Viz Scotland/Materials/Paintings_House_2.mat using Guid(419992a69d9c4c84fa2eee846cebc8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b304aec1ee27a4bbcbb1fd3013bdefd') in 0.022285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 41.217715 seconds.
+  path: Assets/Christmas Scene/Assets/Models/Gifts/1/Materials/YellowKnot.mat
+  artifactKey: Guid(cea592ccad0746b488a84679f222005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christmas Scene/Assets/Models/Gifts/1/Materials/YellowKnot.mat using Guid(cea592ccad0746b488a84679f222005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c85b1c06dca07c44ed9d58f156adf3') in 0.007533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UnityAssetStore/SampleScenes/Materials/YellowSmooth.mat
+  artifactKey: Guid(61bcea22404bda2469670dd9255037db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SampleScenes/Materials/YellowSmooth.mat using Guid(61bcea22404bda2469670dd9255037db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2ee52dc19bcca0bcd76e377a4dd87e') in 0.007614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UnityAssetStore/Standard Assets/Prototyping/Materials/YellowSmooth.mat
+  artifactKey: Guid(6e1d36c4bbd37d54f9ea183e4f5fd656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Standard Assets/Prototyping/Materials/YellowSmooth.mat using Guid(6e1d36c4bbd37d54f9ea183e4f5fd656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88403b9658d295f6c3771371be362c0') in 0.007870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.353662 seconds.
+  path: Assets/Christmas Scene/Assets/Materials/Ground/Wood.mat
+  artifactKey: Guid(a3be526b70ed33649873d6e8dedd4701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christmas Scene/Assets/Materials/Ground/Wood.mat using Guid(a3be526b70ed33649873d6e8dedd4701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8050b22f42a8e899ceacd930ea1a0e8a') in 0.032379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
