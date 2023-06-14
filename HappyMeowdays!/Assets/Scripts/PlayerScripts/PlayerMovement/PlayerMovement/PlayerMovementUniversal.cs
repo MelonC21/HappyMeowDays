@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovementUniversal : MonoBehaviour
 {
+
+    [SerializeField] private AudioClip jumpingBoing;
     //reference call to the scriptable object for the players
     public PlayerMovementScriptable PlyrMovSts;
 
@@ -73,6 +75,8 @@ public class PlayerMovementUniversal : MonoBehaviour
             smallJump();
 
             Invoke(nameof(resetJump), PlyrMovSts.jumpCooldown);
+
+            AudioSource.PlayClipAtPoint(jumpingBoing, transform.position);
         }
     }
 
