@@ -1,0 +1,1110 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.15f1 (30d813e1a2a9) revision 3201043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker18
+-projectPath
+C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
+-logFile
+Logs/AssetImportWorker18.log
+-srvPort
+51810
+Successfully changed project path to: C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
+C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8584] Host "[IP] 11.96.33.166 [Port] 0 [Flags] 2 [Guid] 2449948788 [EditorId] 2449948788 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QH0B45) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8584] Host "[IP] 11.96.33.166 [Port] 0 [Flags] 2 [Guid] 2449948788 [EditorId] 2449948788 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1QH0B45) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 15.64 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sebastian/Documents/GitHub/HappyMeowDays/HappyMeowdays!/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011964 seconds.
+- Loaded All Assemblies, in  0.417 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.319 seconds
+Domain Reload Profiling:
+	ReloadAssembly (247ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+				TypeCache.Initialize (156ms)
+					TypeCache.ScanAssembly (155ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-000002A5F16B4040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2F78040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2F84A50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32A0020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F16EAC60 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32DB430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1E4B010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32DB430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1B94020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1B94020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32DB430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32DB430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32DB430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32DB430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32DB430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32DB430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F30B8040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F30B8040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32DB430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32DB430 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BD9050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32E7A50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32E7A50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BD9050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BD9050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BE5860 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BE5860 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F19EC020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2CF4020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BE5860 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F195BC00 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32E7A50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32E7A50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F195BC00 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1A6F230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BE5860 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F197C810 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32E7A50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3126C70 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F32E7A50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3421E20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F344DE30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDA3BE90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDA748A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1A6F230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1A6F230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1A6F230 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1996C30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDA81CB0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F34CB010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F34CB010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F199CC40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F34D8820 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F34E3030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.896 seconds
+Refreshing native plugins compatible for Editor in 8.29 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.859 seconds
+Domain Reload Profiling:
+	ReloadAssembly (271ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		LoadAllAssembliesAndSetupDomain (619ms)
+			LoadAssemblies (328ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+				TypeCache.Initialize (321ms)
+					TypeCache.ScanAssembly (316ms)
+				ResolveRequiredComponents (13ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (665ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (517ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 9.13 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (2.0 MB). Loaded Objects now: 5241.
+Memory consumption went from 183.9 MB to 181.9 MB.
+Total: 5.600500 ms (FindLiveObjects: 0.447300 ms CreateObjectMapping: 0.130400 ms MarkObjects: 4.225500 ms  DeleteObjects: 0.795900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002A5FE453030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F428B010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F20E8050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F4AA9020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDC57020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F15BF030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FD807C30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F15BF030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F4AA9020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3198010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F15BF030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1716A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F15BF030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDBC99E0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1716A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDBC99E0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FDAA3030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDA97770 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDBC99E0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F15BF030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1528270 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE176730 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1716A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE453030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE453030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDBC99E0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1B80020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FCCAC010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FD807C30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3689020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FD807C30 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE453030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDBF8020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FCDEEF10 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F35C4020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE46B840 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1716A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F35EC050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F19CE040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FDAA3030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F19CE040 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F218E020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDC02BA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FD824A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDC02BA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1716A40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDC02BA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDC02BA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.501 seconds
+Refreshing native plugins compatible for Editor in 9.33 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (856ms)
+		BeginReloadAssembly (757ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		LoadAllAssembliesAndSetupDomain (640ms)
+			LoadAssemblies (337ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+				TypeCache.Initialize (359ms)
+					TypeCache.ScanAssembly (351ms)
+				ResolveRequiredComponents (15ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (657ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (493ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 9.60 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5244.
+Memory consumption went from 162.8 MB to 160.8 MB.
+Total: 6.130800 ms (FindLiveObjects: 0.582200 ms CreateObjectMapping: 0.344700 ms MarkObjects: 4.157700 ms  DeleteObjects: 1.044800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002A5FE453030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA18EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE8BBFA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F4AA9020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A4000EEAF0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FED0A050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F49B9030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F4AA9020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3198010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2F19C50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEC61000 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE549010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2F19C50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE549010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400533200 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC168020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F35C4020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEC61000 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE7B4AB0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400884E40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400B355B0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEE69970 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE453030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEAB72A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA18EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400107F20 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE92B630 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA18EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEB6A9F0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400909E50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE495010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDC02BA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEBD83E0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE549010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF056A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2F19C50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A4008B27B0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE14E980 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA18EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEFBA030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A4000EEAF0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEC61000 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEC582A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF4DAB0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF056A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FED0A050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE7B4AB0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF056A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2F19C50 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A6409D3010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF4DAB0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.558 seconds
+Refreshing native plugins compatible for Editor in 8.73 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (751ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		LoadAllAssembliesAndSetupDomain (690ms)
+			LoadAssemblies (385ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+				TypeCache.Initialize (370ms)
+					TypeCache.ScanAssembly (362ms)
+				ResolveRequiredComponents (15ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (702ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (519ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 9.20 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5247.
+Memory consumption went from 162.8 MB to 160.8 MB.
+Total: 5.342200 ms (FindLiveObjects: 0.455800 ms CreateObjectMapping: 0.172700 ms MarkObjects: 3.732100 ms  DeleteObjects: 0.980200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002A400CAC020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA18EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F20E8050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF156E0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDC81010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FED0A050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEFBA030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A40046B790 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF156E0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3198010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A40046B790 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A40046B790 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A40046B790 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE549010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A40046B790 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A4002B9E60 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEE84310 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC168020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F35C4020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A40046B790 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE9E40F0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F218E020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE453030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400CAC020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEAB72A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA18EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1866020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FF0BBAD0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A4000EEAF0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEB6A9F0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE92B630 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEAB72A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA18EE0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE549010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF056A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF056A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F4BC1030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A4000EEAF0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEB6A9F0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A4000EEAF0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BF8010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF056A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF056A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FED0A050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FF1C2080 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF056A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BF8010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A4008BEA90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEF056A0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.785 seconds
+Refreshing native plugins compatible for Editor in 10.38 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (849ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		LoadAllAssembliesAndSetupDomain (811ms)
+			LoadAssemblies (389ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+				TypeCache.Initialize (470ms)
+					TypeCache.ScanAssembly (459ms)
+				ResolveRequiredComponents (30ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (687ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (519ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 10.54 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5250.
+Memory consumption went from 162.8 MB to 160.8 MB.
+Total: 6.808300 ms (FindLiveObjects: 0.662600 ms CreateObjectMapping: 0.403500 ms MarkObjects: 4.973200 ms  DeleteObjects: 0.767500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002A5FED52100 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDA08060 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F40018B0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEB6A9F0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3561020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A640410050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1B92E60 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FDC17010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEB6A9F0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A6404F7DD0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEECE020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400BC19C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3A4FB90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC56C010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400B355B0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE152990 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FD807030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F456F020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A640320050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3A4FB90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEC2B010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A640410050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400B355B0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEAA6AA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FED52100 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA2D4C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1B80020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A63F79A030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1B92E60 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDA08060 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F395A020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FDC17010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F204B020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FED52100 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE9D8C10 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A640602610 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC56C010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F30AE020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400BC19C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A64066F1C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE7A4E70 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5CDA08060 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A64028D020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F15FA540 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA12110 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A64066F1C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A64066F1C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400884E40 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEC2B010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A64066F1C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A6405FDBD0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC228010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A64066F1C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.660 seconds
+Refreshing native plugins compatible for Editor in 10.16 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.608 seconds
+Domain Reload Profiling:
+	ReloadAssembly (983ms)
+		BeginReloadAssembly (858ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		LoadAllAssembliesAndSetupDomain (672ms)
+			LoadAssemblies (378ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+				TypeCache.Initialize (363ms)
+					TypeCache.ScanAssembly (355ms)
+				ResolveRequiredComponents (14ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (683ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (516ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 12.05 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5253.
+Memory consumption went from 162.8 MB to 160.8 MB.
+Total: 5.845900 ms (FindLiveObjects: 0.441800 ms CreateObjectMapping: 0.178400 ms MarkObjects: 4.079900 ms  DeleteObjects: 1.143800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002A63FB76020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC144020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F40018B0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F395A020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F45B1010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BF8010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1B92E60 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F395A020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3198010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400BC19C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3A4FB90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC56C010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400B355B0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE152990 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FD807030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC168020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A640320050 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F3A4FB90 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400E20020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1BF8010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400B355B0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEAA6AA0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A63FB76020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA2D4C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A6404E5010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F1866020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F4667020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC144020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEDF7020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F48CA010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A63FB76020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F17D6900 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A640602610 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC56C010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400BC19C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F33EB010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FE7A4E70 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC144020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FEA71310 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F15FA540 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F41E7020 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F2FF8070 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC30E030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5F33EB010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FD3D6010 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC30E030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A400BC19C0 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC30E030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002A5FC30E030 doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Sebastian\Documents\GitHub\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.576 seconds
+Refreshing native plugins compatible for Editor in 10.12 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.637 seconds
+Domain Reload Profiling:
+	ReloadAssembly (892ms)
+		BeginReloadAssembly (783ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		LoadAllAssembliesAndSetupDomain (679ms)
+			LoadAssemblies (373ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+				TypeCache.Initialize (362ms)
+					TypeCache.ScanAssembly (353ms)
+				ResolveRequiredComponents (17ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (677ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (509ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 11.67 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (2.0 MB). Loaded Objects now: 5256.
+Memory consumption went from 162.8 MB to 160.7 MB.
+Total: 5.551100 ms (FindLiveObjects: 0.511000 ms CreateObjectMapping: 0.178100 ms MarkObjects: 3.811600 ms  DeleteObjects: 1.048700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
