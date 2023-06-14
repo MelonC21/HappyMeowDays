@@ -13,20 +13,30 @@ public class MainMenu : MonoBehaviour
     private bool controlsIsOpen = false;
     [SerializeField]
     private GameObject controlsMenu;
+    [SerializeField]
+    private GameObject AudioMenu;
+    [SerializeField]
+    private bool audioMenuIsOpen = false;
 
+    
    
 
     private void Start()
     {
+        GameManager.Instance.UpdateGamestate(GameManager.GameState.Menu);
         settingsIsOpen = false;
         settingsMenu.SetActive(false);
         controlsIsOpen = false;
         controlsMenu.SetActive(false);
+        audioMenuIsOpen = false;
+        AudioMenu.SetActive(false);
     }
 
     public void GoToScene(string sceneName)
     {
+        GameManager.Instance.UpdateGamestate(GameManager.GameState.Playing);
         SceneManager.LoadScene(sceneName);
+
     }
 
     public void ToggleSettings()
@@ -54,11 +64,36 @@ public class MainMenu : MonoBehaviour
         }
         else if (!controlsIsOpen)
         {
+            if (audioMenuIsOpen)
+            {
+                audioMenuIsOpen = false;
+                AudioMenu.SetActive(false);
+            }
+
             controlsIsOpen = true;
             controlsMenu.SetActive(true);
         }
     }
 
+    public void ToggleAudioPanel()
+    {
+        if (audioMenuIsOpen)
+        {
+            audioMenuIsOpen = false;    
+            AudioMenu.SetActive(false);
+
+        }else if (!audioMenuIsOpen)
+        {
+            if (controlsIsOpen)
+            {
+                controlsIsOpen = false;
+                controlsMenu.SetActive(false);
+            }
+
+            audioMenuIsOpen = true;
+            AudioMenu.SetActive(true);
+        }
+    }
 
     public void QuitApp()
     {

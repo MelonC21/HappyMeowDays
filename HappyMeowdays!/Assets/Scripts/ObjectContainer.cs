@@ -9,6 +9,9 @@ public class ObjectContainer : MonoBehaviour
     public GameObject objectToSpawnPrefab;
     public GameObject spawnPoint;
 
+    [SerializeField] private AudioClip collectedIn;
+    [SerializeField] private AudioClip collectedComplete;
+
     private int currentCount = 0;
 
     void OnTriggerEnter(Collider other)
@@ -18,10 +21,12 @@ public class ObjectContainer : MonoBehaviour
         {
             Debug.Log("in");
             currentCount++;
+            AudioSource.PlayClipAtPoint(collectedIn, transform.position);
 
             if (currentCount >= maxObjects)
             {
                 SpawnObject();
+                AudioSource.PlayClipAtPoint(collectedComplete, transform.position);
             }
         }
     }

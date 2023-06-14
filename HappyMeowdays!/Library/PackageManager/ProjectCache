@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638218553210438522
-    m_Hash: 3486271435
+      ticks: 638223186690093705
+    m_Hash: 3082967087
   m_LockFileStatus:
     m_FilePath: C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowdays!/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638218553210438522
-    m_Hash: 3767985485
+      ticks: 638223186690093705
+    m_Hash: 2726542701
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -595,12 +595,14 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     - 3.0.22
+    - 3.0.24
     compatible:
     - 3.0.18
     - 3.0.20
     - 3.0.21
     - 3.0.22
-    recommended: 3.0.22
+    - 3.0.24
+    recommended: 3.0.24
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -1045,6 +1047,7 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.3.5
+    - 1.3.7
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1057,6 +1060,7 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.3.5
+    - 1.3.7
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1506,6 +1510,104 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: dev.yarnspinner.unity@2.2.4
+  testable: 0
+  isDirectDependency: 1
+  version: 2.2.4
+  source: 1
+  resolvedPath: C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\dev.yarnspinner.unity@2.2.4
+  assetPath: Packages/dev.yarnspinner.unity
+  name: dev.yarnspinner.unity
+  displayName: Yarn Spinner
+  author:
+    name: Secret Lab
+    email: 
+    url: https://yarnspinner.dev
+  category: 
+  type: tool
+  description: Yarn Spinner is the friendly tool for interactive conversations. Write
+    your dialogue in a simple programming language that's designed to be straightforward
+    for writers and powerful for programmers, and then attach it to your scenes to
+    power your conversations.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.2.2
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 2.0.0-preview
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.2.4
+    compatible:
+    - 1.2.2
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 2.0.0-preview
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.2.4
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.textmeshpro
+    version: 1.4.1
+  resolvedDependencies:
+  - name: com.unity.textmeshpro
+    version: 3.0.6
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - Dialogue
+  - Yarn
+  registry:
+    id: scoped:project:OpenUPM
+    name: OpenUPM
+    url: http://package.openupm.com
+    scopes:
+    - dev.yarnspinner
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638103865943760000
+  documentationUrl: https://docs.yarnspinner.dev/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3613,10 +3715,12 @@ m_ResolvedPackages:
     - 5.0.4
     - 5.0.6
     - 5.0.7
+    - 5.1.0
     compatible:
     - 5.0.4
     - 5.0.6
     - 5.0.7
+    - 5.1.0
     recommended: 5.0.7
     deprecated: []
   dependencies:

@@ -10,12 +10,15 @@ public class Teleporter : MonoBehaviour
 
     public AudioClip thruPortal;
 
+    [SerializeField] private AudioClip teleportedThrough;
+
     public void TeleportPlayer(GameObject player)
     {
         Vector3 offset = TeleporterGate.transform.forward * offsetDistance;
         Vector3 finalPosition = TeleporterGate.transform.position + offset;
         player.transform.position = finalPosition;
         exitRotation = Quaternion.LookRotation(TeleporterGate.transform.forward, Vector3.up);
+        AudioSource.PlayClipAtPoint(teleportedThrough, finalPosition);
      }
 
     private void OnTriggerEnter(Collider other)

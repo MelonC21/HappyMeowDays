@@ -15,11 +15,12 @@ public class RandomSpawnstest : MonoBehaviour
 
     private float timerCountdown;
 
+    /*
     private void Start()
     {
         SingleSpawnItems();
     }
-
+    */
 
     private void Update()
     {
