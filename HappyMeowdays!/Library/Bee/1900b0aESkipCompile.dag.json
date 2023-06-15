@@ -27,7 +27,7 @@
       "DisplayName": "Writing 6097564273297756792.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 7673,
+      "PayloadLength": 7319,
       "PayloadDebugContentSnippet": "-a=\"C:/Users/melvi/OneDrive/De",
       "Inputs": [],
       "Outputs": [
@@ -45,30 +45,20 @@
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
         "Library/ScriptAssemblies/Autodesk.Fbx.dll",
         "Library/ScriptAssemblies/Cinemachine.dll",
+        "Library/ScriptAssemblies/CommandsInAnAssemblyDefinition.dll",
         "Library/ScriptAssemblies/FbxBuildTestAssets.dll",
-        "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll",
-        "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll",
-        "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll",
-        "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll",
-        "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll",
-        "Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll",
         "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
-        "Library/ScriptAssemblies/Unity.Animation.Rigging.dll",
-        "Library/ScriptAssemblies/Unity.Animation.Rigging.DocCodeExamples.dll",
-        "Library/ScriptAssemblies/Unity.Burst.dll",
-        "Library/ScriptAssemblies/Unity.Collections.dll",
         "Library/ScriptAssemblies/Unity.Formats.Alembic.Runtime.dll",
         "Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
-        "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll",
-        "Library/ScriptAssemblies/Unity.Mathematics.dll",
         "Library/ScriptAssemblies/Unity.Polybrush.dll",
         "Library/ScriptAssemblies/Unity.ProBuilder.Csg.dll",
         "Library/ScriptAssemblies/Unity.ProBuilder.dll",
         "Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll",
         "Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll",
         "Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll",
+        "Library/ScriptAssemblies/Unity.ProGrids.dll",
         "Library/ScriptAssemblies/Unity.Recorder.Base.dll",
         "Library/ScriptAssemblies/Unity.Recorder.dll",
         "Library/ScriptAssemblies/Unity.Sequences.dll",
@@ -80,14 +70,19 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
-        "Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
-        "Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
-        "Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
-        "Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
-        "Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.Unsafe.dll",
-        "Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
+        "Library/ScriptAssemblies/YarnSpinner.Unity.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
         "Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.Antlr4.Runtime.Standard.dll",
+        "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.CsvHelper.dll",
+        "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.Google.Protobuf.dll",
+        "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.System.Buffers.dll",
+        "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.System.Memory.dll",
+        "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.System.Numerics.Vectors.dll",
+        "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.System.Reflection.TypeExtensions.dll",
+        "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.System.Runtime.CompilerServices.Unsafe.dll",
+        "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/YarnSpinner.Compiler.dll",
+        "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/YarnSpinner.dll",
         "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
       ],
       "Outputs": [
@@ -234,28 +229,40 @@
       "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
     },
     {
-      "File": "Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.Unsafe.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
-    },
-    {
       "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
     },
     {
       "File": "Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.Antlr4.Runtime.Standard.dll"
+    },
+    {
+      "File": "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.CsvHelper.dll"
+    },
+    {
+      "File": "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.Google.Protobuf.dll"
+    },
+    {
+      "File": "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.System.Buffers.dll"
+    },
+    {
+      "File": "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.System.Memory.dll"
+    },
+    {
+      "File": "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.System.Numerics.Vectors.dll"
+    },
+    {
+      "File": "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.System.Reflection.TypeExtensions.dll"
+    },
+    {
+      "File": "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/Yarn.System.Runtime.CompilerServices.Unsafe.dll"
+    },
+    {
+      "File": "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/YarnSpinner.Compiler.dll"
+    },
+    {
+      "File": "Library/PackageCache/dev.yarnspinner.unity@2.2.4/Runtime/DLLs/YarnSpinner.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
@@ -267,40 +274,13 @@
       "File": "Library/ScriptAssemblies/Cinemachine.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/CommandsInAnAssemblyDefinition.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/FbxBuildTestAssets.dll"
     },
     {
-      "File": "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll"
-    },
-    {
       "File": "Library/ScriptAssemblies/Unity.AI.Navigation.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.Animation.Rigging.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.Animation.Rigging.DocCodeExamples.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.Burst.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.Collections.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Formats.Alembic.Runtime.dll"
@@ -313,12 +293,6 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Polybrush.dll"
@@ -337,6 +311,9 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.ProGrids.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Recorder.Base.dll"
@@ -370,6 +347,9 @@
     },
     {
       "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/YarnSpinner.Unity.dll"
     }
   ],
   "GlobSignatures": [
@@ -404,6 +384,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aESkipCompile.dag.json",
-  "PayloadsFile": "C:/Users/melvi/OneDrive/Desktop/Unity Projects/MasterSave/HappyMeowdays!/Library/Bee/1900b0aESkipCompile.dag.payloads",
+  "PayloadsFile": "C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowdays!/Library/Bee/1900b0aESkipCompile.dag.payloads",
   "RelativePathToRoot": "../.."
 }
