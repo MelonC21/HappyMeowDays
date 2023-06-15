@@ -4,18 +4,52 @@ using UnityEngine;
 
 public class ObjectInteractable : MonoBehaviour
 {
-    //[SerializeField] private PlayerInteraction2 playerInteraction;
+    [SerializeField] private PlayerInteraction playerInteraction;
     //[SerializeField] private GameObject containerGameObject;
+
+
     /*private void Start()
     {
-        playerInteraction = PlayerInteraction;
-    }*/
+        
+    }
 
     //public List<GameObject> inventory;
     //Transform interactorTransform
     public void Interact(){
-        Debug.Log("touch");
+        Debug.Log("Interact!");
+        //Destroy(gameobject);
         /*inventory.Add(GameObject.FindGameObjectWithTag("Collectable"));
         Destroy(GetComponent<Collider>().gameObject);*/
+    //}
+
+    private Rigidbody objectRigidbody;
+    private Transform objectGrabPointTransform;
+
+    private void Awake()
+    {
+        objectRigidbody = GetComponent<Rigidbody>();
+    }
+
+    public void Grab(Transform objectGrabPointTransform)
+    {
+        this.objectGrabPointTransform = objectGrabPointTransform;
+        objectRigidbody.useGravity = false;
+    }
+
+    public void Drop()
+    {
+        this.objectGrabPointTransform = null;
+        objectRigidbody.useGravity = true;
+    }
+
+
+    private void FixedUpdate()
+    {
+        if (objectGrabPointTransform != null)
+        {
+            float lerpSpeed = 10f;
+            Vector3 newPosition = Vector3.Lerp(transform.position, objectGrabPointTransform.position, Time.deltaTime * lerpSpeed);
+            objectRigidbody.MovePosition(newPosition);
+        }
     }
 }

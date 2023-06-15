@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerInteractUI : MonoBehaviour
 {
     [SerializeField] private GameObject containerGameObject;
-    //[SerializeField] private PlayerInteraction2 playerInteract2;
     [SerializeField] private PlayerInteraction playerInteract;
-    
+    //[SerializeField] public PlayerPickUpDrop playerPickUpDrop;
+
     private void Update()
     {
         if (playerInteract.GetInteractableObject() != null)
