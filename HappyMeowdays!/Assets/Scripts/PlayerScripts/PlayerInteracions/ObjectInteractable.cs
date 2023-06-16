@@ -5,22 +5,6 @@ using UnityEngine;
 public class ObjectInteractable : MonoBehaviour
 {
     [SerializeField] private PlayerInteraction playerInteraction;
-    //[SerializeField] private GameObject containerGameObject;
-
-
-    /*private void Start()
-    {
-        
-    }
-
-    //public List<GameObject> inventory;
-    //Transform interactorTransform
-    public void Interact(){
-        Debug.Log("Interact!");
-        //Destroy(gameobject);
-        /*inventory.Add(GameObject.FindGameObjectWithTag("Collectable"));
-        Destroy(GetComponent<Collider>().gameObject);*/
-    //}
 
     private Rigidbody objectRigidbody;
     private Transform objectGrabPointTransform;

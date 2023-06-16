@@ -4,23 +4,6 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-
-    /*private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            float interactRange = 2f;
-            Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
-            foreach (Collider collider in colliderArray)
-            {
-                if(collider.TryGetComponent(out ObjectInteractable objInteractable))
-                {
-                    objInteractable.Interact();
-                }
-            }
-        }
-
-    }*/
     [SerializeField] private Transform playerCameraTransform;
     [SerializeField] private LayerMask pickUpLayerMask;
     [SerializeField] private Transform objectGrabPointTransform;
@@ -36,7 +19,7 @@ public class PlayerInteraction : MonoBehaviour
             {
                 //not carrying an object, trying to grab
                 float interactRange = 2f;
-                Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
+                Collider[] colliderArray = Physics.OverlapSphere(playerCameraTransform.position, interactRange);
                 foreach (Collider collider in colliderArray)
                 {
                     if (collider.transform.TryGetComponent(out objectInteractable))
@@ -49,9 +32,17 @@ public class PlayerInteraction : MonoBehaviour
             else
             {
                 //currently carrying something, drop
-                objectInteractable.Drop();
-                objectInteractable = null;
-                Debug.Log("Dropped");
+                float interactRange = 2f;
+                Collider[] colliderArray = Physics.OverlapSphere(playerCameraTransform.position, interactRange);
+                foreach (Collider collider in colliderArray)
+                {
+                    if (collider.transform.TryGetComponent(out objectInteractable))
+                    {
+                        objectInteractable.Drop();
+                        objectInteractable = null;
+                        Debug.Log("Dropped");
+                    }
+                }
             }
         }
     }
@@ -63,7 +54,7 @@ public class PlayerInteraction : MonoBehaviour
     public ObjectInteractable GetInteractableObject()
     {
         float interactRange = 2f;
-        Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
+        Collider[] colliderArray = Physics.OverlapSphere(playerCameraTransform.position, interactRange);
         foreach (Collider collider in colliderArray)
         {
             if (collider.TryGetComponent(out ObjectInteractable objInteractable))

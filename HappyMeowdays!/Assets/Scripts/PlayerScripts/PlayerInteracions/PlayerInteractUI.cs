@@ -13,7 +13,6 @@ public class PlayerInteractUI : MonoBehaviour
     {
         if (playerInteract.GetInteractableObject() != null)
         {
-            //Show(playerInteract.GetInteractableObject());
             Show();
         }
         else
@@ -25,7 +24,6 @@ public class PlayerInteractUI : MonoBehaviour
     private void Show()
     {
         containerGameObject.SetActive(true);
-        //interactTextMeshProUGUI.text = objInteractable.GetInteractText();
     }
 
     private void Hide()
