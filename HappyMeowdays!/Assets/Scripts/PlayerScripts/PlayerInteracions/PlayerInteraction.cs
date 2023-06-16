@@ -13,7 +13,7 @@ public class PlayerInteraction : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Joystick1Button2))
         {
             if (objectInteractable == null)
             {
@@ -32,17 +32,9 @@ public class PlayerInteraction : MonoBehaviour
             else
             {
                 //currently carrying something, drop
-                float interactRange = 2f;
-                Collider[] colliderArray = Physics.OverlapSphere(playerCameraTransform.position, interactRange);
-                foreach (Collider collider in colliderArray)
-                {
-                    if (collider.transform.TryGetComponent(out objectInteractable))
-                    {
-                        objectInteractable.Drop();
-                        objectInteractable = null;
-                        Debug.Log("Dropped");
-                    }
-                }
+                objectInteractable.Drop();
+                objectInteractable = null;
+                Debug.Log("Dropped");
             }
         }
     }
