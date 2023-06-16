@@ -15,7 +15,7 @@ C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowday
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57291
+58152
 Successfully changed project path to: C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowdays!
 C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowdays!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/melvi/OneDrive/Desktop/Unity Projects/Github/HappyMeowDays/HappyMeowday
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2080] Host "[IP] 11.64.34.142 [Port] 0 [Flags] 2 [Guid] 3598835056 [EditorId] 3598835056 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22120] Host "[IP] 11.64.34.142 [Port] 0 [Flags] 2 [Guid] 193922960 [EditorId] 193922960 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2080] Host "[IP] 11.64.34.142 [Port] 0 [Flags] 2 [Guid] 3598835056 [EditorId] 3598835056 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22120] Host "[IP] 11.64.34.142 [Port] 0 [Flags] 2 [Guid] 193922960 [EditorId] 193922960 [Version] 1048832 [Id] WindowsEditor(7,MelPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.69 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 14.13 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,40 +67,40 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004738 seconds.
-- Loaded All Assemblies, in  0.329 seconds
+Registered in 0.004612 seconds.
+- Loaded All Assemblies, in  0.220 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.217 seconds
+- Finished resetting the current domain, in  0.191 seconds
 Domain Reload Profiling:
-	ReloadAssembly (196ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (130ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (97ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
-				TypeCache.Initialize (125ms)
-					TypeCache.ScanAssembly (124ms)
+			SetupTypeCache (84ms)
+				TypeCache.Initialize (83ms)
+					TypeCache.ScanAssembly (82ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (167ms)
+			SetupLoadedEditorAssemblies (153ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (6ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadAttributes (103ms)
 				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,168 +109,168 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000002F493A8F6D0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file data-00000283FA6FE500 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F493737220 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file data-00000283FA54F010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F493743C30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file data-00000283FA724F10 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49442C010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file data-00000283FA55BA20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F493743C30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-00000283F8D56020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F44EBC9020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-00000283FA56BC30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F44EBC9020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000283FA1FB010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49374BC40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-00000283FA61F220 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49414A620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-00000283FA724F10 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4917CD060 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-00000283FA56BC30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4917CD060 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000283FA1FB010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49414A620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-00000283FB08CA30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4917CD060 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
+Symbol file data-00000283F8D56020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491743010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file data-00000283FA2E8620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491743010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000283FA2E8620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4917E5C70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000283F890B420 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491743010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file data-00000283FA2E8620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4917FDA80 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000283F890B420 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491F38010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-00000283FAB2D010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491F38010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-00000283F89B9010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491812090 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000283FA438C50 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491743010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-00000283FA2E8620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491812090 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000283F8753860 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492222A20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-00000283F8D56020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492222A20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-00000283FA2E8620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491812090 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000283F878AE70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491812090 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-00000283FA227430 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492222A20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file data-00000283F8D56020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49181E8A0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000283F878AE70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491E7CC30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-00000283F80E2310 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491790620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-00000283FA923020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49181E8A0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file data-00000283F878AE70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491790620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-00000283F8BFC940 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491F9D030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-00000283FB08CA30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491F9D030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-00000283FA724F10 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491F9D030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
+Symbol file data-00000283FA724F10 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49200D480 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-00000283FA227430 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4918284B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-00000283FA438C50 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4918284B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
+Symbol file data-00000283FA438C50 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4918284B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-00000283FA438C50 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4918284B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000283F890B420 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492022490 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-00000283FA23FC40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492022490 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-00000283FA23FC40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F494518230 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file data-00000283F890B420 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4941B9010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-00000283F81BAA20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492031B70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-00000283FA443060 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49421A420 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000283FA785020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F494252E30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000283F821BE30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492031B70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file data-00000283FA443060 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F494252E30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-00000283FA23FC40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492022490 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-00000283FA23FC40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492022490 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-00000283F8225040 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F494544240 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-00000283F822B050 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491631870 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-00000283FA809A40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F494544240 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000283FA809A40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492031B70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-00000283FA443060 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492031B70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-00000283FA443060 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49164AE90 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file data-00000283FA817250 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F494544240 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file data-00000283FA821A60 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.753 seconds
-Refreshing native plugins compatible for Editor in 6.08 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 6.33 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.714 seconds
+- Finished resetting the current domain, in  0.658 seconds
 Domain Reload Profiling:
-	ReloadAssembly (169ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (166ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		LoadAllAssembliesAndSetupDomain (580ms)
-			LoadAssemblies (264ms)
+		LoadAllAssembliesAndSetupDomain (498ms)
+			LoadAssemblies (237ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (356ms)
-				TypeCache.Initialize (319ms)
-					TypeCache.ScanAssembly (315ms)
+			SetupTypeCache (303ms)
+				TypeCache.Initialize (270ms)
+					TypeCache.ScanAssembly (266ms)
 				ResolveRequiredComponents (9ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (568ms)
+			SetupLoadedEditorAssemblies (537ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (475ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (452ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.81 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.14 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4998 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 116 unused Assets / (3.0 MB). Loaded Objects now: 5480.
-Memory consumption went from 290.2 MB to 287.2 MB.
-Total: 4.012400 ms (FindLiveObjects: 0.384000 ms CreateObjectMapping: 0.279700 ms MarkObjects: 2.624500 ms  DeleteObjects: 0.723600 ms)
+Unloading 116 unused Assets / (3.1 MB). Loaded Objects now: 5480.
+Memory consumption went from 290.4 MB to 287.3 MB.
+Total: 4.961800 ms (FindLiveObjects: 0.353600 ms CreateObjectMapping: 0.123200 ms MarkObjects: 3.243600 ms  DeleteObjects: 1.240500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -285,228 +285,184 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 83544.507985 seconds.
-  path: Assets/prefab/DustPrefab.prefab
-  artifactKey: Guid(f5452a12df43eef439c5ff2b57805688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/DustPrefab.prefab using Guid(f5452a12df43eef439c5ff2b57805688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525006dc5d15f12c46e0e8f4d269ec0c') in 0.086403 seconds
+  Time since last request: 85265.748659 seconds.
+  path: Assets/prefab/Block Tower.prefab
+  artifactKey: Guid(19af98b5909a4a44fb24012110629de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Block Tower.prefab using Guid(19af98b5909a4a44fb24012110629de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db874aa24620fe9562a07f2a4084542e') in 0.029513 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 68
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/prefab/information post.prefab
-  artifactKey: Guid(64c734ec8c94b8d4892624992b046849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/information post.prefab using Guid(64c734ec8c94b8d4892624992b046849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3b147b11e8f26dccac4390fbda6ffb') in 0.136346 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.000023 seconds.
+  path: Assets/prefab/Block Arch.prefab
+  artifactKey: Guid(50c48ff3c57021840bd68c985beabb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Block Arch.prefab using Guid(50c48ff3c57021840bd68c985beabb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c23c73f8ff88bdee920578134ce569') in 0.002733 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 73
-========================================================================
-Received Import Request.
-  Time since last request: 4.226874 seconds.
-  path: Assets/prefab/RandomBuildingBlocks/5x3Stairs.prefab
-  artifactKey: Guid(cf9b08fb2f4c35c45aa3676f21cf2b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/RandomBuildingBlocks/5x3Stairs.prefab using Guid(cf9b08fb2f4c35c45aa3676f21cf2b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c713b0a1f208c43a9d7c3e9fc1f23078') in 0.003949 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/prefab/RandomBuildingBlocks/5x5.prefab
-  artifactKey: Guid(3d344c871fdf93e4fb61106dc989a0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/RandomBuildingBlocks/5x5.prefab using Guid(3d344c871fdf93e4fb61106dc989a0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1b0ffa66b7c4bf0950259a6268a01b') in 0.002367 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/prefab/RandomBuildingBlocks/BoxFlapShort.prefab
-  artifactKey: Guid(4bba815aa113d4549b7b937bdb4f2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/RandomBuildingBlocks/BoxFlapShort.prefab using Guid(4bba815aa113d4549b7b937bdb4f2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbc004ee0f853b65972309ffad62002') in 0.003511 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/prefab/RandomBuildingBlocks/CardboardBox.prefab
-  artifactKey: Guid(438e562397c5ab7439bcb2cd3a289b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefab/RandomBuildingBlocks/CardboardBox.prefab using Guid(438e562397c5ab7439bcb2cd3a289b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4d536829a0e2573ea3eef2706fea69') in 0.003020 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 5)
-Symbol file data-000002F4952D6010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file data-0000028405438420 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49EC1C010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file data-000002840532C5B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491B696F0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49455E020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file data-00000283FC54D010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49EB20020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491D25020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-00000283FAF6E020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49EC35850 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000283FAD3D030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A2F0E290 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-00000283F8D56020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F494FA9010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49455E020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-00000283FC54D010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491DEBC10 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000283FA1FB010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F494FA9010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4950C1030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491743010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49D055650 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492340020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491743010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492340020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4959DE020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-00000283F8A73870 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49ECC2BB0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000028223D60030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4950C1030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49D055650 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000028401670030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49455E020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000283F86B40F0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491D3AC30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000028401674640 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49D055650 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-0000028401674640 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4914B5E40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000283FBD7E020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4914B5E40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000028405438420 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49EB20020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file data-0000028401F38FD0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491480080 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000028400E32E20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F495A34030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-00000283F80E2310 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49E39D6C0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-00000284015FE6F0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4914B5E40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file data-00000283FBD7E020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49EEB86B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-00000283FADE7020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491D3AC30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-00000283F86D7D00 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491D3AC30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-00000283F86D7D00 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F493960A70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
+Symbol file data-00000283F86D7D00 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F494BA4020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-00000283FADE7020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491B696F0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-00000283F86A2020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4950C1030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
+Symbol file data-00000283F86A2020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49F437640 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-00000283F86A2020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4951E3E10 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000283F86A2020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49F1DE010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000028401674640 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4952EEC20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000028401291430 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49595A040 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file data-00000283B56EC060 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49EC1C010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-000002840162A700 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F493960A70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-0000028401291430 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491CD1020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000284024AC2A0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49E78D5D0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002840162A700 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49D055650 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file data-0000028401291430 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F494FA9010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-00000284024E4CB0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4952EEC20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000028401291430 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4952EEC20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000028401674640 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49F1DE010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-0000028223DBB440 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49C8D0080 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-00000283FFFD0080 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49F1DE010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000283F86D7D00 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F493960A70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-00000283FADC4E50 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F493960A70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-00000283FADC4E50 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491D09A30 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file data-00000283F8D7F430 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49F1DE010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file data-0000028223DBB440 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.918 seconds
-Refreshing native plugins compatible for Editor in 7.42 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 6.31 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.144 seconds
+- Finished resetting the current domain, in  1.034 seconds
 Domain Reload Profiling:
-	ReloadAssembly (545ms)
-		BeginReloadAssembly (487ms)
+	ReloadAssembly (488ms)
+		BeginReloadAssembly (436ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		LoadAllAssembliesAndSetupDomain (371ms)
-			LoadAssemblies (214ms)
+			CreateAndSetChildDomain (32ms)
+		LoadAllAssembliesAndSetupDomain (336ms)
+			LoadAssemblies (189ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
-				TypeCache.Initialize (190ms)
-					TypeCache.ScanAssembly (185ms)
+			SetupTypeCache (184ms)
+				TypeCache.Initialize (176ms)
+					TypeCache.ScanAssembly (171ms)
 				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (584ms)
+			SetupLoadedEditorAssemblies (523ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (477ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (428ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 8.51 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 8.06 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4884 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (3.0 MB). Loaded Objects now: 5492.
-Memory consumption went from 266.9 MB to 263.9 MB.
-Total: 4.532900 ms (FindLiveObjects: 0.459300 ms CreateObjectMapping: 0.318200 ms MarkObjects: 2.919100 ms  DeleteObjects: 0.835600 ms)
+Unloading 100 unused Assets / (3.1 MB). Loaded Objects now: 5484.
+Memory consumption went from 262.4 MB to 259.4 MB.
+Total: 4.295100 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 0.121800 ms MarkObjects: 2.907900 ms  DeleteObjects: 0.900200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -521,169 +477,177 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 2268.033663 seconds.
+  path: Assets/prefab/G_Clock/Textures/Clock_L_lambert1_Metallic.tga.png
+  artifactKey: Guid(9793791bf8900eb479dcd18015721113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/G_Clock/Textures/Clock_L_lambert1_Metallic.tga.png using Guid(9793791bf8900eb479dcd18015721113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39391e8227e1273efec2c6a1324d0a3e') in 0.041178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000002F4952D6010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
+Symbol file data-00000283FB6B0010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49424F020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
+Symbol file data-0000028402B59D40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491B696F0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
+Symbol file data-0000028403C391D0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Sequences.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A352F850 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file data-0000028402D4B620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F508C466B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-000002840427C730 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49424F020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000028402F51090 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A2ED2E80 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000283FAD3D030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49D37C030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-000002840412F540 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file data-00000283FB9DBC20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A352F850 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000028402D4B620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F508AFC020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000028404184030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000028402200080 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F508C466B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
+Symbol file data-000002840399F930 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491743010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file data-0000028402D79A20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TerrainTools.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002840462F690 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492340020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000283F8E43010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491743010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
+Symbol file data-000002840462F690 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.Base.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492340020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000284027A2BC0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49DC2C010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000028402E56840 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49ECC2BB0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000028224A29040 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49D82FC50 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000028403E77780 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-000002840462F690 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4951F5310 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000028402C77C70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-00000284029C8FE0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
+Symbol file data-0000028402CD11E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491D25020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000028402955AB0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4952D6010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-00000283FB6B0010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49432C620 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
+Symbol file data-00000284031B7FE0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49CB98CF0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002840532C5B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49581A020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-00000284053864C0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F493DC1010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-000002840578AD60 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49F1C5800 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
+Symbol file data-00000284030AD4B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49455E020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-00000283F8207010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F495218F20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000028402F4B9F0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F495218F20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file data-0000028404AC8F80 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F495218F20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
+Symbol file data-0000028402D79A20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\CommandsInAnAssemblyDefinition.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49DAFE010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
+Symbol file data-000002844928F930 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F491B696F0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000028402BA3FE0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49D82FC50 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
+Symbol file data-0000028402A9FA90 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\YarnSpinner.Unity.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F492340020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-00000283F8E43010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F493F1D010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000028403E38760 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-00000283FA396020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-00000284027BBE40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49F67B020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
+Symbol file data-00000283F86A2020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4952D6010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
+Symbol file data-0000028402BFA6B0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
+Symbol file data-0000028402D79A20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49455E020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000284020A5E40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4952D6010 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000283FC29B020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
+Symbol file data-0000028402CD11E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Recorder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file data-00000284041FCBE0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4A32A80E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-00000284027BBE40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F495A27ED0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-00000283FAAD1F80 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4955B0D60 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file data-00000283FB9DBC20 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F49455E020 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000028403ECFCB0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4955B0D60 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000284492E2030 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4955B0D60 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
+Symbol file data-00000284053434E0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\FbxBuildTestAssets.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4955B0D60 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-00000284027C2C70 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4955B0D60 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
+Symbol file data-0000028402BA3FE0 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.Formats.Alembic.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002F4955B0D60 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
+Symbol file data-00000284027BBE40 doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\melvi\OneDrive\Desktop\Unity Projects\Github\HappyMeowDays\HappyMeowdays!\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.811 seconds
-Refreshing native plugins compatible for Editor in 6.26 ms, found 8 plugins.
+- Loaded All Assemblies, in  0.828 seconds
+Refreshing native plugins compatible for Editor in 5.67 ms, found 8 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.953 seconds
+- Finished resetting the current domain, in  0.869 seconds
 Domain Reload Profiling:
-	ReloadAssembly (485ms)
-		BeginReloadAssembly (427ms)
+	ReloadAssembly (490ms)
+		BeginReloadAssembly (438ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		LoadAllAssembliesAndSetupDomain (325ms)
-			LoadAssemblies (185ms)
+			CreateAndSetChildDomain (35ms)
+		LoadAllAssembliesAndSetupDomain (337ms)
+			LoadAssemblies (188ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
-				TypeCache.Initialize (169ms)
-					TypeCache.ScanAssembly (164ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (185ms)
+				TypeCache.Initialize (175ms)
+					TypeCache.ScanAssembly (171ms)
+				ResolveRequiredComponents (10ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (488ms)
+			SetupLoadedEditorAssemblies (427ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (405ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 6.44 ms, found 8 plugins.
+			AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 6.82 ms, found 8 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4884 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (3.0 MB). Loaded Objects now: 5495.
-Memory consumption went from 266.9 MB to 263.9 MB.
-Total: 4.427900 ms (FindLiveObjects: 0.310400 ms CreateObjectMapping: 0.114600 ms MarkObjects: 2.749900 ms  DeleteObjects: 1.252300 ms)
+Unloading 100 unused Assets / (3.1 MB). Loaded Objects now: 5489.
+Memory consumption went from 262.5 MB to 259.4 MB.
+Total: 5.047400 ms (FindLiveObjects: 0.330700 ms CreateObjectMapping: 0.142000 ms MarkObjects: 3.660000 ms  DeleteObjects: 0.914100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -697,3 +661,444 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 375.788479 seconds.
+  path: Assets/UnityAssetStore/BigFurniturePack/Prefabs/Tables/coffee_table_2.prefab
+  artifactKey: Guid(3f80adb8cf0fdec4ebee1e2103a3e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/BigFurniturePack/Prefabs/Tables/coffee_table_2.prefab using Guid(3f80adb8cf0fdec4ebee1e2103a3e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb1429ef896767555f1727c04225f18') in 0.079791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityAssetStore/BigFurniturePack/Prefabs/Tables/kitchen_table_2.prefab
+  artifactKey: Guid(398008aaa9b8a2e4ebd3860a13db4038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/BigFurniturePack/Prefabs/Tables/kitchen_table_2.prefab using Guid(398008aaa9b8a2e4ebd3860a13db4038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38aa0d3f2b13d93762d829cffb293ab2') in 0.011165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityAssetStore/BigFurniturePack/Prefabs/Tables/tv_table_3.prefab
+  artifactKey: Guid(275af2b0718fd14458eacd3fc16400a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/BigFurniturePack/Prefabs/Tables/tv_table_3.prefab using Guid(275af2b0718fd14458eacd3fc16400a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ab03c48f89654b405694b1a4986fbd') in 0.010233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 5.411161 seconds.
+  path: Assets/UnityAssetStore/BigFurniturePack/Textures/cloth_4.jpg
+  artifactKey: Guid(8742cf5389ec13846ae404783db50532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/BigFurniturePack/Textures/cloth_4.jpg using Guid(8742cf5389ec13846ae404783db50532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d2045474d81c83ee10db3e3d394983') in 0.012739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UnityAssetStore/BigFurniturePack/Textures/floor_nm.jpg
+  artifactKey: Guid(e062115192ae44040b73f45112562490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/BigFurniturePack/Textures/floor_nm.jpg using Guid(e062115192ae44040b73f45112562490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184ca9f124728cac089cc5cef9bf48bf') in 0.012008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UnityAssetStore/BigFurniturePack/Textures/wood_3.JPG
+  artifactKey: Guid(b85f57159dd296e40941510cbde61814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/BigFurniturePack/Textures/wood_3.JPG using Guid(b85f57159dd296e40941510cbde61814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b169aa417230556b5d8b324a71cc12') in 0.009522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.141391 seconds.
+  path: Assets/UnityAssetStore/BigFurniturePack/Prefabs/Vases/vase_3.prefab
+  artifactKey: Guid(b7768e1703027114b8fb81cb29192dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/BigFurniturePack/Prefabs/Vases/vase_3.prefab using Guid(b7768e1703027114b8fb81cb29192dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4010358497dc9ca04ce1d6e06a46bed0') in 0.010240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 34.379236 seconds.
+  path: Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/balcony_mat.prefab
+  artifactKey: Guid(7524d2804f70c4b44b7278329cfef4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/balcony_mat.prefab using Guid(7524d2804f70c4b44b7278329cfef4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d196708b669cce633b05c0070ba5211') in 0.052520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/chair_5.prefab
+  artifactKey: Guid(540a5fb2035256c40b1d41bd607c880b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/chair_5.prefab using Guid(540a5fb2035256c40b1d41bd607c880b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89e076a97f228d71bc249b38a05fedf') in 0.028044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/Imac.prefab
+  artifactKey: Guid(6f32a48a41756484885ada0b5b041213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/Imac.prefab using Guid(6f32a48a41756484885ada0b5b041213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f18c6f6f0f19accd0d7f26fc38fd7e') in 0.035145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/palm (1).prefab
+  artifactKey: Guid(9dbe42254e799944cb7c80c5d4af4af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/palm (1).prefab using Guid(9dbe42254e799944cb7c80c5d4af4af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403ee65e4537790daff7c0de58930f74') in 0.002071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/mug-tree.prefab
+  artifactKey: Guid(d75bde5b3ece2324687963ff4701aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/mug-tree.prefab using Guid(d75bde5b3ece2324687963ff4701aa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35912a3a2f077130f143105aa594511') in 0.032160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/Carpet.prefab
+  artifactKey: Guid(23938c97557dbc140b966f084710b50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/Carpet.prefab using Guid(23938c97557dbc140b966f084710b50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6db2e0e6b0db354c52a9b61f595b195') in 0.015293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/Shell.prefab
+  artifactKey: Guid(1c866b8f6d0a4904986d2fc18aae8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/Shell.prefab using Guid(1c866b8f6d0a4904986d2fc18aae8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7d2527a26def8afee00c800195959e') in 0.268478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/BookShelf.prefab
+  artifactKey: Guid(a56630da406e2b24aa7c3e949ec68ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/BookShelf.prefab using Guid(a56630da406e2b24aa7c3e949ec68ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720ff60c254c8257b038001a18d2d764') in 0.076482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 3.865191 seconds.
+  path: Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/VaseFloor02_1.prefab
+  artifactKey: Guid(a80a3fba4bddb39498f4ceedd95e7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/DevDen Arch Viz Scotland/Prefabs/VaseFloor02_1.prefab using Guid(a80a3fba4bddb39498f4ceedd95e7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d16bac1391f6666c51db56738edda4') in 0.034247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 9.317305 seconds.
+  path: Assets/UnityAssetStore/EffectTexturesAndPrefabs/Prefabs/Fire_A.prefab
+  artifactKey: Guid(8b47f39d91e61384889cff33839361dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/EffectTexturesAndPrefabs/Prefabs/Fire_A.prefab using Guid(8b47f39d91e61384889cff33839361dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ed1dbaab615a34ed876c4626c1bc42') in 0.021122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UnityAssetStore/EffectTexturesAndPrefabs/Prefabs/Star_A.prefab
+  artifactKey: Guid(cc461484bcafc664fb68be84c1fc6860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/EffectTexturesAndPrefabs/Prefabs/Star_A.prefab using Guid(cc461484bcafc664fb68be84c1fc6860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2abb9eb09e557cdc61daf0fd2345c7') in 0.010570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UnityAssetStore/EffectTexturesAndPrefabs/Prefabs/MuzzleFlash.prefab
+  artifactKey: Guid(9bf79f2d846a57440a981c168c87c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/EffectTexturesAndPrefabs/Prefabs/MuzzleFlash.prefab using Guid(9bf79f2d846a57440a981c168c87c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb665a6927e5a3ef6383097bde958779') in 0.015947 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 11.720900 seconds.
+  path: Assets/UnityAssetStore/furniture/prefabs/sofa_1_mid.prefab
+  artifactKey: Guid(6b2837d5db974e845a4c6ca2f8a11e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/furniture/prefabs/sofa_1_mid.prefab using Guid(6b2837d5db974e845a4c6ca2f8a11e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e404deb8ebf0355ee772752a1d4c37bc') in 0.037085 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityAssetStore/furniture/prefabs/sofa_1_small_mid.prefab
+  artifactKey: Guid(004fc344c132ea747b41f0d7a9002edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/furniture/prefabs/sofa_1_small_mid.prefab using Guid(004fc344c132ea747b41f0d7a9002edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cafd81ba007c331e8d775a2475575fd') in 0.018640 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 19.875921 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Bat.prefab
+  artifactKey: Guid(1a923a6404d972d40bae42bee1136b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Bat.prefab using Guid(1a923a6404d972d40bae42bee1136b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407c6c395bc70359807b34a9930c1980') in 0.014300 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Bottle3Green.prefab
+  artifactKey: Guid(2260358c0fd9a044ab0141803f0a4632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Bottle3Green.prefab using Guid(2260358c0fd9a044ab0141803f0a4632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ed3e8a8b72a7da4b8cb5d29ff75c13') in 0.010727 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Pencil.prefab
+  artifactKey: Guid(63cf03f93fe7e0946ba68936c9807e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Pencil.prefab using Guid(63cf03f93fe7e0946ba68936c9807e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1082ca06dfcc51ec376b854d94446d65') in 0.008578 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Medkit.prefab
+  artifactKey: Guid(f281bc33191a33d48aaa6b157ebaa913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Medkit.prefab using Guid(f281bc33191a33d48aaa6b157ebaa913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ae6e67dc26eda7cb136eabbd79b661') in 0.008905 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Pan.prefab
+  artifactKey: Guid(6466c314cb3c8424eb2c13a334acb958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Pan.prefab using Guid(6466c314cb3c8424eb2c13a334acb958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109e6ab8080de112c66f9b4fbad9a56d') in 0.010939 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/CupBrown.prefab
+  artifactKey: Guid(b1d0e0f68076df74db8bdc033397cc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/CupBrown.prefab using Guid(b1d0e0f68076df74db8bdc033397cc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e865d8290146f1810090784b6a6fe68f') in 0.009960 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Bottle2.prefab
+  artifactKey: Guid(69279df67a555c54eb2fa4d2b058f581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Bottle2.prefab using Guid(69279df67a555c54eb2fa4d2b058f581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe8f936cdb1a901fd85897d4cd75f0d') in 0.010486 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Fork.prefab
+  artifactKey: Guid(3cf00da793ccf734bb21f1e166c9b7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Fork.prefab using Guid(3cf00da793ccf734bb21f1e166c9b7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7376b3a0b6513c8f4b399e2ef05cd0') in 0.010536 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Hatchet2.prefab
+  artifactKey: Guid(65e952c9b83db734eb12b9746342d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Hatchet2.prefab using Guid(65e952c9b83db734eb12b9746342d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b19cb58e6745aba676714781836812') in 0.011224 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Bowl_001.prefab
+  artifactKey: Guid(c1e4fd1bb6a8a06418021366bfeb203b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Bowl_001.prefab using Guid(c1e4fd1bb6a8a06418021366bfeb203b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577696f7bf331f0ffd0ab8f7694eb93a') in 0.010201 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Bottle2Purple.prefab
+  artifactKey: Guid(99adc298dfe4d7c4ea42920fe16b1e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/Bottle2Purple.prefab using Guid(99adc298dfe4d7c4ea42920fe16b1e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca16fcfe22f18e39caf7ee7e9f0080b') in 0.010274 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.514397 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/SledgeHammer.prefab
+  artifactKey: Guid(7c84ec7fc361f7d4cbe6b06be010b561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/SledgeHammer.prefab using Guid(7c84ec7fc361f7d4cbe6b06be010b561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3569966e335689e42df5dbd2f0d9b490') in 0.010025 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/TapeMeasurer.prefab
+  artifactKey: Guid(3c32f03f928ef1c4a94f3109d8713b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/TapeMeasurer.prefab using Guid(3c32f03f928ef1c4a94f3109d8713b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a908340af67cb4d015bdbd5fa339b159') in 0.010732 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/SmartPhoneGreen.prefab
+  artifactKey: Guid(f193c0694f6c77141b8317c4fb5d55e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/SmartPhoneGreen.prefab using Guid(f193c0694f6c77141b8317c4fb5d55e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e4c6dbe08df6a3e0dadea16a7af17b') in 0.009287 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.593600 seconds.
+  path: Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/TV.prefab
+  artifactKey: Guid(80872c6dd156f544788e44da2ac91219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/Kabungus/HouseholdItems/Prefabs/TV.prefab using Guid(80872c6dd156f544788e44da2ac91219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b429764e16c44399b9b99ed70c0053') in 0.010288 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 44.221359 seconds.
+  path: Assets/UnityAssetStore/SampleScenes/Models/Pillar.fbx
+  artifactKey: Guid(2f1a6a1aa4c4ac74096a01849d901a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SampleScenes/Models/Pillar.fbx using Guid(2f1a6a1aa4c4ac74096a01849d901a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80633b86a895f74283a0443617eda16') in 0.031028 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.983908 seconds.
+  path: Assets/UnityAssetStore/SampleScenes/Prefabs/CameraSwitch.prefab
+  artifactKey: Guid(fdc378243b95c2144aa66bfc382d1b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SampleScenes/Prefabs/CameraSwitch.prefab using Guid(fdc378243b95c2144aa66bfc382d1b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3453aa921c0ce88c86106442da9cce') in 0.007999 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UnityAssetStore/SampleScenes/Prefabs/Ring.prefab
+  artifactKey: Guid(e9aa4b7def958e54bad9089e96b5a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SampleScenes/Prefabs/Ring.prefab using Guid(e9aa4b7def958e54bad9089e96b5a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072dff5ef48a34ffc2c4301e77476f2c') in 0.010568 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UnityAssetStore/SampleScenes/Prefabs/SmashBoxes.prefab
+  artifactKey: Guid(b592d2faa93e6ad46a6d520adf8f123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SampleScenes/Prefabs/SmashBoxes.prefab using Guid(b592d2faa93e6ad46a6d520adf8f123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79cdf76d4dc5b0265cd244d6db0dce5') in 0.010766 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 12.131268 seconds.
+  path: Assets/UnityAssetStore/SimpleNaturePack/Models/Rock_04.fbx
+  artifactKey: Guid(33ebf3440b12ec245bd008cd464f8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SimpleNaturePack/Models/Rock_04.fbx using Guid(33ebf3440b12ec245bd008cd464f8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba8a433604b786e846566a472e88ff8') in 0.013314 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UnityAssetStore/SimpleNaturePack/Models/Tree_04.fbx
+  artifactKey: Guid(83e8d2542718a2e49a73d71c3a5fc685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SimpleNaturePack/Models/Tree_04.fbx using Guid(83e8d2542718a2e49a73d71c3a5fc685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f24f9bc0f6cbc021369d18647a73b1b') in 0.020465 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 24.577033 seconds.
+  path: Assets/UnityAssetStore/SimpleNaturePack/Prefabs/Bush_03.prefab
+  artifactKey: Guid(34d3f526198dae440bb2ce6005d86055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SimpleNaturePack/Prefabs/Bush_03.prefab using Guid(34d3f526198dae440bb2ce6005d86055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e234dd7aadf43b06d03b589aee8b5a1') in 0.016032 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UnityAssetStore/SimpleNaturePack/Prefabs/Rock_04.prefab
+  artifactKey: Guid(f02116c209ecd9e488fc4d2cd8996133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SimpleNaturePack/Prefabs/Rock_04.prefab using Guid(f02116c209ecd9e488fc4d2cd8996133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5314aacef0fc2de70f719297c1e6178') in 0.012235 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UnityAssetStore/SimpleNaturePack/Prefabs/Tree_02.prefab
+  artifactKey: Guid(e289bf5debb17f6459818c207d781953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SimpleNaturePack/Prefabs/Tree_02.prefab using Guid(e289bf5debb17f6459818c207d781953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3861ee3cc6ecfafc3f61df641cf7817') in 0.011577 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UnityAssetStore/SimpleNaturePack/Prefabs/Tree_05.prefab
+  artifactKey: Guid(60f79905accf3b24fa0114b941f1aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SimpleNaturePack/Prefabs/Tree_05.prefab using Guid(60f79905accf3b24fa0114b941f1aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274d5cb547cb315be6c416be06908275') in 0.011329 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 20.441254 seconds.
+  path: Assets/UnityAssetStore/SimpleSky/_Prefabs/Cloud_04.prefab
+  artifactKey: Guid(420bde364644a314396dc8ed24ee99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityAssetStore/SimpleSky/_Prefabs/Cloud_04.prefab using Guid(420bde364644a314396dc8ed24ee99d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcca1ecc4340223804597e6596846ce') in 0.010641 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
